@@ -18,7 +18,7 @@
 
 include /usr/local/share/luggage/luggage.make
 
-TITLE=Map_Marlenes_Printer
+TITLE=scc_do_marlene_shostak
 REVERSE_DOMAIN=edu.ohio.scripps.do
 PAYLOAD=pack-script-postflight
 PACKAGE_VERSION=1.0

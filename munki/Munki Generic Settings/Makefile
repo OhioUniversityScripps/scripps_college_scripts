@@ -1,5 +1,5 @@
 #
-#   Copyright 2009 Joe Block <jpb@ApesSeekingKnowledge.net>
+#   Copyright 2011 Ricky Chilcott <chilcotr@ohio.edu>
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -18,8 +18,7 @@
 
 include /usr/local/share/luggage/luggage.make
 
-TITLE=scc_jour_sing_tao_104_5100
-REVERSE_DOMAIN=edu.ohio.scripps.jour
+TITLE=Munki Generic Settings
+REVERSE_DOMAIN=edu.ohio.oit.pkg.Munki Generic Settings
 PAYLOAD=pack-script-postflight
 PACKAGE_VERSION=1.0
-
