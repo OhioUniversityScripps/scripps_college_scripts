@@ -18,7 +18,7 @@
 
 include /usr/local/share/luggage/luggage.make
 
-TITLE=Munki Generic Settings
-REVERSE_DOMAIN=edu.ohio.oit.pkg.Munki Generic Settings
+TITLE=Munki_Generic_Settings
+REVERSE_DOMAIN=edu.ohio.oit.pkg.munki_generic_settings
 PAYLOAD=pack-script-postflight
 PACKAGE_VERSION=1.0
