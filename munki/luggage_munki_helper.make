@@ -14,13 +14,16 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 #
-# 
-#  Luggage makefile for building a package that copies postflight script to /usr/local/munki.
+#	Helper rules for munki preflight and postflight scripts
 
-include /usr/local/share/luggage/luggage.make
-include ../luggage_munki_helper.make
+l_usr_local_munki: l_usr_local
+	@sudo mkdir -p ${WORK_D}/usr/local/munki
+	@sudo chown root:wheel ${WORK_D}/usr/local/munki
+	@sudo chmod 755 ${WORK_D}/usr/local/munki
 
-TITLE=Munki_OU_Postflight
-REVERSE_DOMAIN=edu.ohio.oit.pkg
-PAYLOAD=pack-usr-local-munki-postflight
-PACKAGE_VERSION=1.0
+pack-usr-local-munki-preflight: l_usr_local_munki
+	@sudo ${INSTALL} -m 0755 -o root -g wheel preflight ${WORK_D}/usr/local/munki/preflight
+
+pack-usr-local-munki-postflight: l_usr_local_munki
+	@sudo ${INSTALL} -m 0755 -o root -g wheel postflight ${WORK_D}/usr/local/munki/postflight
+

@@ -20,7 +20,7 @@
 include /usr/local/share/luggage/luggage.make
 include ../luggage_munki_helper.make
 
-TITLE=Munki_OU_Postflight
+TITLE=Munki_OU_Preflight
 REVERSE_DOMAIN=edu.ohio.oit.pkg
-PAYLOAD=pack-usr-local-munki-postflight
+PAYLOAD=pack-usr-local-munki-preflight
 PACKAGE_VERSION=1.0
