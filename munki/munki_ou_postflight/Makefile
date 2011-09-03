@@ -24,16 +24,16 @@ PAYLOAD=pack-usr-local-munki-postflight
 PACKAGE_VERSION=1.0
 
 l_munki: l_usr
-	@sudo mkdir ${WORK_D}/usr/local/munki
+	@sudo mkdir -p ${WORK_D}/usr/local/munki
 	@sudo chown root:wheel ${WORK_D}/usr/local/munki
 	@sudo chmod 755 ${WORK_D}/usr/local/munki
 
 pack-usr-local-munki-preflight: l_munki
-	@sudo ${CP} preflight ${WORK_D}/usr/local/munki/preflight
+	@sudo ${CP} -p preflight ${WORK_D}/usr/local/munki/preflight
 	@sudo chown root:wheel ${WORK_D}/usr/local/munki/preflight
 	@sudo chmod 755 ${WORK_D}/usr/local/munki/preflight
 
 pack-usr-local-munki-postflight: l_munki
-	@sudo ${CP} postflight ${WORK_D}/usr/local/munki/postflight
+	@sudo ${CP} -p postflight ${WORK_D}/usr/local/munki/postflight
 	@sudo chown root:wheel ${WORK_D}/usr/local/munki/postflight
 	@sudo chmod 755 ${WORK_D}/usr/local/munki/postflight
