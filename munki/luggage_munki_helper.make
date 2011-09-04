@@ -22,8 +22,8 @@ l_usr_local_munki: l_usr_local
 	@sudo chmod 755 ${WORK_D}/usr/local/munki
 
 pack-usr-local-munki-preflight: l_usr_local_munki
-	@sudo ${INSTALL} -m 0755 -o root -g wheel preflight ${WORK_D}/usr/local/munki/preflight
+	@sudo ${INSTALL} -m 0755 -o root -g wheel munki_preflight ${WORK_D}/usr/local/munki/preflight
 
 pack-usr-local-munki-postflight: l_usr_local_munki
-	@sudo ${INSTALL} -m 0755 -o root -g wheel postflight ${WORK_D}/usr/local/munki/postflight
+	@sudo ${INSTALL} -m 0755 -o root -g wheel munki_postflight ${WORK_D}/usr/local/munki/postflight
 
