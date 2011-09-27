@@ -7,3 +7,6 @@ tmp/**/*
 *.mpkg
 *.dmg
 *.zip
+ppd/
+cupsd.conf
+printers.conf
