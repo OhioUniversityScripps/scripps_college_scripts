@@ -1,0 +1,2 @@
+#!/bin/bash
+launchctl start org.cups.cupsd

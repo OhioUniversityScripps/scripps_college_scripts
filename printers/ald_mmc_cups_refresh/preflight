@@ -1,0 +1,2 @@
+#!/bin/bash
+launchctl stop org.cups.cupsd
