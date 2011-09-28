@@ -72,12 +72,12 @@
 							<key>Imported Options</key>
 							<dict>
 								<key>IFPkgFlagInstalledSize</key>
-								<integer>20</integer>
+								<integer>0</integer>
 							</dict>
 							<key>Imported Package</key>
 							<true/>
 							<key>Package Path</key>
-							<string>/Users/chilcotr/github/chilcotr_scripts/Packages/OU Munki Preflight/build/OU Munki Preflight.pkg</string>
+							<string>/Users/chilcotr/github/scripps_college_scripts/munki/munki_staff_settings/Munki_Staff_Settings-1.0.pkg</string>
 						</dict>
 						<key>Plugins</key>
 						<dict>
@@ -139,495 +139,7 @@
 								<key>IFInstallationScriptsPostflight</key>
 								<dict>
 									<key>Path</key>
-									<string></string>
-									<key>Status</key>
-									<false/>
-								</dict>
-								<key>IFInstallationScriptsPostinstall</key>
-								<dict>
-									<key>Path</key>
-									<string></string>
-									<key>Status</key>
-									<false/>
-								</dict>
-								<key>IFInstallationScriptsPostupgrade</key>
-								<dict>
-									<key>Path</key>
-									<string></string>
-									<key>Status</key>
-									<false/>
-								</dict>
-								<key>IFInstallationScriptsPreflight</key>
-								<dict>
-									<key>Path</key>
-									<string></string>
-									<key>Status</key>
-									<false/>
-								</dict>
-								<key>IFInstallationScriptsPreinstall</key>
-								<dict>
-									<key>Path</key>
-									<string></string>
-									<key>Status</key>
-									<false/>
-								</dict>
-								<key>IFInstallationScriptsPreupgrade</key>
-								<dict>
-									<key>Path</key>
-									<string></string>
-									<key>Status</key>
-									<false/>
-								</dict>
-							</dict>
-							<key>Requirements</key>
-							<array/>
-						</dict>
-						<key>Settings</key>
-						<dict>
-							<key>Description</key>
-							<dict>
-								<key>International</key>
-								<dict>
-									<key>IFPkgDescriptionDeleteWarning</key>
-									<string></string>
-									<key>IFPkgDescriptionDescription</key>
-									<string></string>
-									<key>IFPkgDescriptionTitle</key>
-									<string>OU Munki Preflight</string>
-									<key>IFPkgDescriptionVersion</key>
-									<string>1.0</string>
-								</dict>
-							</dict>
-							<key>Display Information</key>
-							<dict>
-								<key>CFBundleGetInfoString</key>
-								<string>OU Munki Preflight 1.0 Copyrights © 2011 Ohio University - OIT</string>
-								<key>CFBundleIconFile</key>
-								<string></string>
-								<key>CFBundleIconFile Path Type</key>
-								<integer>1</integer>
-								<key>CFBundleIdentifier</key>
-								<string>edu.ohio.oit.pkg.OU Munki Preflight</string>
-								<key>CFBundleName</key>
-								<string>OU Munki Preflight</string>
-								<key>CFBundleShortVersionString</key>
-								<string>1.0</string>
-							</dict>
-							<key>Options</key>
-							<dict>
-								<key>IFPkgFlagAllowBackRev</key>
-								<false/>
-								<key>IFPkgFlagAuthorizationAction</key>
-								<integer>1</integer>
-								<key>IFPkgFlagFollowLinks</key>
-								<false/>
-								<key>IFPkgFlagIsRequired</key>
-								<true/>
-								<key>IFPkgFlagOverwritePermissions</key>
-								<false/>
-								<key>IFPkgFlagRelocatable</key>
-								<false/>
-								<key>IFPkgFlagRestartAction</key>
-								<integer>0</integer>
-								<key>IFPkgFlagRootVolumeOnly</key>
-								<false/>
-								<key>IFPkgFlagUpdateInstalledLanguages</key>
-								<false/>
-							</dict>
-							<key>Version</key>
-							<dict>
-								<key>IFMajorVersion</key>
-								<integer>1</integer>
-								<key>IFMinorVersion</key>
-								<integer>0</integer>
-							</dict>
-						</dict>
-					</dict>
-					<key>IFPkgFlagPackageSelection</key>
-					<integer>0</integer>
-					<key>Name</key>
-					<string>OU Munki Preflight</string>
-					<key>Status</key>
-					<integer>1</integer>
-					<key>Type</key>
-					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>Attributes</key>
-					<dict>
-						<key>Documents</key>
-						<dict>
-							<key>Background Image</key>
-							<dict>
-								<key>IFPkgFlagBackgroundAlignment</key>
-								<integer>4</integer>
-								<key>IFPkgFlagBackgroundScaling</key>
-								<integer>1</integer>
-								<key>Mode</key>
-								<integer>0</integer>
-								<key>Path</key>
-								<string></string>
-								<key>Path Type</key>
-								<integer>1</integer>
-							</dict>
-							<key>License</key>
-							<dict>
-								<key>International</key>
-								<dict>
-									<key>Mode</key>
-									<integer>0</integer>
-									<key>Path</key>
-									<string></string>
-									<key>Path Type</key>
-									<integer>1</integer>
-								</dict>
-							</dict>
-							<key>ReadMe</key>
-							<dict>
-								<key>International</key>
-								<dict>
-									<key>Mode</key>
-									<integer>0</integer>
-									<key>Path</key>
-									<string></string>
-									<key>Path Type</key>
-									<integer>1</integer>
-								</dict>
-							</dict>
-							<key>Welcome</key>
-							<dict>
-								<key>International</key>
-								<dict>
-									<key>Mode</key>
-									<integer>0</integer>
-									<key>Path</key>
-									<string></string>
-									<key>Path Type</key>
-									<integer>1</integer>
-								</dict>
-							</dict>
-						</dict>
-						<key>Files</key>
-						<dict>
-							<key>Hierarchy</key>
-							<dict/>
-							<key>IFPkgFlagDefaultLocation</key>
-							<string>/</string>
-							<key>Imported Options</key>
-							<dict>
-								<key>IFPkgFlagInstalledSize</key>
-								<integer>20</integer>
-							</dict>
-							<key>Imported Package</key>
-							<true/>
-							<key>Package Path</key>
-							<string>/Users/chilcotr/github/chilcotr_scripts/Packages/OU Munki Postflight/build/OU Munki Postflight.pkg</string>
-						</dict>
-						<key>Plugins</key>
-						<dict>
-							<key>PluginsList</key>
-							<array>
-								<dict>
-									<key>Path</key>
-									<string>Introduction</string>
-									<key>Type</key>
-									<integer>0</integer>
-								</dict>
-								<dict>
-									<key>Path</key>
-									<string>ReadMe</string>
-									<key>Type</key>
-									<integer>0</integer>
-								</dict>
-								<dict>
-									<key>Path</key>
-									<string>License</string>
-									<key>Type</key>
-									<integer>0</integer>
-								</dict>
-								<dict>
-									<key>Path</key>
-									<string>Target</string>
-									<key>Type</key>
-									<integer>0</integer>
-								</dict>
-								<dict>
-									<key>Path</key>
-									<string>PackageSelection</string>
-									<key>Type</key>
-									<integer>0</integer>
-								</dict>
-								<dict>
-									<key>Path</key>
-									<string>Install</string>
-									<key>Type</key>
-									<integer>0</integer>
-								</dict>
-								<dict>
-									<key>Path</key>
-									<string>FinishUp</string>
-									<key>Type</key>
-									<integer>0</integer>
-								</dict>
-							</array>
-						</dict>
-						<key>Scripts</key>
-						<dict>
-							<key>Additional Resources</key>
-							<dict>
-								<key>International</key>
-								<array/>
-							</dict>
-							<key>Installation Scripts</key>
-							<dict>
-								<key>IFInstallationScriptsPostflight</key>
-								<dict>
-									<key>Path</key>
-									<string></string>
-									<key>Status</key>
-									<false/>
-								</dict>
-								<key>IFInstallationScriptsPostinstall</key>
-								<dict>
-									<key>Path</key>
-									<string></string>
-									<key>Status</key>
-									<false/>
-								</dict>
-								<key>IFInstallationScriptsPostupgrade</key>
-								<dict>
-									<key>Path</key>
-									<string></string>
-									<key>Status</key>
-									<false/>
-								</dict>
-								<key>IFInstallationScriptsPreflight</key>
-								<dict>
-									<key>Path</key>
-									<string></string>
-									<key>Status</key>
-									<false/>
-								</dict>
-								<key>IFInstallationScriptsPreinstall</key>
-								<dict>
-									<key>Path</key>
-									<string></string>
-									<key>Status</key>
-									<false/>
-								</dict>
-								<key>IFInstallationScriptsPreupgrade</key>
-								<dict>
-									<key>Path</key>
-									<string></string>
-									<key>Status</key>
-									<false/>
-								</dict>
-							</dict>
-							<key>Requirements</key>
-							<array/>
-						</dict>
-						<key>Settings</key>
-						<dict>
-							<key>Description</key>
-							<dict>
-								<key>International</key>
-								<dict>
-									<key>IFPkgDescriptionDeleteWarning</key>
-									<string></string>
-									<key>IFPkgDescriptionDescription</key>
-									<string></string>
-									<key>IFPkgDescriptionTitle</key>
-									<string>OU Munki Postflight</string>
-									<key>IFPkgDescriptionVersion</key>
-									<string>1.0</string>
-								</dict>
-							</dict>
-							<key>Display Information</key>
-							<dict>
-								<key>CFBundleGetInfoString</key>
-								<string>OU Munki Postflight 1.0 Copyrights © 2011 Ohio University - OIT</string>
-								<key>CFBundleIconFile</key>
-								<string></string>
-								<key>CFBundleIconFile Path Type</key>
-								<integer>1</integer>
-								<key>CFBundleIdentifier</key>
-								<string>edu.ohio.oit.pkg.OU Munki Postflight</string>
-								<key>CFBundleName</key>
-								<string>OU Munki Postflight</string>
-								<key>CFBundleShortVersionString</key>
-								<string>1.0</string>
-							</dict>
-							<key>Options</key>
-							<dict>
-								<key>IFPkgFlagAllowBackRev</key>
-								<false/>
-								<key>IFPkgFlagAuthorizationAction</key>
-								<integer>1</integer>
-								<key>IFPkgFlagFollowLinks</key>
-								<false/>
-								<key>IFPkgFlagIsRequired</key>
-								<true/>
-								<key>IFPkgFlagOverwritePermissions</key>
-								<false/>
-								<key>IFPkgFlagRelocatable</key>
-								<false/>
-								<key>IFPkgFlagRestartAction</key>
-								<integer>0</integer>
-								<key>IFPkgFlagRootVolumeOnly</key>
-								<false/>
-								<key>IFPkgFlagUpdateInstalledLanguages</key>
-								<false/>
-							</dict>
-							<key>Version</key>
-							<dict>
-								<key>IFMajorVersion</key>
-								<integer>1</integer>
-								<key>IFMinorVersion</key>
-								<integer>0</integer>
-							</dict>
-						</dict>
-					</dict>
-					<key>IFPkgFlagPackageSelection</key>
-					<integer>0</integer>
-					<key>Name</key>
-					<string>OU Munki Postflight</string>
-					<key>Status</key>
-					<integer>1</integer>
-					<key>Type</key>
-					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>Attributes</key>
-					<dict>
-						<key>Documents</key>
-						<dict>
-							<key>Background Image</key>
-							<dict>
-								<key>IFPkgFlagBackgroundAlignment</key>
-								<integer>4</integer>
-								<key>IFPkgFlagBackgroundScaling</key>
-								<integer>1</integer>
-								<key>Mode</key>
-								<integer>0</integer>
-								<key>Path</key>
-								<string></string>
-								<key>Path Type</key>
-								<integer>1</integer>
-							</dict>
-							<key>License</key>
-							<dict>
-								<key>International</key>
-								<dict>
-									<key>Mode</key>
-									<integer>0</integer>
-									<key>Path</key>
-									<string></string>
-									<key>Path Type</key>
-									<integer>1</integer>
-								</dict>
-							</dict>
-							<key>ReadMe</key>
-							<dict>
-								<key>International</key>
-								<dict>
-									<key>Mode</key>
-									<integer>0</integer>
-									<key>Path</key>
-									<string></string>
-									<key>Path Type</key>
-									<integer>1</integer>
-								</dict>
-							</dict>
-							<key>Welcome</key>
-							<dict>
-								<key>International</key>
-								<dict>
-									<key>Mode</key>
-									<integer>0</integer>
-									<key>Path</key>
-									<string></string>
-									<key>Path Type</key>
-									<integer>1</integer>
-								</dict>
-							</dict>
-						</dict>
-						<key>Files</key>
-						<dict>
-							<key>Hierarchy</key>
-							<dict/>
-							<key>IFPkgFlagDefaultLocation</key>
-							<string>/</string>
-							<key>Imported Options</key>
-							<dict>
-								<key>IFPkgFlagInstalledSize</key>
-								<integer>4</integer>
-							</dict>
-							<key>Imported Package</key>
-							<true/>
-							<key>Package Path</key>
-							<string>/Users/chilcotr/github/chilcotr_scripts/Packages/Munki Generic Settings/build/Munki Generic Settings.pkg</string>
-						</dict>
-						<key>Plugins</key>
-						<dict>
-							<key>PluginsList</key>
-							<array>
-								<dict>
-									<key>Path</key>
-									<string>Introduction</string>
-									<key>Type</key>
-									<integer>0</integer>
-								</dict>
-								<dict>
-									<key>Path</key>
-									<string>ReadMe</string>
-									<key>Type</key>
-									<integer>0</integer>
-								</dict>
-								<dict>
-									<key>Path</key>
-									<string>License</string>
-									<key>Type</key>
-									<integer>0</integer>
-								</dict>
-								<dict>
-									<key>Path</key>
-									<string>Target</string>
-									<key>Type</key>
-									<integer>0</integer>
-								</dict>
-								<dict>
-									<key>Path</key>
-									<string>PackageSelection</string>
-									<key>Type</key>
-									<integer>0</integer>
-								</dict>
-								<dict>
-									<key>Path</key>
-									<string>Install</string>
-									<key>Type</key>
-									<integer>0</integer>
-								</dict>
-								<dict>
-									<key>Path</key>
-									<string>FinishUp</string>
-									<key>Type</key>
-									<integer>0</integer>
-								</dict>
-							</array>
-						</dict>
-						<key>Scripts</key>
-						<dict>
-							<key>Additional Resources</key>
-							<dict>
-								<key>International</key>
-								<array/>
-							</dict>
-							<key>Installation Scripts</key>
-							<dict>
-								<key>IFInstallationScriptsPostflight</key>
-								<dict>
-									<key>Path</key>
-									<string>/Users/chilcotr/github/chilcotr_scripts/Packages/Munki Generic Settings/build/Munki Generic Settings.pkg/Contents/Resources/postflight</string>
+									<string>/Users/chilcotr/github/scripps_college_scripts/munki/munki_staff_settings/Munki_Staff_Settings-1.0.pkg/Contents/Resources/postflight</string>
 									<key>Status</key>
 									<true/>
 								</dict>
@@ -674,6 +186,17 @@
 						<dict>
 							<key>Description</key>
 							<dict>
+								<key>English</key>
+								<dict>
+									<key>IFPkgDescriptionDeleteWarning</key>
+									<string></string>
+									<key>IFPkgDescriptionDescription</key>
+									<string></string>
+									<key>IFPkgDescriptionTitle</key>
+									<string>Munki_Staff_Settings</string>
+									<key>IFPkgDescriptionVersion</key>
+									<string></string>
+								</dict>
 								<key>International</key>
 								<dict>
 									<key>IFPkgDescriptionDeleteWarning</key>
@@ -681,23 +204,23 @@
 									<key>IFPkgDescriptionDescription</key>
 									<string></string>
 									<key>IFPkgDescriptionTitle</key>
-									<string>Munki Generic Settings</string>
+									<string></string>
 									<key>IFPkgDescriptionVersion</key>
-									<string>1.0</string>
+									<string></string>
 								</dict>
 							</dict>
 							<key>Display Information</key>
 							<dict>
 								<key>CFBundleGetInfoString</key>
-								<string>Munki Generic Settings 1.0 Copyrights © 2011 Ohio University - OIT</string>
+								<string></string>
 								<key>CFBundleIconFile</key>
 								<string></string>
 								<key>CFBundleIconFile Path Type</key>
 								<integer>1</integer>
 								<key>CFBundleIdentifier</key>
-								<string>edu.ohio.oit.pkg.Munki Generic Settings</string>
+								<string>edu.ohio.oit.pkg.munki_staff_settings.Munki_Staff_Settings</string>
 								<key>CFBundleName</key>
-								<string>Munki Generic Settings</string>
+								<string></string>
 								<key>CFBundleShortVersionString</key>
 								<string>1.0</string>
 							</dict>
@@ -706,11 +229,11 @@
 								<key>IFPkgFlagAllowBackRev</key>
 								<false/>
 								<key>IFPkgFlagAuthorizationAction</key>
-								<integer>1</integer>
+								<integer>2</integer>
 								<key>IFPkgFlagFollowLinks</key>
-								<false/>
-								<key>IFPkgFlagIsRequired</key>
 								<true/>
+								<key>IFPkgFlagIsRequired</key>
+								<false/>
 								<key>IFPkgFlagOverwritePermissions</key>
 								<false/>
 								<key>IFPkgFlagRelocatable</key>
@@ -718,23 +241,23 @@
 								<key>IFPkgFlagRestartAction</key>
 								<integer>0</integer>
 								<key>IFPkgFlagRootVolumeOnly</key>
-								<false/>
+								<true/>
 								<key>IFPkgFlagUpdateInstalledLanguages</key>
 								<false/>
 							</dict>
 							<key>Version</key>
 							<dict>
 								<key>IFMajorVersion</key>
-								<integer>1</integer>
+								<integer>2011</integer>
 								<key>IFMinorVersion</key>
-								<integer>0</integer>
+								<integer>928</integer>
 							</dict>
 						</dict>
 					</dict>
 					<key>IFPkgFlagPackageSelection</key>
-					<integer>1</integer>
+					<integer>-1</integer>
 					<key>Name</key>
-					<string>Munki Generic Settings</string>
+					<string>Munki_Staff_Settings-1.0</string>
 					<key>Status</key>
 					<integer>1</integer>
 					<key>Type</key>
@@ -796,12 +319,12 @@
 							<key>Imported Options</key>
 							<dict>
 								<key>IFPkgFlagInstalledSize</key>
-								<integer>712</integer>
+								<integer>0</integer>
 							</dict>
 							<key>Imported Package</key>
 							<true/>
 							<key>Package Path</key>
-							<string>/Users/chilcotr/github/chilcotr_scripts/Packages/MunkiBootstrap/packages/munkitools_app-3.0.16.1173.pkg</string>
+							<string>/Users/chilcotr/github/scripps_college_scripts/munki/munki_lab_settings/Munki_Lab_Settings-1.0.pkg</string>
 						</dict>
 						<key>Plugins</key>
 						<dict>
@@ -855,24 +378,261 @@
 						<dict>
 							<key>Additional Resources</key>
 							<dict>
-								<key>English</key>
-								<array>
-									<dict>
-										<key>Path</key>
-										<string>/Users/chilcotr/github/chilcotr_scripts/Packages/MunkiBootstrap/packages/munkitools_app-3.0.16.1173.pkg/Contents/Resources/English.lproj/.svn</string>
-										<key>Status</key>
-										<true/>
-									</dict>
-								</array>
 								<key>International</key>
-								<array>
-									<dict>
-										<key>Path</key>
-										<string>/Users/chilcotr/github/chilcotr_scripts/Packages/MunkiBootstrap/packages/munkitools_app-3.0.16.1173.pkg/Contents/Resources/.svn</string>
-										<key>Status</key>
-										<true/>
-									</dict>
-								</array>
+								<array/>
+							</dict>
+							<key>Installation Scripts</key>
+							<dict>
+								<key>IFInstallationScriptsPostflight</key>
+								<dict>
+									<key>Path</key>
+									<string>/Users/chilcotr/github/scripps_college_scripts/munki/munki_lab_settings/Munki_Lab_Settings-1.0.pkg/Contents/Resources/postflight</string>
+									<key>Status</key>
+									<true/>
+								</dict>
+								<key>IFInstallationScriptsPostinstall</key>
+								<dict>
+									<key>Path</key>
+									<string></string>
+									<key>Status</key>
+									<false/>
+								</dict>
+								<key>IFInstallationScriptsPostupgrade</key>
+								<dict>
+									<key>Path</key>
+									<string></string>
+									<key>Status</key>
+									<false/>
+								</dict>
+								<key>IFInstallationScriptsPreflight</key>
+								<dict>
+									<key>Path</key>
+									<string></string>
+									<key>Status</key>
+									<false/>
+								</dict>
+								<key>IFInstallationScriptsPreinstall</key>
+								<dict>
+									<key>Path</key>
+									<string></string>
+									<key>Status</key>
+									<false/>
+								</dict>
+								<key>IFInstallationScriptsPreupgrade</key>
+								<dict>
+									<key>Path</key>
+									<string></string>
+									<key>Status</key>
+									<false/>
+								</dict>
+							</dict>
+							<key>Requirements</key>
+							<array/>
+						</dict>
+						<key>Settings</key>
+						<dict>
+							<key>Description</key>
+							<dict>
+								<key>English</key>
+								<dict>
+									<key>IFPkgDescriptionDeleteWarning</key>
+									<string></string>
+									<key>IFPkgDescriptionDescription</key>
+									<string></string>
+									<key>IFPkgDescriptionTitle</key>
+									<string>Munki_Lab_Settings</string>
+									<key>IFPkgDescriptionVersion</key>
+									<string></string>
+								</dict>
+								<key>International</key>
+								<dict>
+									<key>IFPkgDescriptionDeleteWarning</key>
+									<string></string>
+									<key>IFPkgDescriptionDescription</key>
+									<string></string>
+									<key>IFPkgDescriptionTitle</key>
+									<string></string>
+									<key>IFPkgDescriptionVersion</key>
+									<string></string>
+								</dict>
+							</dict>
+							<key>Display Information</key>
+							<dict>
+								<key>CFBundleGetInfoString</key>
+								<string></string>
+								<key>CFBundleIdentifier</key>
+								<string>edu.ohio.oit.pkg.munki_lab_settings.Munki_Lab_Settings</string>
+								<key>CFBundleName</key>
+								<string></string>
+								<key>CFBundleShortVersionString</key>
+								<string>1.0</string>
+							</dict>
+							<key>Options</key>
+							<dict>
+								<key>IFPkgFlagAllowBackRev</key>
+								<false/>
+								<key>IFPkgFlagAuthorizationAction</key>
+								<integer>2</integer>
+								<key>IFPkgFlagFollowLinks</key>
+								<true/>
+								<key>IFPkgFlagInstallFat</key>
+								<false/>
+								<key>IFPkgFlagIsRequired</key>
+								<false/>
+								<key>IFPkgFlagOverwritePermissions</key>
+								<false/>
+								<key>IFPkgFlagRelocatable</key>
+								<false/>
+								<key>IFPkgFlagRestartAction</key>
+								<integer>0</integer>
+								<key>IFPkgFlagRootVolumeOnly</key>
+								<true/>
+								<key>IFPkgFlagUpdateInstalledLanguages</key>
+								<false/>
+							</dict>
+							<key>Version</key>
+							<dict>
+								<key>IFMajorVersion</key>
+								<integer>2011</integer>
+								<key>IFMinorVersion</key>
+								<integer>928</integer>
+							</dict>
+						</dict>
+					</dict>
+					<key>IFPkgFlagPackageSelection</key>
+					<integer>-1</integer>
+					<key>Name</key>
+					<string>Munki_Lab_Settings-1.0</string>
+					<key>Status</key>
+					<integer>1</integer>
+					<key>Type</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Attributes</key>
+					<dict>
+						<key>Documents</key>
+						<dict>
+							<key>Background Image</key>
+							<dict>
+								<key>IFPkgFlagBackgroundAlignment</key>
+								<integer>4</integer>
+								<key>IFPkgFlagBackgroundScaling</key>
+								<integer>1</integer>
+								<key>Mode</key>
+								<integer>0</integer>
+								<key>Path</key>
+								<string></string>
+								<key>Path Type</key>
+								<integer>1</integer>
+							</dict>
+							<key>License</key>
+							<dict>
+								<key>International</key>
+								<dict>
+									<key>Mode</key>
+									<integer>0</integer>
+									<key>Path</key>
+									<string></string>
+									<key>Path Type</key>
+									<integer>1</integer>
+								</dict>
+							</dict>
+							<key>ReadMe</key>
+							<dict>
+								<key>International</key>
+								<dict>
+									<key>Mode</key>
+									<integer>0</integer>
+									<key>Path</key>
+									<string></string>
+									<key>Path Type</key>
+									<integer>1</integer>
+								</dict>
+							</dict>
+							<key>Welcome</key>
+							<dict>
+								<key>International</key>
+								<dict>
+									<key>Mode</key>
+									<integer>0</integer>
+									<key>Path</key>
+									<string></string>
+									<key>Path Type</key>
+									<integer>1</integer>
+								</dict>
+							</dict>
+						</dict>
+						<key>Files</key>
+						<dict>
+							<key>Hierarchy</key>
+							<dict/>
+							<key>IFPkgFlagDefaultLocation</key>
+							<string>/</string>
+							<key>Imported Options</key>
+							<dict>
+								<key>IFPkgFlagInstalledSize</key>
+								<integer>748</integer>
+							</dict>
+							<key>Imported Package</key>
+							<true/>
+							<key>Package Path</key>
+							<string>/Users/chilcotr/github/scripps_college_scripts/munki/munki_tools/munkitools-0.8.0.1342.0.mpkg/Contents/Packages/munkitools_app-3.2.1342.pkg</string>
+						</dict>
+						<key>Plugins</key>
+						<dict>
+							<key>PluginsList</key>
+							<array>
+								<dict>
+									<key>Path</key>
+									<string>Introduction</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>ReadMe</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>License</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>Target</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>PackageSelection</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>Install</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>FinishUp</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+							</array>
+						</dict>
+						<key>Scripts</key>
+						<dict>
+							<key>Additional Resources</key>
+							<dict>
+								<key>International</key>
+								<array/>
 							</dict>
 							<key>Installation Scripts</key>
 							<dict>
@@ -948,17 +708,32 @@
 									<key>IFPkgDescriptionVersion</key>
 									<string></string>
 								</dict>
+								<key>en</key>
+								<dict>
+									<key>IFPkgDescriptionDeleteWarning</key>
+									<string></string>
+									<key>IFPkgDescriptionDescription</key>
+									<string></string>
+									<key>IFPkgDescriptionTitle</key>
+									<string>munki_app</string>
+									<key>IFPkgDescriptionVersion</key>
+									<string></string>
+								</dict>
 							</dict>
 							<key>Display Information</key>
 							<dict>
 								<key>CFBundleGetInfoString</key>
 								<string></string>
+								<key>CFBundleIconFile</key>
+								<string></string>
+								<key>CFBundleIconFile Path Type</key>
+								<integer>1</integer>
 								<key>CFBundleIdentifier</key>
 								<string>com.googlecode.munki.app</string>
 								<key>CFBundleName</key>
 								<string></string>
 								<key>CFBundleShortVersionString</key>
-								<string>3.0.16.1173</string>
+								<string>3.2.1342</string>
 							</dict>
 							<key>Options</key>
 							<dict>
@@ -968,8 +743,6 @@
 								<integer>2</integer>
 								<key>IFPkgFlagFollowLinks</key>
 								<true/>
-								<key>IFPkgFlagInstallFat</key>
-								<false/>
 								<key>IFPkgFlagIsRequired</key>
 								<false/>
 								<key>IFPkgFlagOverwritePermissions</key>
@@ -988,14 +761,14 @@
 								<key>IFMajorVersion</key>
 								<integer>3</integer>
 								<key>IFMinorVersion</key>
-								<integer>0</integer>
+								<integer>2</integer>
 							</dict>
 						</dict>
 					</dict>
 					<key>IFPkgFlagPackageSelection</key>
 					<integer>1</integer>
 					<key>Name</key>
-					<string>munkitools_app-3.0.16.1173</string>
+					<string>munkitools_app-3.2.1342</string>
 					<key>Status</key>
 					<integer>1</integer>
 					<key>Type</key>
@@ -1016,6 +789,8 @@
 								<integer>0</integer>
 								<key>Path</key>
 								<string></string>
+								<key>Path Type</key>
+								<integer>1</integer>
 							</dict>
 							<key>License</key>
 							<dict>
@@ -1025,6 +800,8 @@
 									<integer>0</integer>
 									<key>Path</key>
 									<string></string>
+									<key>Path Type</key>
+									<integer>1</integer>
 								</dict>
 							</dict>
 							<key>ReadMe</key>
@@ -1035,6 +812,8 @@
 									<integer>0</integer>
 									<key>Path</key>
 									<string></string>
+									<key>Path Type</key>
+									<integer>1</integer>
 								</dict>
 							</dict>
 							<key>Welcome</key>
@@ -1045,6 +824,8 @@
 									<integer>0</integer>
 									<key>Path</key>
 									<string></string>
+									<key>Path Type</key>
+									<integer>1</integer>
 								</dict>
 							</dict>
 						</dict>
@@ -1057,12 +838,12 @@
 							<key>Imported Options</key>
 							<dict>
 								<key>IFPkgFlagInstalledSize</key>
-								<integer>448</integer>
+								<integer>492</integer>
 							</dict>
 							<key>Imported Package</key>
 							<true/>
 							<key>Package Path</key>
-							<string>/Users/chilcotr/github/chilcotr_scripts/Packages/MunkiBootstrap/packages/munkitools_core-0.7.1.1173.0.pkg</string>
+							<string>/Users/chilcotr/github/scripps_college_scripts/munki/munki_tools/munkitools-0.8.0.1342.0.mpkg/Contents/Packages/munkitools_core-0.8.0.1342.0.pkg</string>
 						</dict>
 						<key>Plugins</key>
 						<dict>
@@ -1116,24 +897,8 @@
 						<dict>
 							<key>Additional Resources</key>
 							<dict>
-								<key>English</key>
-								<array>
-									<dict>
-										<key>Path</key>
-										<string>/Users/chilcotr/github/chilcotr_scripts/Packages/MunkiBootstrap/packages/munkitools_core-0.7.1.1173.0.pkg/Contents/Resources/English.lproj/.svn</string>
-										<key>Status</key>
-										<true/>
-									</dict>
-								</array>
 								<key>International</key>
-								<array>
-									<dict>
-										<key>Path</key>
-										<string>/Users/chilcotr/github/chilcotr_scripts/Packages/MunkiBootstrap/packages/munkitools_core-0.7.1.1173.0.pkg/Contents/Resources/.svn</string>
-										<key>Status</key>
-										<true/>
-									</dict>
-								</array>
+								<array/>
 							</dict>
 							<key>Installation Scripts</key>
 							<dict>
@@ -1209,17 +974,32 @@
 									<key>IFPkgDescriptionVersion</key>
 									<string></string>
 								</dict>
+								<key>en</key>
+								<dict>
+									<key>IFPkgDescriptionDeleteWarning</key>
+									<string></string>
+									<key>IFPkgDescriptionDescription</key>
+									<string></string>
+									<key>IFPkgDescriptionTitle</key>
+									<string>munki_core</string>
+									<key>IFPkgDescriptionVersion</key>
+									<string></string>
+								</dict>
 							</dict>
 							<key>Display Information</key>
 							<dict>
 								<key>CFBundleGetInfoString</key>
 								<string></string>
+								<key>CFBundleIconFile</key>
+								<string></string>
+								<key>CFBundleIconFile Path Type</key>
+								<integer>1</integer>
 								<key>CFBundleIdentifier</key>
 								<string>com.googlecode.munki.core</string>
 								<key>CFBundleName</key>
 								<string></string>
 								<key>CFBundleShortVersionString</key>
-								<string>0.7.1.1173.0</string>
+								<string>0.8.0.1342.0</string>
 							</dict>
 							<key>Options</key>
 							<dict>
@@ -1229,8 +1009,6 @@
 								<integer>2</integer>
 								<key>IFPkgFlagFollowLinks</key>
 								<true/>
-								<key>IFPkgFlagInstallFat</key>
-								<false/>
 								<key>IFPkgFlagIsRequired</key>
 								<false/>
 								<key>IFPkgFlagOverwritePermissions</key>
@@ -1249,14 +1027,14 @@
 								<key>IFMajorVersion</key>
 								<integer>0</integer>
 								<key>IFMinorVersion</key>
-								<integer>7</integer>
+								<integer>8</integer>
 							</dict>
 						</dict>
 					</dict>
 					<key>IFPkgFlagPackageSelection</key>
 					<integer>1</integer>
 					<key>Name</key>
-					<string>munkitools_core-0.7.1.1173.0</string>
+					<string>munkitools_core-0.8.0.1342.0</string>
 					<key>Status</key>
 					<integer>1</integer>
 					<key>Type</key>
@@ -1277,6 +1055,8 @@
 								<integer>0</integer>
 								<key>Path</key>
 								<string></string>
+								<key>Path Type</key>
+								<integer>1</integer>
 							</dict>
 							<key>License</key>
 							<dict>
@@ -1286,6 +1066,8 @@
 									<integer>0</integer>
 									<key>Path</key>
 									<string></string>
+									<key>Path Type</key>
+									<integer>1</integer>
 								</dict>
 							</dict>
 							<key>ReadMe</key>
@@ -1296,6 +1078,8 @@
 									<integer>0</integer>
 									<key>Path</key>
 									<string></string>
+									<key>Path Type</key>
+									<integer>1</integer>
 								</dict>
 							</dict>
 							<key>Welcome</key>
@@ -1306,6 +1090,8 @@
 									<integer>0</integer>
 									<key>Path</key>
 									<string></string>
+									<key>Path Type</key>
+									<integer>1</integer>
 								</dict>
 							</dict>
 						</dict>
@@ -1318,12 +1104,12 @@
 							<key>Imported Options</key>
 							<dict>
 								<key>IFPkgFlagInstalledSize</key>
-								<integer>24</integer>
+								<integer>32</integer>
 							</dict>
 							<key>Imported Package</key>
 							<true/>
 							<key>Package Path</key>
-							<string>/Users/chilcotr/github/chilcotr_scripts/Packages/MunkiBootstrap/packages/munkitools_launchd-0.7.1.pkg</string>
+							<string>/Users/chilcotr/github/scripps_college_scripts/munki/munki_tools/munkitools-0.8.0.1342.0.mpkg/Contents/Packages/munkitools_launchd-0.8.0.1.pkg</string>
 						</dict>
 						<key>Plugins</key>
 						<dict>
@@ -1377,24 +1163,8 @@
 						<dict>
 							<key>Additional Resources</key>
 							<dict>
-								<key>English</key>
-								<array>
-									<dict>
-										<key>Path</key>
-										<string>/Users/chilcotr/github/chilcotr_scripts/Packages/MunkiBootstrap/packages/munkitools_launchd-0.7.1.pkg/Contents/Resources/English.lproj/.svn</string>
-										<key>Status</key>
-										<true/>
-									</dict>
-								</array>
 								<key>International</key>
-								<array>
-									<dict>
-										<key>Path</key>
-										<string>/Users/chilcotr/github/chilcotr_scripts/Packages/MunkiBootstrap/packages/munkitools_launchd-0.7.1.pkg/Contents/Resources/.svn</string>
-										<key>Status</key>
-										<true/>
-									</dict>
-								</array>
+								<array/>
 							</dict>
 							<key>Installation Scripts</key>
 							<dict>
@@ -1470,17 +1240,32 @@
 									<key>IFPkgDescriptionVersion</key>
 									<string></string>
 								</dict>
+								<key>en</key>
+								<dict>
+									<key>IFPkgDescriptionDeleteWarning</key>
+									<string></string>
+									<key>IFPkgDescriptionDescription</key>
+									<string></string>
+									<key>IFPkgDescriptionTitle</key>
+									<string>munki_launchd</string>
+									<key>IFPkgDescriptionVersion</key>
+									<string></string>
+								</dict>
 							</dict>
 							<key>Display Information</key>
 							<dict>
 								<key>CFBundleGetInfoString</key>
 								<string></string>
+								<key>CFBundleIconFile</key>
+								<string></string>
+								<key>CFBundleIconFile Path Type</key>
+								<integer>1</integer>
 								<key>CFBundleIdentifier</key>
 								<string>com.googlecode.munki.launchd</string>
 								<key>CFBundleName</key>
 								<string></string>
 								<key>CFBundleShortVersionString</key>
-								<string>0.7.1</string>
+								<string>0.8.0.1</string>
 							</dict>
 							<key>Options</key>
 							<dict>
@@ -1490,8 +1275,6 @@
 								<integer>2</integer>
 								<key>IFPkgFlagFollowLinks</key>
 								<true/>
-								<key>IFPkgFlagInstallFat</key>
-								<false/>
 								<key>IFPkgFlagIsRequired</key>
 								<false/>
 								<key>IFPkgFlagOverwritePermissions</key>
@@ -1510,14 +1293,779 @@
 								<key>IFMajorVersion</key>
 								<integer>0</integer>
 								<key>IFMinorVersion</key>
-								<integer>7</integer>
+								<integer>8</integer>
 							</dict>
 						</dict>
 					</dict>
 					<key>IFPkgFlagPackageSelection</key>
 					<integer>1</integer>
 					<key>Name</key>
-					<string>munkitools_launchd-0.7.1</string>
+					<string>munkitools_launchd-0.8.0.1</string>
+					<key>Status</key>
+					<integer>1</integer>
+					<key>Type</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Attributes</key>
+					<dict>
+						<key>Documents</key>
+						<dict>
+							<key>Background Image</key>
+							<dict>
+								<key>IFPkgFlagBackgroundAlignment</key>
+								<integer>4</integer>
+								<key>IFPkgFlagBackgroundScaling</key>
+								<integer>1</integer>
+								<key>Mode</key>
+								<integer>0</integer>
+								<key>Path</key>
+								<string></string>
+								<key>Path Type</key>
+								<integer>1</integer>
+							</dict>
+							<key>License</key>
+							<dict>
+								<key>International</key>
+								<dict>
+									<key>Mode</key>
+									<integer>0</integer>
+									<key>Path</key>
+									<string></string>
+									<key>Path Type</key>
+									<integer>1</integer>
+								</dict>
+							</dict>
+							<key>ReadMe</key>
+							<dict>
+								<key>International</key>
+								<dict>
+									<key>Mode</key>
+									<integer>0</integer>
+									<key>Path</key>
+									<string></string>
+									<key>Path Type</key>
+									<integer>1</integer>
+								</dict>
+							</dict>
+							<key>Welcome</key>
+							<dict>
+								<key>International</key>
+								<dict>
+									<key>Mode</key>
+									<integer>0</integer>
+									<key>Path</key>
+									<string></string>
+									<key>Path Type</key>
+									<integer>1</integer>
+								</dict>
+							</dict>
+						</dict>
+						<key>Files</key>
+						<dict>
+							<key>Hierarchy</key>
+							<dict/>
+							<key>IFPkgFlagDefaultLocation</key>
+							<string>/</string>
+							<key>Imported Options</key>
+							<dict>
+								<key>IFPkgFlagInstalledSize</key>
+								<integer>4</integer>
+							</dict>
+							<key>Imported Package</key>
+							<true/>
+							<key>Package Path</key>
+							<string>/Users/chilcotr/github/scripps_college_scripts/munki/munki_ou_postflight/Munki_OU_Postflight-1.0.pkg</string>
+						</dict>
+						<key>Plugins</key>
+						<dict>
+							<key>PluginsList</key>
+							<array>
+								<dict>
+									<key>Path</key>
+									<string>Introduction</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>ReadMe</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>License</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>Target</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>PackageSelection</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>Install</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>FinishUp</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+							</array>
+						</dict>
+						<key>Scripts</key>
+						<dict>
+							<key>Additional Resources</key>
+							<dict>
+								<key>International</key>
+								<array/>
+							</dict>
+							<key>Installation Scripts</key>
+							<dict>
+								<key>IFInstallationScriptsPostflight</key>
+								<dict>
+									<key>Path</key>
+									<string></string>
+									<key>Status</key>
+									<false/>
+								</dict>
+								<key>IFInstallationScriptsPostinstall</key>
+								<dict>
+									<key>Path</key>
+									<string></string>
+									<key>Status</key>
+									<false/>
+								</dict>
+								<key>IFInstallationScriptsPostupgrade</key>
+								<dict>
+									<key>Path</key>
+									<string></string>
+									<key>Status</key>
+									<false/>
+								</dict>
+								<key>IFInstallationScriptsPreflight</key>
+								<dict>
+									<key>Path</key>
+									<string></string>
+									<key>Status</key>
+									<false/>
+								</dict>
+								<key>IFInstallationScriptsPreinstall</key>
+								<dict>
+									<key>Path</key>
+									<string></string>
+									<key>Status</key>
+									<false/>
+								</dict>
+								<key>IFInstallationScriptsPreupgrade</key>
+								<dict>
+									<key>Path</key>
+									<string></string>
+									<key>Status</key>
+									<false/>
+								</dict>
+							</dict>
+							<key>Requirements</key>
+							<array/>
+						</dict>
+						<key>Settings</key>
+						<dict>
+							<key>Description</key>
+							<dict>
+								<key>English</key>
+								<dict>
+									<key>IFPkgDescriptionDeleteWarning</key>
+									<string></string>
+									<key>IFPkgDescriptionDescription</key>
+									<string></string>
+									<key>IFPkgDescriptionTitle</key>
+									<string>Munki_OU_Postflight</string>
+									<key>IFPkgDescriptionVersion</key>
+									<string></string>
+								</dict>
+								<key>International</key>
+								<dict>
+									<key>IFPkgDescriptionDeleteWarning</key>
+									<string></string>
+									<key>IFPkgDescriptionDescription</key>
+									<string></string>
+									<key>IFPkgDescriptionTitle</key>
+									<string></string>
+									<key>IFPkgDescriptionVersion</key>
+									<string></string>
+								</dict>
+							</dict>
+							<key>Display Information</key>
+							<dict>
+								<key>CFBundleGetInfoString</key>
+								<string></string>
+								<key>CFBundleIconFile</key>
+								<string></string>
+								<key>CFBundleIconFile Path Type</key>
+								<integer>1</integer>
+								<key>CFBundleIdentifier</key>
+								<string>edu.ohio.oit.pkg.Munki_OU_Postflight</string>
+								<key>CFBundleName</key>
+								<string></string>
+								<key>CFBundleShortVersionString</key>
+								<string>1.0</string>
+							</dict>
+							<key>Options</key>
+							<dict>
+								<key>IFPkgFlagAllowBackRev</key>
+								<false/>
+								<key>IFPkgFlagAuthorizationAction</key>
+								<integer>2</integer>
+								<key>IFPkgFlagFollowLinks</key>
+								<true/>
+								<key>IFPkgFlagIsRequired</key>
+								<false/>
+								<key>IFPkgFlagOverwritePermissions</key>
+								<false/>
+								<key>IFPkgFlagRelocatable</key>
+								<false/>
+								<key>IFPkgFlagRestartAction</key>
+								<integer>0</integer>
+								<key>IFPkgFlagRootVolumeOnly</key>
+								<true/>
+								<key>IFPkgFlagUpdateInstalledLanguages</key>
+								<false/>
+							</dict>
+							<key>Version</key>
+							<dict>
+								<key>IFMajorVersion</key>
+								<integer>2011</integer>
+								<key>IFMinorVersion</key>
+								<integer>928</integer>
+							</dict>
+						</dict>
+					</dict>
+					<key>IFPkgFlagPackageSelection</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Munki_OU_Postflight-1.0</string>
+					<key>Status</key>
+					<integer>1</integer>
+					<key>Type</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Attributes</key>
+					<dict>
+						<key>Documents</key>
+						<dict>
+							<key>Background Image</key>
+							<dict>
+								<key>IFPkgFlagBackgroundAlignment</key>
+								<integer>4</integer>
+								<key>IFPkgFlagBackgroundScaling</key>
+								<integer>1</integer>
+								<key>Mode</key>
+								<integer>0</integer>
+								<key>Path</key>
+								<string></string>
+								<key>Path Type</key>
+								<integer>1</integer>
+							</dict>
+							<key>License</key>
+							<dict>
+								<key>International</key>
+								<dict>
+									<key>Mode</key>
+									<integer>0</integer>
+									<key>Path</key>
+									<string></string>
+									<key>Path Type</key>
+									<integer>1</integer>
+								</dict>
+							</dict>
+							<key>ReadMe</key>
+							<dict>
+								<key>International</key>
+								<dict>
+									<key>Mode</key>
+									<integer>0</integer>
+									<key>Path</key>
+									<string></string>
+									<key>Path Type</key>
+									<integer>1</integer>
+								</dict>
+							</dict>
+							<key>Welcome</key>
+							<dict>
+								<key>International</key>
+								<dict>
+									<key>Mode</key>
+									<integer>0</integer>
+									<key>Path</key>
+									<string></string>
+									<key>Path Type</key>
+									<integer>1</integer>
+								</dict>
+							</dict>
+						</dict>
+						<key>Files</key>
+						<dict>
+							<key>Hierarchy</key>
+							<dict/>
+							<key>IFPkgFlagDefaultLocation</key>
+							<string>/</string>
+							<key>Imported Options</key>
+							<dict>
+								<key>IFPkgFlagInstalledSize</key>
+								<integer>4</integer>
+							</dict>
+							<key>Imported Package</key>
+							<true/>
+							<key>Package Path</key>
+							<string>/Users/chilcotr/github/scripps_college_scripts/munki/munki_ou_preflight/Munki_OU_Preflight-1.0.pkg</string>
+						</dict>
+						<key>Plugins</key>
+						<dict>
+							<key>PluginsList</key>
+							<array>
+								<dict>
+									<key>Path</key>
+									<string>Introduction</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>ReadMe</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>License</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>Target</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>PackageSelection</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>Install</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>FinishUp</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+							</array>
+						</dict>
+						<key>Scripts</key>
+						<dict>
+							<key>Additional Resources</key>
+							<dict>
+								<key>International</key>
+								<array/>
+							</dict>
+							<key>Installation Scripts</key>
+							<dict>
+								<key>IFInstallationScriptsPostflight</key>
+								<dict>
+									<key>Path</key>
+									<string></string>
+									<key>Status</key>
+									<false/>
+								</dict>
+								<key>IFInstallationScriptsPostinstall</key>
+								<dict>
+									<key>Path</key>
+									<string></string>
+									<key>Status</key>
+									<false/>
+								</dict>
+								<key>IFInstallationScriptsPostupgrade</key>
+								<dict>
+									<key>Path</key>
+									<string></string>
+									<key>Status</key>
+									<false/>
+								</dict>
+								<key>IFInstallationScriptsPreflight</key>
+								<dict>
+									<key>Path</key>
+									<string></string>
+									<key>Status</key>
+									<false/>
+								</dict>
+								<key>IFInstallationScriptsPreinstall</key>
+								<dict>
+									<key>Path</key>
+									<string></string>
+									<key>Status</key>
+									<false/>
+								</dict>
+								<key>IFInstallationScriptsPreupgrade</key>
+								<dict>
+									<key>Path</key>
+									<string></string>
+									<key>Status</key>
+									<false/>
+								</dict>
+							</dict>
+							<key>Requirements</key>
+							<array/>
+						</dict>
+						<key>Settings</key>
+						<dict>
+							<key>Description</key>
+							<dict>
+								<key>English</key>
+								<dict>
+									<key>IFPkgDescriptionDeleteWarning</key>
+									<string></string>
+									<key>IFPkgDescriptionDescription</key>
+									<string></string>
+									<key>IFPkgDescriptionTitle</key>
+									<string>Munki_OU_Preflight</string>
+									<key>IFPkgDescriptionVersion</key>
+									<string></string>
+								</dict>
+								<key>International</key>
+								<dict>
+									<key>IFPkgDescriptionDeleteWarning</key>
+									<string></string>
+									<key>IFPkgDescriptionDescription</key>
+									<string></string>
+									<key>IFPkgDescriptionTitle</key>
+									<string></string>
+									<key>IFPkgDescriptionVersion</key>
+									<string></string>
+								</dict>
+							</dict>
+							<key>Display Information</key>
+							<dict>
+								<key>CFBundleGetInfoString</key>
+								<string></string>
+								<key>CFBundleIconFile</key>
+								<string></string>
+								<key>CFBundleIconFile Path Type</key>
+								<integer>1</integer>
+								<key>CFBundleIdentifier</key>
+								<string>edu.ohio.oit.pkg.Munki_OU_Preflight</string>
+								<key>CFBundleName</key>
+								<string></string>
+								<key>CFBundleShortVersionString</key>
+								<string>1.0</string>
+							</dict>
+							<key>Options</key>
+							<dict>
+								<key>IFPkgFlagAllowBackRev</key>
+								<false/>
+								<key>IFPkgFlagAuthorizationAction</key>
+								<integer>2</integer>
+								<key>IFPkgFlagFollowLinks</key>
+								<true/>
+								<key>IFPkgFlagIsRequired</key>
+								<false/>
+								<key>IFPkgFlagOverwritePermissions</key>
+								<false/>
+								<key>IFPkgFlagRelocatable</key>
+								<false/>
+								<key>IFPkgFlagRestartAction</key>
+								<integer>0</integer>
+								<key>IFPkgFlagRootVolumeOnly</key>
+								<true/>
+								<key>IFPkgFlagUpdateInstalledLanguages</key>
+								<false/>
+							</dict>
+							<key>Version</key>
+							<dict>
+								<key>IFMajorVersion</key>
+								<integer>2011</integer>
+								<key>IFMinorVersion</key>
+								<integer>928</integer>
+							</dict>
+						</dict>
+					</dict>
+					<key>IFPkgFlagPackageSelection</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Munki_OU_Preflight-1.0</string>
+					<key>Status</key>
+					<integer>1</integer>
+					<key>Type</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Attributes</key>
+					<dict>
+						<key>Documents</key>
+						<dict>
+							<key>Background Image</key>
+							<dict>
+								<key>IFPkgFlagBackgroundAlignment</key>
+								<integer>4</integer>
+								<key>IFPkgFlagBackgroundScaling</key>
+								<integer>1</integer>
+								<key>Mode</key>
+								<integer>0</integer>
+								<key>Path</key>
+								<string></string>
+								<key>Path Type</key>
+								<integer>1</integer>
+							</dict>
+							<key>License</key>
+							<dict>
+								<key>International</key>
+								<dict>
+									<key>Mode</key>
+									<integer>0</integer>
+									<key>Path</key>
+									<string></string>
+									<key>Path Type</key>
+									<integer>1</integer>
+								</dict>
+							</dict>
+							<key>ReadMe</key>
+							<dict>
+								<key>International</key>
+								<dict>
+									<key>Mode</key>
+									<integer>0</integer>
+									<key>Path</key>
+									<string></string>
+									<key>Path Type</key>
+									<integer>1</integer>
+								</dict>
+							</dict>
+							<key>Welcome</key>
+							<dict>
+								<key>International</key>
+								<dict>
+									<key>Mode</key>
+									<integer>0</integer>
+									<key>Path</key>
+									<string></string>
+									<key>Path Type</key>
+									<integer>1</integer>
+								</dict>
+							</dict>
+						</dict>
+						<key>Files</key>
+						<dict>
+							<key>Hierarchy</key>
+							<dict/>
+							<key>IFPkgFlagDefaultLocation</key>
+							<string>/</string>
+							<key>Imported Options</key>
+							<dict>
+								<key>IFPkgFlagInstalledSize</key>
+								<integer>0</integer>
+							</dict>
+							<key>Imported Package</key>
+							<true/>
+							<key>Package Path</key>
+							<string>/Users/chilcotr/github/scripps_college_scripts/munki/munki_generic_settings/Munki_Generic_Settings-1.0.pkg</string>
+						</dict>
+						<key>Plugins</key>
+						<dict>
+							<key>PluginsList</key>
+							<array>
+								<dict>
+									<key>Path</key>
+									<string>Introduction</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>ReadMe</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>License</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>Target</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>PackageSelection</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>Install</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Path</key>
+									<string>FinishUp</string>
+									<key>Type</key>
+									<integer>0</integer>
+								</dict>
+							</array>
+						</dict>
+						<key>Scripts</key>
+						<dict>
+							<key>Additional Resources</key>
+							<dict>
+								<key>International</key>
+								<array/>
+							</dict>
+							<key>Installation Scripts</key>
+							<dict>
+								<key>IFInstallationScriptsPostflight</key>
+								<dict>
+									<key>Path</key>
+									<string>/Users/chilcotr/github/scripps_college_scripts/munki/munki_generic_settings/Munki_Generic_Settings-1.0.pkg/Contents/Resources/postflight</string>
+									<key>Status</key>
+									<true/>
+								</dict>
+								<key>IFInstallationScriptsPostinstall</key>
+								<dict>
+									<key>Path</key>
+									<string></string>
+									<key>Status</key>
+									<false/>
+								</dict>
+								<key>IFInstallationScriptsPostupgrade</key>
+								<dict>
+									<key>Path</key>
+									<string></string>
+									<key>Status</key>
+									<false/>
+								</dict>
+								<key>IFInstallationScriptsPreflight</key>
+								<dict>
+									<key>Path</key>
+									<string></string>
+									<key>Status</key>
+									<false/>
+								</dict>
+								<key>IFInstallationScriptsPreinstall</key>
+								<dict>
+									<key>Path</key>
+									<string></string>
+									<key>Status</key>
+									<false/>
+								</dict>
+								<key>IFInstallationScriptsPreupgrade</key>
+								<dict>
+									<key>Path</key>
+									<string></string>
+									<key>Status</key>
+									<false/>
+								</dict>
+							</dict>
+							<key>Requirements</key>
+							<array/>
+						</dict>
+						<key>Settings</key>
+						<dict>
+							<key>Description</key>
+							<dict>
+								<key>English</key>
+								<dict>
+									<key>IFPkgDescriptionDeleteWarning</key>
+									<string></string>
+									<key>IFPkgDescriptionDescription</key>
+									<string></string>
+									<key>IFPkgDescriptionTitle</key>
+									<string>Munki_Generic_Settings</string>
+									<key>IFPkgDescriptionVersion</key>
+									<string></string>
+								</dict>
+								<key>International</key>
+								<dict>
+									<key>IFPkgDescriptionDeleteWarning</key>
+									<string></string>
+									<key>IFPkgDescriptionDescription</key>
+									<string></string>
+									<key>IFPkgDescriptionTitle</key>
+									<string></string>
+									<key>IFPkgDescriptionVersion</key>
+									<string></string>
+								</dict>
+							</dict>
+							<key>Display Information</key>
+							<dict>
+								<key>CFBundleGetInfoString</key>
+								<string></string>
+								<key>CFBundleIconFile</key>
+								<string></string>
+								<key>CFBundleIconFile Path Type</key>
+								<integer>1</integer>
+								<key>CFBundleIdentifier</key>
+								<string>edu.ohio.oit.pkg.munki_generic_settings.Munki_Generic_Settings</string>
+								<key>CFBundleName</key>
+								<string></string>
+								<key>CFBundleShortVersionString</key>
+								<string>1.0</string>
+							</dict>
+							<key>Options</key>
+							<dict>
+								<key>IFPkgFlagAllowBackRev</key>
+								<false/>
+								<key>IFPkgFlagAuthorizationAction</key>
+								<integer>2</integer>
+								<key>IFPkgFlagFollowLinks</key>
+								<true/>
+								<key>IFPkgFlagIsRequired</key>
+								<false/>
+								<key>IFPkgFlagOverwritePermissions</key>
+								<false/>
+								<key>IFPkgFlagRelocatable</key>
+								<false/>
+								<key>IFPkgFlagRestartAction</key>
+								<integer>0</integer>
+								<key>IFPkgFlagRootVolumeOnly</key>
+								<true/>
+								<key>IFPkgFlagUpdateInstalledLanguages</key>
+								<false/>
+							</dict>
+							<key>Version</key>
+							<dict>
+								<key>IFMajorVersion</key>
+								<integer>2011</integer>
+								<key>IFMinorVersion</key>
+								<integer>928</integer>
+							</dict>
+						</dict>
+					</dict>
+					<key>IFPkgFlagPackageSelection</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Munki_Generic_Settings-1.0</string>
 					<key>Status</key>
 					<integer>1</integer>
 					<key>Type</key>
@@ -1636,9 +2184,9 @@
 					<key>IFInstallationScriptsPostflight</key>
 					<dict>
 						<key>Path</key>
-						<string>postflight.sh</string>
+						<string>/Users/chilcotr/github/scripps_college_scripts/munki/munki_bootstrap/postflight</string>
 						<key>Path Type</key>
-						<integer>2</integer>
+						<integer>1</integer>
 						<key>Status</key>
 						<true/>
 					</dict>
@@ -1723,13 +2271,13 @@
 						<key>IFPkgDescriptionTitle</key>
 						<string>MunkiBootstrap</string>
 						<key>IFPkgDescriptionVersion</key>
-						<string>1.0</string>
+						<string>0.8.0.1342.0</string>
 					</dict>
 				</dict>
 				<key>Display Information</key>
 				<dict>
 					<key>CFBundleGetInfoString</key>
-					<string>MunkiBootstrap 1.0 Copyrights © 2011 Ohio University - OIT</string>
+					<string>MunkiBootstrap 0.8.0.1342.0 Copyrights © 2011 Ohio University - OIT</string>
 					<key>CFBundleIconFile</key>
 					<string></string>
 					<key>CFBundleIconFile Path Type</key>
@@ -1739,14 +2287,14 @@
 					<key>CFBundleName</key>
 					<string>MunkiBootstrap</string>
 					<key>CFBundleShortVersionString</key>
-					<string>0.7.1.1173.0</string>
+					<string>0.8.0.1342.0</string>
 				</dict>
 				<key>Version</key>
 				<dict>
 					<key>IFMajorVersion</key>
-					<integer>1</integer>
-					<key>IFMinorVersion</key>
 					<integer>0</integer>
+					<key>IFMinorVersion</key>
+					<integer>8</integer>
 				</dict>
 			</dict>
 		</dict>
