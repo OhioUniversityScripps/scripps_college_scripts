@@ -14,11 +14,11 @@
 #   limitations under the License.
 #
 # 
-#  Luggage makefile for building a package that installs a printer.
+#  Luggage makefile for setting basic settings for our MunkiServer repo
 
 include /usr/local/share/luggage/luggage.make
 
 TITLE=Munki_Generic_Settings
 REVERSE_DOMAIN=edu.ohio.oit.pkg.munki_generic_settings
 PAYLOAD=pack-script-postflight
-PACKAGE_VERSION=1.0
+PACKAGE_VERSION=1.1

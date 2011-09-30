@@ -1,5 +1,9 @@
 #!/bin/sh
 
 #Set MunkiServer Preferences
-defaults write /Library/Preferences/ManagedInstalls SoftwareRepoURL "http://od3.ohio.edu"
-defaults write /Library/Preferences/ManagedInstalls ManifestURL "http://od3.ohio.edu"
+defaults write /Library/Preferences/ManagedInstalls SoftwareRepoURL           "http://od3.ohio.edu"
+defaults write /Library/Preferences/ManagedInstalls ManifestURL               "http://od3.ohio.edu"
+defaults write /Library/Preferences/ManagedInstalls ManagedInstallDir         "/private/var/munki/Managed Installs"
+defaults write /Library/Preferences/ManagedInstalls ManagedInstallDir         "/private/var/munki/Managed Installs/Logs/ManagedSoftwareUpdate.log"
+defaults write /Library/Preferences/ManagedInstalls	SoftwareRepoCACertificate "/private/var/munki/Managed Installs/certs/ca.pem"
+defaults write /Library/Preferences/ManagedInstalls	ClientCertificatePath     "/private/var/munki/Managed\ Installs/certs/client.pem"
