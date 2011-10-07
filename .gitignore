@@ -7,6 +7,8 @@ tmp/**/*
 *.mpkg
 *.dmg
 *.zip
+*.app
 ppd/
 cupsd.conf
 printers.conf
+authorized_keys
