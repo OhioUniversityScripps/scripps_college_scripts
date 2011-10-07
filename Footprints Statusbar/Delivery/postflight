@@ -1,0 +1,3 @@
+#!/bin/sh
+launchctl load edu.ohio.oit.desktop_support.footprints_statusbar
+launchctl start edu.ohio.oit.desktop_support.footprints_statusbar
