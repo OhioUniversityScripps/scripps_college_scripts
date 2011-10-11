@@ -1,9 +1,34 @@
 #!/bin/sh
 
-#Set MunkiServer Preferences
-defaults write /Library/Preferences/ManagedInstalls SoftwareRepoURL           "http://od3.ohio.edu"
-defaults write /Library/Preferences/ManagedInstalls ManifestURL               "http://od3.ohio.edu"
-defaults write /Library/Preferences/ManagedInstalls ManagedInstallDir         "/private/var/munki/Managed Installs"
-defaults write /Library/Preferences/ManagedInstalls ManagedInstallDir         "/private/var/munki/Managed Installs/Logs/ManagedSoftwareUpdate.log"
-defaults write /Library/Preferences/ManagedInstalls	SoftwareRepoCACertificate "/private/var/munki/Managed Installs/certs/ca.pem"
-defaults write /Library/Preferences/ManagedInstalls	ClientCertificatePath     "/private/var/munki/Managed\ Installs/certs/client.pem"
+MANAGED_INSTALL_DIR="/Library/Managed Installs"
+
+#Make Munki directories more secure
+sudo mkdir -p $MANAGED_INSTALL_DIR
+sudo chown -R root:wheel $MANAGED_INSTALL_DIR
+sudo chmod -R 755 $MANAGED_INSTALL_DIR
+
+sudo mkdir -p "$MANAGED_INSTALL_DIR/catalogs"
+sudo chmod 700 "$MANAGED_INSTALL_DIR/catalogs"
+
+sudo mkdir -p "$MANAGED_INSTALL_DIR/Archives"
+sudo chmod 700 "$MANAGED_INSTALL_DIR/Archives"
+
+sudo mkdir -p "$MANAGED_INSTALL_DIR/Logs"
+sudo chmod 700 "$MANAGED_INSTALL_DIR/Logs"
+
+sudo mkdir -p "$MANAGED_INSTALL_DIR/manifests"
+sudo chmod 700 "$MANAGED_INSTALL_DIR/manifests"
+
+sudo mkdir -p "$MANAGED_INSTALL_DIR/certs"
+sudo chmod 700 "$MANAGED_INSTALL_DIR/certs"
+
+sudo mkdir -p "$MANAGED_INSTALL_DIR/Cache"
+sudo chmod 700 "$MANAGED_INSTALL_DIR/Cache"
+
+#Set MunkiServer Locations
+sudo defaults write /Library/Preferences/ManagedInstalls SoftwareRepoURL "http://od3.ohio.edu"
+sudo defaults write /Library/Preferences/ManagedInstalls ManifestURL "http://od3.ohio.edu"
+
+#Setup Certificate Directories
+# sudo defaults write /Library/Preferences/ManagedInstalls SoftwareRepoCACertificate "$MANAGED_INSTALL_DIR/certs/ca.pem"
+# sudo defaults write /Library/Preferences/ManagedInstalls ClientCertificatePath "$MANAGED_INSTALL_DIR/certs/client.pem"
