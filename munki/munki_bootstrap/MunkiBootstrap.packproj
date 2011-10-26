@@ -1831,8 +1831,6 @@
 								<integer>0</integer>
 								<key>Path</key>
 								<string></string>
-								<key>Path Type</key>
-								<integer>1</integer>
 							</dict>
 							<key>License</key>
 							<dict>
@@ -1842,8 +1840,6 @@
 									<integer>0</integer>
 									<key>Path</key>
 									<string></string>
-									<key>Path Type</key>
-									<integer>1</integer>
 								</dict>
 							</dict>
 							<key>ReadMe</key>
@@ -1854,8 +1850,6 @@
 									<integer>0</integer>
 									<key>Path</key>
 									<string></string>
-									<key>Path Type</key>
-									<integer>1</integer>
 								</dict>
 							</dict>
 							<key>Welcome</key>
@@ -1866,8 +1860,6 @@
 									<integer>0</integer>
 									<key>Path</key>
 									<string></string>
-									<key>Path Type</key>
-									<integer>1</integer>
 								</dict>
 							</dict>
 						</dict>
@@ -1885,7 +1877,7 @@
 							<key>Imported Package</key>
 							<true/>
 							<key>Package Path</key>
-							<string>/Users/chilcotr/github/scripps_college_scripts/munki/munki_generic_settings/Munki_Generic_Settings-1.0.pkg</string>
+							<string>/Users/chilcotr/github/scripps_college_scripts/munki/munki_generic_settings/Munki_Generic_Settings-1.1.pkg</string>
 						</dict>
 						<key>Plugins</key>
 						<dict>
@@ -1947,7 +1939,7 @@
 								<key>IFInstallationScriptsPostflight</key>
 								<dict>
 									<key>Path</key>
-									<string>/Users/chilcotr/github/scripps_college_scripts/munki/munki_generic_settings/Munki_Generic_Settings-1.0.pkg/Contents/Resources/postflight</string>
+									<string>/Users/chilcotr/github/scripps_college_scripts/munki/munki_generic_settings/Munki_Generic_Settings-1.1.pkg/Contents/Resources/postflight</string>
 									<key>Status</key>
 									<true/>
 								</dict>
@@ -2021,16 +2013,12 @@
 							<dict>
 								<key>CFBundleGetInfoString</key>
 								<string></string>
-								<key>CFBundleIconFile</key>
-								<string></string>
-								<key>CFBundleIconFile Path Type</key>
-								<integer>1</integer>
 								<key>CFBundleIdentifier</key>
 								<string>edu.ohio.oit.pkg.munki_generic_settings.Munki_Generic_Settings</string>
 								<key>CFBundleName</key>
 								<string></string>
 								<key>CFBundleShortVersionString</key>
-								<string>1.0</string>
+								<string>1.1</string>
 							</dict>
 							<key>Options</key>
 							<dict>
@@ -2040,6 +2028,8 @@
 								<integer>2</integer>
 								<key>IFPkgFlagFollowLinks</key>
 								<true/>
+								<key>IFPkgFlagInstallFat</key>
+								<false/>
 								<key>IFPkgFlagIsRequired</key>
 								<false/>
 								<key>IFPkgFlagOverwritePermissions</key>
@@ -2058,14 +2048,14 @@
 								<key>IFMajorVersion</key>
 								<integer>2011</integer>
 								<key>IFMinorVersion</key>
-								<integer>928</integer>
+								<integer>1011</integer>
 							</dict>
 						</dict>
 					</dict>
 					<key>IFPkgFlagPackageSelection</key>
 					<integer>1</integer>
 					<key>Name</key>
-					<string>Munki_Generic_Settings-1.0</string>
+					<string>Munki_Generic_Settings-1.1</string>
 					<key>Status</key>
 					<integer>1</integer>
 					<key>Type</key>
