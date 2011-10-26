@@ -30,16 +30,16 @@ l_adobe-after-effects_scripts: l_adobe-after-effects
 	@sudo chmod 755 ${WORK_D}/Applications/Adobe\ After\ Effects/Scripts/
 
 pack-ScriptUIPanels: l_adobe-after-effects_scripts
-	@sudo mkdir -p "${WORK_D}/Applications/Adobe After Effects/Scripts/ScriptUI Panels"
-	@sudo ${CP} -rf ./ScriptUI\ Panels/* "${WORK_D}/Applications/Adobe After Effects/Scripts/ScriptUI Panels"
-	@sudo chown -R root:admin "${WORK_D}/Applications/Adobe After Effects/Scripts/ScriptUI Panels"
-	@sudo chmod -R 755 "${WORK_D}/Applications/Adobe After Effects/Scripts/ScriptUI Panels"
+	@sudo mkdir -p "${WORK_D}/Applications/Adobe After Effects CS5.5/Scripts/ScriptUI Panels"
+	@sudo ${CP} -rf ./ScriptUI\ Panels/* "${WORK_D}/Applications/Adobe After Effects CS5.5/Scripts/ScriptUI Panels"
+	@sudo chown -R root:admin "${WORK_D}/Applications/Adobe After Effects CS5.5/Scripts/ScriptUI Panels"
+	@sudo chmod -R 755 "${WORK_D}/Applications/Adobe After Effects CS5.5/Scripts/ScriptUI Panels"
 
 pack-DuikIcons: l_adobe-after-effects_scripts
-	@sudo mkdir -p "${WORK_D}/Applications/Adobe After Effects/Scripts/Duik Icons"
-	@sudo ${CP} -rf Duik\ Icons/* "${WORK_D}/Applications/Adobe After Effects/Scripts/Duik Icons"
-	@sudo chown -R root:admin "${WORK_D}/Applications/Adobe After Effects/Scripts/Duik Icons"
-	@sudo chmod -R 755 "${WORK_D}/Applications/Adobe After Effects/Scripts/Duik Icons"
+	@sudo mkdir -p "${WORK_D}/Applications/Adobe After Effects CS5.5/Scripts/Duik Icons"
+	@sudo ${CP} -rf Duik\ Icons/* "${WORK_D}/Applications/Adobe After Effects CS5.5/Scripts/Duik Icons"
+	@sudo chown -R root:admin "${WORK_D}/Applications/Adobe After Effects CS5.5/Scripts/Duik Icons"
+	@sudo chmod -R 755 "${WORK_D}/Applications/Adobe After Effects CS5.5/Scripts/Duik Icons"
 
 TITLE=scc_mdia_install_duik_ae_plugin
 REVERSE_DOMAIN=edu.ohio.scripps.mdia
