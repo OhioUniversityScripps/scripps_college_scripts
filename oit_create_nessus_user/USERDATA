@@ -3,7 +3,7 @@ shortname=nessus
 longname="Nessus"
 
 #leave blank for next available uid, Allowed UIDs are 100+
-#uid=501
+uid=525
 
 #leave blank for 20
 #gid=20
@@ -17,8 +17,11 @@ longname="Nessus"
 #uncomment to set password (not recommended since password is clear text)
 #if blank, it will use password hash file "password_hash"
 # password=
-random=`/opt/local/bin/openssl rand -base64 2048`
-$SCRIPT_DIR/shadowHash $random>$SCRIPT_DIR/password_hash
+
+rm "${SCRIPT_DIR}/password_hash"
+
+random=`/usr/bin/openssl rand -base64 2048`
+"${SCRIPT_DIR}/shadowHash" $random > "${SCRIPT_DIR}/password_hash"
 random=nice_try
 
 #guid, leave blank for auto gen

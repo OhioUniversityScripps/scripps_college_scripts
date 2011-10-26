@@ -233,4 +233,7 @@ if [ $hide_user -eq 1 ]; then
 	/usr/bin/defaults write "${TARGET_DIR}/Library/Preferences/com.apple.loginwindow" HiddenUsersList -array-add $shortname
 fi
 
+#Sleep so user can be fully created
+sleep 10
+
 exit 0
