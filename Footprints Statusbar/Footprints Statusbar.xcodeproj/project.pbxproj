@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		370FBB71143DCF8F009A871E /* keep-alive.sh in Resources */ = {isa = PBXBuildFile; fileRef = 370FBB70143DCF8F009A871E /* keep-alive.sh */; };
 		37E9797E142E1ED200A177A6 /* help.icns in Resources */ = {isa = PBXBuildFile; fileRef = 37E9797C142E1ED200A177A6 /* help.icns */; };
 		37E9797F142E1ED200A177A6 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E9797D142E1ED200A177A6 /* help.png */; };
 		37FA051D142784850010025C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FA051C142784850010025C /* Cocoa.framework */; };
@@ -20,7 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		370FBB70143DCF8F009A871E /* keep-alive.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "keep-alive.sh"; sourceTree = "<group>"; };
 		37E9797C142E1ED200A177A6 /* help.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = help.icns; sourceTree = "<group>"; };
 		37E9797D142E1ED200A177A6 /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
 		37FA0518142784850010025C /* Footprints Statusbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Footprints Statusbar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,7 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				37FA052F142784860010025C /* rb_main.rb */,
-				370FBB70143DCF8F009A871E /* keep-alive.sh */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -185,7 +182,6 @@
 				37FA0532142784860010025C /* AppDelegate.rb in Resources */,
 				37E9797E142E1ED200A177A6 /* help.icns in Resources */,
 				37E9797F142E1ED200A177A6 /* help.png in Resources */,
-				370FBB71143DCF8F009A871E /* keep-alive.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

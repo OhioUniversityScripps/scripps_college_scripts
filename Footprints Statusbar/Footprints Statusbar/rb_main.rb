@@ -40,15 +40,15 @@ def setupMenu
     mi.target = self
     menu.addItem mi
     
-    mi = NSMenuItem.separatorItem
-    menu.addItem mi
+    # mi = NSMenuItem.separatorItem
+    # menu.addItem mi
     
-    mi = NSMenuItem.new
-    mi.title = 'Quit'
-    mi.action = 'quit:'
-    mi.target = self
-    menu.addItem mi
-    
+    # mi = NSMenuItem.new
+    # mi.title = 'Quit'
+    # mi.action = 'quit:'
+    # mi.target = self
+    # menu.addItem mi
+     
     menu
 end
 

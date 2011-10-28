@@ -18,14 +18,16 @@
 
 include /usr/local/share/luggage/luggage.make
 
-unbz2-applications-FootprintsStatusbar: unbz2-applications
+unbz2-applications-FootprintsStatusbar.app: FootprintsStatusbar.app.tar.bz2 l_Applications
+	@SUDO ${TAR} xjf FootprintsStatusbar.app.tar.bz2 -C ${WORK_D}/Applications
+	@SUDO chown -R root:admin "${WORK_D}/Applications/Footprints Statusbar.app"
 
 TITLE=oit_footprints_statusbar
 REVERSE_DOMAIN=edu.ohio.oit.desktop-support
-PAYLOAD=unbz2-applications-FootprintsStatusbar \
+PAYLOAD=unbz2-applications-FootprintsStatusbar.app \
 		pack-script-postflight \
 		pack-script-preflight \
 		pack-Library-LaunchAgents-edu.ohio.oit.desktop_support.footprints_statusbar.plist
-PACKAGE_VERSION=12.2
+PACKAGE_VERSION=1.1
 
 
