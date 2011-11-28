@@ -27,15 +27,18 @@ PAYLOAD=pack-Library-Management_iLok_Connect-data.csv\
 		pack-Library-LaunchAgents-edu.ohio.scripps.mdia.ilok_connect.plist
 PACKAGE_VERSION=1.0
 
+# Create /Library/Management
 l_Library_Management: l_Library
 	@sudo mkdir -p ${WORK_D}/Library/Management
 	@sudo chown root:wheel ${WORK_D}/Library/Management
 	@sudo chmod 755 ${WORK_D}/Library/Management
 
+# Create /Library/Management/ilok_connect
 l_Library_Management_iLok_Connect: l_Library_Management
 	@sudo mkdir -p ${WORK_D}/Library/Management/ilok_connect
 	@sudo chown root:wheel ${WORK_D}/Library/Management/ilok_connect
 	@sudo chmod 755 ${WORK_D}/Library/Management/ilok_connect
 
+# Install at /Library/Management/ilok_connect
 pack-Library-Management_iLok_Connect-%: % l_Library_Management_iLok_Connect
 	@sudo ${INSTALL} -m 644 -g wheel -o root $< ${WORK_D}/Library/Management/ilok_connect
