@@ -8,6 +8,8 @@ tmp/**/*
 *.dmg
 *.zip
 *.app
+data.csv
+*favorites.plist
 ppd/
 cupsd.conf
 printers.conf
