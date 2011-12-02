@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#Ensure that SX Virtual Link.app is already installed
+if [ ! -d "/Applications/SX Virtual Link.app" ]; then
+	echo "SX Virtual Link is not installed"
+	exit 1
+fi
+
+echo "SX Virtual Link is installed"
+exit 0

@@ -24,7 +24,9 @@ PAYLOAD=pack-Library-Management_iLok_Connect-data.csv\
 		pack-Library-Management_iLok_Connect-default-jp.silex.favorites.plist\
 		pack-Library-Management_iLok_Connect-jp.silex.configuration.plist\
 		pack-Library-Management_iLok_Connect-edu.ohio.scripps.mdia.ilok_connect.rb\
-		pack-Library-LaunchAgents-edu.ohio.scripps.mdia.ilok_connect.plist
+		pack-Library-LaunchAgents-edu.ohio.scripps.mdia.ilok_connect.plist\
+		pack-script-postflight \
+		pack-script-preflight
 PACKAGE_VERSION=1.0
 
 # Create /Library/Management

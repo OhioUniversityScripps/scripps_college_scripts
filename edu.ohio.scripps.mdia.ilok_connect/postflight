@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#Hide SX Virtual Link from dock/force quit because!
+/usr/libexec/plistbuddy -c "Add :LSUIElement string 1" /Applications/SX\ Virtual\ Link.app/Contents/Info.plist
