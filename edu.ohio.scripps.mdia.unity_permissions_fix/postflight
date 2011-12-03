@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#Delete the AngryBots at /Users/Shared/Unity/AngryBots, because it is no longer needed
+rm -rf /Users/Shared/Unity/AngryBots
