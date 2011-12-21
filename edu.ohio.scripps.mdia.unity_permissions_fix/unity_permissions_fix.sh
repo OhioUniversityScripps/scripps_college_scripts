@@ -7,13 +7,13 @@
 
 if [ ! -d "$HOME/Documents/Unity/AngryBots" ]; then
 	#Make directory and then unzip AngryBots into the users Documents folder
-	mkdir -p $HOME/Documents/Unity/
-	unzip /Library/Management/unity_permissions_fix/AngryBots.zip -d $HOME/Documents/Unity
+	mkdir -p /Users/Shared/Unity
+	mkdir -p /Users/Shared/Unity/AngryBots-$USER
+	unzip /Library/Management/unity_permissions_fix/AngryBots.zip -d /Users/Shared/Unity/AngryBots-$USER
 fi
 
 #Make the Shared Unity directory and set permissions correctly
-mkdir -p /Users/Shared/Unity
-chmod -R 777 /Users/Shared/Unity
+chmod -R 777 /Users/Shared/Unity/AngryBots-$USER
 
 #Symbolically link the expected location (/Users/Shared/Unity/AngryBots) to the copied location
-ln -sf $HOME/Documents/Unity/AngryBots /Users/Shared/Unity/AngryBots
+ln -sf /Users/Shared/Unity/AngryBots-$USER /Users/Shared/Unity/AngryBots
