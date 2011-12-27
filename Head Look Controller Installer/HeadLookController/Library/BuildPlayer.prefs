@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Enabled</key>
+	<array/>
+	<key>PathNames</key>
+	<array/>
+	<key>standaloneOSXUniversal LastLocation</key>
+	<string>/Users/rune/Desktop/Motion Analysis.app</string>
+	<key>standaloneWin32 LastLocation</key>
+	<string>/Users/rune/Desktop/Walking</string>
+	<key>webplayer LastLocation</key>
+	<string>/Users/rune/Desktop/step_walk_06.unity3d</string>
+</dict>
+</plist>
