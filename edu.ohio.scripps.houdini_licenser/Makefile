@@ -24,7 +24,7 @@ PAYLOAD=pack-Library-Management_houdini_licenser-edu.ohio.scripps.houdini_licens
 		pack-Library-Management_houdini_licenser-edu.ohio.scripps.houdini_licenser-boot.sh\
 		pack-Library-LaunchAgents-edu.ohio.scripps.houdini_licenser-login.plist\
 		pack-Library-LaunchDaemons-edu.ohio.scripps.houdini_licenser-boot.plist
-PACKAGE_VERSION=1.0
+PACKAGE_VERSION=1.1
 
 # Create /Library/Management
 l_Library_Management: l_Library
