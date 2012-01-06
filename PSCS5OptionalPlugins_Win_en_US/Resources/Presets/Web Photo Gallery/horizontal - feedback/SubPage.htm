@@ -1,0 +1,141 @@
+<html>
+<head>
+	<title>%SUBPAGETITLE%</title> 
+	<meta http-equiv="content-type" content="text/html; charset=%CHARSET%">
+	<meta name="generator" content="%CONTENT_GENERATOR%">
+	<link href="../images/galleryStyle.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		previousArrowover = newImage("../images/previousArrowover.gif");
+		nextArrowover = newImage("../images/nextArrowover.gif");
+		preloadFlag = true;
+	}
+}
+
+// -->
+</script> 
+</head>
+<body leftmargin="0" marginheight="0" marginwidth="0" topmargin="0" bgcolor="%BGCOLOR%" onload="preloadImages(); top.BottomFrame.updateFeedback('%FILENAME%');" onunload="top.BottomFrame.checkForUnSavedChanges('%FILENAME%');">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td align="center" valign="middle">
+			<table width="100" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><img src="../images/3dEdgeNW.gif" width="3" height="3"></td>
+					<td background="../images/3dEdgeN.gif"><img src="../images/spacer.gif" width="3" height="3"></td>
+					<td><img src="../images/3dEdgeNE.gif" width="6" height="3"></td>
+				</tr>
+				<tr>
+					<td background="../images/3dEdgeW.gif"><img src="../images/spacer.gif" width="3" height="3"></td>
+					<td><table width="100" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td align="center" valign="middle"><img src="%IMAGESRC%" %IMAGE_WIDTH% %IMAGE_HEIGHT% border="%IMAGEBORDER%" alt="%ALT%"></td>
+								<td><img src="../images/spacer.gif" width="2" height="2"></td>
+								<td><table width="225" %IMAGE_HEIGHT% border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td bgcolor="#CCCCCC">
+												<div id="titleframe">
+													<div class="titleContent">
+														<div class="banner">
+															<div class="title">%HEADER%</div>
+															<div class="info">%PHOTOGRAPHER%</div>
+															<div class="info">%DATE%</div>
+															<div class="info">%CONTACTINFO%</div>
+															<div class="email"><a href="mailto:%EMAIL%">%EMAIL%</a></div>
+														</div>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr>
+										<td><img src="../images/spacer.gif" width="2" height="2"></td>
+										</tr>
+										<tr>
+											<td bgcolor="#CCCCCC" height="100%" valign="top">
+												<div id="imageInfo">
+													<div class="content"><span class="header">FILE: </span>%FILENAME%</div>
+													<div class="content"><span class="header">TITLE: </span>%CAPTIONTITLE%</div>											
+													<div class="content"><span class="header">DESCRIPTION: </span>%FILEINFO%</div>
+													<div class="contentLast"><span class="header">CREDITS: </span>%CREDITS%</div>
+												
+												</div>
+											</td>
+										</tr>
+										<tr>
+										<td><img src="../images/spacer.gif" width="2" height="2"></td>
+										</tr>
+										<tr>
+											<td bgcolor="#CCCCCC">
+												<div id="feedback"><form name="wpgFeedback">
+													<table width="225" border="0" cellspacing="3" cellpadding="0">
+			<tr>
+				<td colspan="2"><input type="checkbox" name="approved" align="absmiddle" onclick="top.BottomFrame.setAsUnsaved();"><span class="checkBoxText">Approved</span>&nbsp;<input type="checkbox" name="other" align="absmiddle" onclick="top.BottomFrame.setAsUnsaved();"><span class="checkBoxText">Other</span><span class="userAlert"><img name="saved" src="../images/spacer.gif" width="50" height="16"></span></td>
+			</tr>
+			<tr>
+				<td height="10" colspan="2"><textarea name="comments" style="width:100%; height:40px;" class="caption" onchange="top.BottomFrame.setAsUnsaved();"></textarea></td>
+			</tr>
+			<tr>
+				<td width="50%"><input type="button" onclick="top.BottomFrame.addComment('%FILENAME%')" value=" Save Feedback " class="button"></td>
+				<td width="50%"><input type="button" onclick="top.BottomFrame.removeFeedback('%FILENAME%')" value=" Remove Feedback " class="button"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="button" onclick="top.BottomFrame.sendFeedback('%FILENAME%')" value=" E-Mail Feedback " class="button"></td></tr></table>
+													</form>
+												</div>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td background="../images/3dEdgeE.gif"><img src="../images/spacer.gif" width="6" height="6"></td>
+				</tr>
+				<tr>
+					<td><img src="../images/3dEdgeSW.gif" width="3" height="6"></td>
+					<td background="../images/3dEdgeS.gif"><img src="../images/spacer.gif" width="6" height="6"></td>
+					<td><img src="../images/3dEdgeSE.gif" width="6" height="6"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr height="10">
+	<td align="center"><table width="2" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+    <a href="%PREVIMAGE%" onMouseOver="changeImages('previousArrow', '../images/previousArrowover.gif'); return true;" onMouseOut="changeImages('previousArrow', '../images/previousArrow.gif'); return true;"><img name="previousArrow" src="../images/previousArrow.gif" width=47 height=27 border=0></a>
+    </td>
+    <td>
+    <a href="%NEXTIMAGE%" onMouseOver="changeImages('nextArrow', '../images/nextArrowover.gif'); return true;" onMouseOut="changeImages('nextArrow', '../images/nextArrow.gif'); return true;"><img name="nextArrow" src="../images/nextArrow.gif" width=47 height=27 border=0></a>
+    </td>
+  </tr>
+  <tr>
+    <td><img src="../images/spacer.gif" width="47" height="4"></td>
+    <td><img src="../images/spacer.gif" width="47" height="4"></td>
+  </tr>
+</table>
+	</td>
+	</tr>
+</table>
+</body>
+</html>

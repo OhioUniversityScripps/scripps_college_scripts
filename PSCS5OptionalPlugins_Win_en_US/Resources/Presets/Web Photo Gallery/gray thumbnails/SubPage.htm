@@ -1,0 +1,85 @@
+<html>
+<head>
+	<TITLE>%TITLE%</TITLE>
+	<META name="generator" content="%CONTENT_GENERATOR%">
+	<META http-equiv="Content-Type" content="text/html; charset=%CHARSET%">
+	<link href="../images/galleryStyle.css" rel="stylesheet" type="text/css">
+
+	<script>
+
+	function ifExistsWrite(str){
+		var re = new RegExp ('\"', 'gi') ;
+		var newstr = str.replace(re, '&quot;');
+		if (newstr != "")
+			document.write(newstr+"<br>");
+	}
+
+	</script>
+
+</head>
+<body bgcolor="#4E4D4D" marginheight=0 marginwidth=0 leftmargin=0 topmargin=0>
+<table width=580 cellpadding=0 cellspacing=0>
+<td>
+<div id="titleframe">
+	<div class="titleContent">
+		<div class="banner">
+			<div class="title">%HEADER%</div>
+			<div class="info">%PHOTOGRAPHER%</div>
+			<div class="info">%DATE%</div>
+
+		</div>
+	</div>
+</div>
+<td>
+<td align=right valign=top>
+<div id="titleframe">
+	<div class="titleContent">
+		<div class="banner">
+			<div class="info">%CONTACTINFO%</div>
+			<div class="email"><a href="mailto:%EMAIL%">%EMAIL%</a></div>
+		</div>
+	</div>
+</div>
+</td>
+</tr>
+</table>
+<table width=580>
+<tr><td align=middle valign=top>
+
+<table>
+<tr><td align=middle valign=top>
+<tr>
+<td valign=top>
+<img src="%IMAGESRC%" %IMAGE_WIDTH% %IMAGE_HEIGHT% alt="%ALT%" style="border:%IMAGEBORDER%pt solid white"><br>
+</td>
+</tr>
+</table>
+
+<table>
+<tr><td align=middle valign=top>
+<table cellpadding=0 cellspacing=0 border=0>
+<tr>
+<td align=middle>
+<div id="imageInfo">
+<div class="content">
+<script>
+ifExistsWrite("%FILENAME%");
+ifExistsWrite("%CAPTIONTITLE%");
+ifExistsWrite("%FILEINFO%");
+ifExistsWrite("%CREDITS%");
+ifExistsWrite("%COPYRIGHT%");
+</script>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+</body>

@@ -1,0 +1,87 @@
+<html>
+<head>
+<TITLE>%TITLE%</TITLE>
+<META name="generator" content="%CONTENT_GENERATOR%">
+<META http-equiv="Content-Type" content="text/html; charset=%CHARSET%">
+<link href="../images/galleryStyle.css" rel="stylesheet" type="text/css">
+
+<script>
+
+function ifExistsWrite(str){
+	var re = new RegExp ('\"', 'gi') ;
+	var newstr = str.replace(re, '&quot;');
+	if (newstr != "")
+		document.write(newstr+"<br>");
+}
+
+</script>
+
+</head>
+<body bgcolor="#FFFFFF" marginheight=0 marginwidth=0 leftmargin=0 topmargin=0>
+<br>
+
+<table width=100% height=100%>
+<tr><td align=middle valign=middle>
+
+<table>
+<tr>
+<td colspan=3 align=middle>
+<a href="%CURRENTINDEXANCHOR%"><img border=0 vspace=12 src="../images/arrow_up.gif"></a>
+</td>
+</tr>
+
+
+<tr>
+<td width=17 valign=middle><a href="%PREVIMAGE%"><IMG hspace=15 SRC="../images/arrow_prev.gif" BORDER=0></a></td>
+<td align=middle valign=top %IMAGE_WIDTH%>
+<table cellpadding=0 cellspacing=0 border=0 %IMAGE_WIDTH%>
+<tr>
+<td valign=top>
+<img src="%IMAGESRC%" %IMAGE_WIDTH% %IMAGE_HEIGHT% alt="%ALT%" style="border:%IMAGEBORDER%pt solid white"><br>
+</td>
+<td valign=top background="../images/wh_rt.gif">
+<img src="../images/wh_top_rt.gif">
+</td>
+</tr>
+<tr>
+<td background="../images/wh_bot.gif">
+<img src="../images/wh_bot_lt.gif"><br>
+</td>
+<td valign=top>
+<img src="../images/wh_bot_corner.gif"><br>
+</td>
+</tr>
+</table>
+</td>
+<td align=right width=17 valign=middle><a href="%NEXTIMAGE%"><img hspace=5 border=0 src="../images/arrow_next.gif"></a></td>
+</tr>
+</table>
+
+<table>
+<tr><td align=middle valign=top %IMAGE_WIDTH%>
+<table cellpadding=0 cellspacing=0 border=0 %IMAGE_WIDTH%>
+<tr>
+<td align=middle>
+<div id="imageInfo">
+<div class="content">
+<script>
+ifExistsWrite("%FILENAME%");
+ifExistsWrite("%CAPTIONTITLE%");
+ifExistsWrite("%FILEINFO%");
+ifExistsWrite("%CREDITS%");
+ifExistsWrite("%COPYRIGHT%");
+</script>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+</body>
