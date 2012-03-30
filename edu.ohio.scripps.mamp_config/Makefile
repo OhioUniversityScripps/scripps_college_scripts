@@ -22,7 +22,7 @@ TITLE=edu.ohio.scripps.mamp_config
 REVERSE_DOMAIN=edu.ohio.scripps
 PAYLOAD=pack-Library-Management_mamp_config-mamp_config.sh\
 		pack-Library-LaunchAgents-edu.ohio.scripps.mamp_config.plist
-PACKAGE_VERSION=1.0
+PACKAGE_VERSION=1.1
 
 # Create /Library/Management
 l_Library_Management: l_Library

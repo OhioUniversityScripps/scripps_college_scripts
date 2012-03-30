@@ -1,14 +1,11 @@
 #!/bin/bash
 
-DOC_ROOT="/Applications/MAMP/htdocs"
-TEMP_LOC="/Volumes/Temporary/www"
-
-#Create and set permissions on the folder 
-mkdir -p $TEMP_LOC
+MAMP_ROOT="/Applications/MAMP/htdocs"
+DOC_LOC="$HOME/Documents"
 
 #Symlink $TEMP_LOC to the $DOC_ROOT
-if [ ! -d "$DOC_ROOT/www" ]; then
-	ln -s $TEMP_LOC $DOC_ROOT/www
+if [ ! -d "$MAMP_ROOT/$USER" ]; then
+	ln -s $DOC_LOC $MAMP_ROOT/$USER
 fi
 
 #Preference Changes
