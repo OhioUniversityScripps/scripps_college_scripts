@@ -26,8 +26,8 @@ sudo mkdir -p "$MANAGED_INSTALL_DIR/Cache"
 sudo chmod 700 "$MANAGED_INSTALL_DIR/Cache"
 
 #Set MunkiServer Locations
-sudo defaults write /Library/Preferences/ManagedInstalls SoftwareRepoURL "http://od3.ohio.edu"
-sudo defaults write /Library/Preferences/ManagedInstalls ManifestURL "http://od3.ohio.edu"
+sudo defaults write /Library/Preferences/ManagedInstalls SoftwareRepoURL "https://munki.test.oit.ohio.edu"
+sudo defaults write /Library/Preferences/ManagedInstalls ManifestURL "https://munki.test.oit.ohio.edu"
 
 #Setup Certificate Directories
 # sudo defaults write /Library/Preferences/ManagedInstalls SoftwareRepoCACertificate "$MANAGED_INSTALL_DIR/certs/ca.pem"
