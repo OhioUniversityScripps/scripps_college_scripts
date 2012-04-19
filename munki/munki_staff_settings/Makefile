@@ -21,4 +21,4 @@ include /usr/local/share/luggage/luggage.make
 TITLE=Munki_Staff_Settings
 REVERSE_DOMAIN=edu.ohio.oit.pkg.munki_staff_settings
 PAYLOAD=pack-script-postflight
-PACKAGE_VERSION=1.0
+PACKAGE_VERSION=1.1
