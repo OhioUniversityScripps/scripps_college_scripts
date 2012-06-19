@@ -23,4 +23,4 @@ include ../luggage_munki_helper.make
 TITLE=Munki_OU_Preflight
 REVERSE_DOMAIN=edu.ohio.oit.pkg
 PAYLOAD=pack-usr-local-munki-preflight
-PACKAGE_VERSION=1.0
+PACKAGE_VERSION=1.1
