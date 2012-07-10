@@ -1,4 +1,0 @@
-#!/bin/bash
-
-#Append line to sudoers file to allow passwordless access for nessus user
-echo "nessus ALL=(ALL) NOPASSWD:ALL" >> /private/etc/sudoers
