@@ -1,0 +1,45 @@
+#!/bin/sh
+
+MANAGED_INSTALL_DIR="/Library/Managed Installs"
+
+#Make Munki directories more secure
+sudo mkdir -p $MANAGED_INSTALL_DIR
+sudo /usr/sbin/chown -R root:wheel $MANAGED_INSTALL_DIR
+sudo /bin/chmod -R 755 $MANAGED_INSTALL_DIR
+
+sudo mkdir -p "$MANAGED_INSTALL_DIR/catalogs"
+sudo /bin/chmod 700 "$MANAGED_INSTALL_DIR/catalogs"
+
+sudo mkdir -p "$MANAGED_INSTALL_DIR/Archives"
+sudo /bin/chmod 700 "$MANAGED_INSTALL_DIR/Archives"
+
+sudo mkdir -p "$MANAGED_INSTALL_DIR/Logs"
+sudo /bin/chmod 700 "$MANAGED_INSTALL_DIR/Logs"
+
+sudo mkdir -p "$MANAGED_INSTALL_DIR/manifests"
+sudo /bin/chmod 700 "$MANAGED_INSTALL_DIR/manifests"
+
+sudo mkdir -p "$MANAGED_INSTALL_DIR/certs"
+sudo /bin/chmod 700 "$MANAGED_INSTALL_DIR/certs"
+
+sudo mkdir -p "$MANAGED_INSTALL_DIR/Cache"
+sudo /bin/chmod 700 "$MANAGED_INSTALL_DIR/Cache"
+
+#Set MunkiServer Locations
+sudo /usr/bin/defaults write /Library/Preferences/ManagedInstalls SoftwareRepoURL "https://munki.test.oit.ohio.edu"
+sudo /usr/bin/defaults write /Library/Preferences/ManagedInstalls ManifestURL "https://munki.test.oit.ohio.edu"
+
+#Setup Certificate Directories
+# sudo /usr/bin/defaults write /Library/Preferences/ManagedInstalls SoftwareRepoCACertificate "$MANAGED_INSTALL_DIR/certs/ca.pem"
+# sudo /usr/bin/defaults write /Library/Preferences/ManagedInstalls ClientCertificatePath "$MANAGED_INSTALL_DIR/certs/client.pem"
+
+#Set Core Preferences
+/usr/bin/defaults write /Library/Preferences/ManagedInstalls AppleSoftwareUpdatesOnly -bool false
+/usr/bin/defaults write /Library/Preferences/ManagedInstalls ShowRemovalDetail -bool false
+/usr/bin/defaults write /Library/Preferences/ManagedInstalls SuppressStopButtonOnInstall -bool true
+/usr/bin/defaults write /Library/Preferences/ManagedInstalls SuppressUserNotification -bool false
+/usr/bin/defaults write /Library/Preferences/ManagedInstalls InstallAppleSoftwareUpdates -bool true
+
+# For labs - seperate package or MCX
+# /usr/bin/defaults write /Library/Preferences/ManagedInstalls SuppressUserNotification -bool true
+# /usr/bin/defaults write /Library/Preferences/ManagedInstalls InstallAppleSoftwareUpdates -bool false
