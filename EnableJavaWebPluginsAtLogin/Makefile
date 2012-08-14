@@ -14,7 +14,7 @@
 #   limitations under the License.
 #
 # 
-#  Luggage makefile for installing the MAMP -- this will run at every startup
+#  Luggage makefile for enabling Java Web Plugin and fixing the warning that pops up at login.
 
 include /usr/local/share/luggage/luggage.make
 
