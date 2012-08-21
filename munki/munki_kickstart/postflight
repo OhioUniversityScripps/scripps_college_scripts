@@ -43,3 +43,6 @@ sudo /usr/bin/defaults write /Library/Preferences/ManagedInstalls ManifestURL "h
 # For labs - seperate package or MCX
 # /usr/bin/defaults write /Library/Preferences/ManagedInstalls SuppressUserNotification -bool true
 # /usr/bin/defaults write /Library/Preferences/ManagedInstalls InstallAppleSoftwareUpdates -bool false
+
+# Check for updates after restart
+/usr/bin/touch /Users/Shared/.com.googlecode.munki.checkandinstallatstartup
