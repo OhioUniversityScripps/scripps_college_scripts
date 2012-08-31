@@ -1,0 +1,7 @@
+#!/bin/sh
+
+rm -rf "/Applications/Microsoft Lync.app"
+rm -rf "/Applications/Microsoft Messenger.app"
+rm -rf "/Applications/Microsoft Communicator.app"
+rm -rf "/Applications/Remote Desktop Connection.app"
+rm -rf "/Applications/Microsoft Office 2011/Microsoft Outlook.app"

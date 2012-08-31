@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# This is a installcheck_script for use with Munki.  This script will check to see if 
+# Microsoft Lync, Microsoft Messenger, Microsoft Communicator, Remote Desktop Connection 
+# or Microsft Outlook are installed on the current machine, if they are, they will run the postflight
+# <key>checkinstall_script</key>
+# <string>script</string>
+
+REMOVE=0 # default to not removing anyting
+
+if [[ -d "/Applications/Microsoft Communicator.app" ]]; then
+  REMOVE=1
+fi
+
+if [[ -d "/Applications/Microsoft Lync.app" ]]; then
+  REMOVE=1
+fi
+
+if [[ -d "/Applications/Microsoft Messenger.app" ]]; then
+  REMOVE=1
+fi
+
+if [[ -d "/Applications/Remote Desktop Connection.app" ]]; then
+  REMOVE=1
+fi
+  
+if [[ -d "/Applications/Microsoft Office 2011/Microsoft Outlook.app" ]]; then
+  REMOVE=1
+fi
+
+echo $REMOVE
+if [[ "$REMOVE" -eq "1" ]]; then
+  echo "Will remove"
+  exit 0 # do the removal
+else 
+  echo "Will not remove"
+  exit 1 # already removed, do nothing
+fi
