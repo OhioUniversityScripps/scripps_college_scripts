@@ -1,0 +1,9 @@
+#!/bin/zsh
+SERIAL=`system_profiler SPHardwareDataType | awk '/Serial Number/ { print $4; }'`
+LICENSE_DIR="/Users/Shared/DSP-Quattro/Support Files"
+
+/bin/mkdir -p $LICENSE_DIR
+/bin/mv /Library/Management/DSP_Quattro_Licenses/${SERIAL}.sig ${LICENSE_DIR}/DSP-Quattro4License.sig
+
+/usr/sbin/chown -Rf root:wheel ${LICENSE_DIR}
+/bin/chmod -Rf 755 ${LICENSE_DIR}

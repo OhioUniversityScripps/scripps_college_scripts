@@ -16,3 +16,5 @@ printers.conf
 authorized_keys
 Maya_AdLM_2012_License/postflight
 edu.ohio.scripps.versions_lic/*.lic
+*.sig
+*.mdia.dsp_quattro_licenser/*/*.txt
