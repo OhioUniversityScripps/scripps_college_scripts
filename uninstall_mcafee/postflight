@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ -f "/usr/local/McAfee/uninstallMSC" ]; then
+  # Uninstall McAfee
+  /usr/local/McAfee/uninstallMSC
+fi
+
+exit 0
