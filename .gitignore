@@ -18,3 +18,5 @@ Maya_AdLM_2012_License/postflight
 edu.ohio.scripps.versions_lic/*.lic
 *.sig
 *.mdia.dsp_quattro_licenser/*/*.txt
+edu.ohio.scripps.transcriva_licenser/transcriva_licenser.sh
+edu.ohio.scripps.transcriva_licenser/com.bartastechnologies.transcriva2app.plist
