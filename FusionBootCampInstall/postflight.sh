@@ -1,0 +1,2 @@
+#!/bin/bash
+defaults write com.vmware.fusion VMFavoritesListDefaults2 -array-add '{	guestOS = "windows7-64"; name = "Boot Camp"; path = "/Users/coms/Library/Application Support/VMware Fusion/Virtual Machines/Boot Camp/Boot Camp.vmwarevm";}'
