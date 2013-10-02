@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# Disable munki's launchd task, enable ours
+/bin/launchctl unload -w /Library/LaunchDaemons/com.googlecode.munki.managedsoftwareupdate-check.plist
+/bin/launchctl load   -w /Library/LaunchDaemons/edu.ohio.munki.managedsoftwareupdate-check.plist
+
 MANAGED_INSTALL_DIR="/Library/Managed Installs"
 
 #Make Munki directories more secure
@@ -29,10 +33,6 @@ sudo /bin/chmod 700 "$MANAGED_INSTALL_DIR/Cache"
 sudo /usr/bin/defaults write /Library/Preferences/ManagedInstalls SoftwareRepoURL "https://munki.test.oit.ohio.edu"
 sudo /usr/bin/defaults write /Library/Preferences/ManagedInstalls ManifestURL "https://munki.test.oit.ohio.edu"
 
-#Setup Certificate Directories
-# sudo /usr/bin/defaults write /Library/Preferences/ManagedInstalls SoftwareRepoCACertificate "$MANAGED_INSTALL_DIR/certs/ca.pem"
-# sudo /usr/bin/defaults write /Library/Preferences/ManagedInstalls ClientCertificatePath "$MANAGED_INSTALL_DIR/certs/client.pem"
-
 #Set Core Preferences
 /usr/bin/defaults write /Library/Preferences/ManagedInstalls AppleSoftwareUpdatesOnly -bool false
 /usr/bin/defaults write /Library/Preferences/ManagedInstalls ShowRemovalDetail -bool false
@@ -41,8 +41,11 @@ sudo /usr/bin/defaults write /Library/Preferences/ManagedInstalls ManifestURL "h
 /usr/bin/defaults write /Library/Preferences/ManagedInstalls InstallAppleSoftwareUpdates -bool true
 
 # For labs - seperate package or MCX
-# /usr/bin/defaults write /Library/Preferences/ManagedInstalls SuppressUserNotification -bool true
-# /usr/bin/defaults write /Library/Preferences/ManagedInstalls InstallAppleSoftwareUpdates -bool false
+# /usr/bin/defaults write /Library/Preferences/ManagedInstalls SuppressUserNotification      -bool true
+# /usr/bin/defaults write /Library/Preferences/ManagedInstalls InstallAppleSoftwareUpdates   -bool false
+# /usr/bin/defaults write /Library/Preferences/ManagedInstalls BlockUpdateStartTime          -string "8:00"
+# /usr/bin/defaults write /Library/Preferences/ManagedInstalls BlockUpdateEndTime            -string "18:00"
+# /usr/bin/defaults write /Library/Preferences/ManagedInstalls BlockUpdateDays               -string "0,1,2,3,4"
 
 # Check for updates after restart
 /usr/bin/touch /Users/Shared/.com.googlecode.munki.checkandinstallatstartup

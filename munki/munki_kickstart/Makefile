@@ -17,14 +17,15 @@
 # 
 #  Luggage makefile for building a package that copies needed kickstart files for Munki
 
+USE_PKGBUILD=1
 include /usr/local/share/luggage/luggage.make
 
 TITLE=munki_kickstart
 REVERSE_DOMAIN=edu.ohio.oit.pkg
 PAYLOAD=pack-usr-local-munki-postflight\
         pack-usr-local-munki-preflight\
-        pack-script-postflight
-# PACKAGE_VERSION=1.0
+        pack-script-postinstall\
+        pack-Library-LaunchDaemons-edu.ohio.munki.managedsoftwareupdate-check.plist
 
 l_usr_local_munki: l_usr_local
 	@sudo mkdir -p ${WORK_D}/usr/local/munki
@@ -36,3 +37,4 @@ pack-usr-local-munki-preflight: l_usr_local_munki
 
 pack-usr-local-munki-postflight: l_usr_local_munki
 	@sudo ${INSTALL} -m 0755 -o root -g wheel munki_postflight ${WORK_D}/usr/local/munki/postflight
+
