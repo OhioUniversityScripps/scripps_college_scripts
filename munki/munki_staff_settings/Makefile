@@ -1,5 +1,5 @@
 #
-#   Copyright 2011 Ricky Chilcott <chilcotr@ohio.edu>
+#   Copyright 2013 Ricky Chilcott <chilcotr@ohio.edu>
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -14,11 +14,12 @@
 #   limitations under the License.
 #
 # 
-#  Luggage makefile for building a package that installs a printer.
+#  Luggage makefile for building a package that installs munki staff settings
 
+USE_PKGBUILD=1
 include /usr/local/share/luggage/luggage.make
 
 TITLE=Munki_Staff_Settings
 REVERSE_DOMAIN=edu.ohio.oit.pkg.munki_staff_settings
-PAYLOAD=pack-script-postflight
-PACKAGE_VERSION=1.1
+PAYLOAD=pack-script-postinstall
+PACKAGE_VERSION=1.2
