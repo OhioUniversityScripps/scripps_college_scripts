@@ -1,44 +1,47 @@
 #!/bin/sh
 
+TARGET_PATH=$2
+MANAGED_INSTALL_DIR="$TARGET_PATH/Library/Managed Installs"
+LIBRARY_PREFERENCES="$TARGET_PATH/Library/Preferences"
+
 # Disable munki's launchd task, enable ours
 /bin/launchctl unload -w /Library/LaunchDaemons/com.googlecode.munki.managedsoftwareupdate-check.plist
 /bin/launchctl load   -w /Library/LaunchDaemons/edu.ohio.munki.managedsoftwareupdate-check.plist
 
-MANAGED_INSTALL_DIR="/Library/Managed Installs"
-
 #Make Munki directories more secure
-sudo mkdir -p $MANAGED_INSTALL_DIR
-sudo /usr/sbin/chown -R root:wheel $MANAGED_INSTALL_DIR
-sudo /bin/chmod -R 755 $MANAGED_INSTALL_DIR
+mkdir -p $MANAGED_INSTALL_DIR
+/usr/sbin/chown -R root:wheel $MANAGED_INSTALL_DIR
+/bin/chmod -R 755 $MANAGED_INSTALL_DIR
 
-sudo mkdir -p "$MANAGED_INSTALL_DIR/catalogs"
-sudo /bin/chmod 700 "$MANAGED_INSTALL_DIR/catalogs"
+mkdir -p "$MANAGED_INSTALL_DIR/catalogs"
+/bin/chmod 700 "$MANAGED_INSTALL_DIR/catalogs"
 
-sudo mkdir -p "$MANAGED_INSTALL_DIR/Archives"
-sudo /bin/chmod 700 "$MANAGED_INSTALL_DIR/Archives"
+mkdir -p "$MANAGED_INSTALL_DIR/Archives"
+/bin/chmod 700 "$MANAGED_INSTALL_DIR/Archives"
 
-sudo mkdir -p "$MANAGED_INSTALL_DIR/Logs"
-sudo /bin/chmod 700 "$MANAGED_INSTALL_DIR/Logs"
+mkdir -p "$MANAGED_INSTALL_DIR/Logs"
+/bin/chmod 700 "$MANAGED_INSTALL_DIR/Logs"
 
-sudo mkdir -p "$MANAGED_INSTALL_DIR/manifests"
-sudo /bin/chmod 700 "$MANAGED_INSTALL_DIR/manifests"
+mkdir -p "$MANAGED_INSTALL_DIR/manifests"
+/bin/chmod 700 "$MANAGED_INSTALL_DIR/manifests"
 
-sudo mkdir -p "$MANAGED_INSTALL_DIR/certs"
-sudo /bin/chmod 700 "$MANAGED_INSTALL_DIR/certs"
+mkdir -p "$MANAGED_INSTALL_DIR/certs"
+/bin/chmod 700 "$MANAGED_INSTALL_DIR/certs"
 
-sudo mkdir -p "$MANAGED_INSTALL_DIR/Cache"
-sudo /bin/chmod 700 "$MANAGED_INSTALL_DIR/Cache"
+mkdir -p "$MANAGED_INSTALL_DIR/Cache"
+/bin/chmod 700 "$MANAGED_INSTALL_DIR/Cache"
 
 #Set MunkiServer Locations
-sudo /usr/bin/defaults write /Library/Preferences/ManagedInstalls SoftwareRepoURL "https://munki.test.oit.ohio.edu"
-sudo /usr/bin/defaults write /Library/Preferences/ManagedInstalls ManifestURL "https://munki.test.oit.ohio.edu"
+mkdir -p $TARGET_PATH/Library/Preferences
+/usr/bin/defaults write $LIBRARY_PREFERENCES/ManagedInstalls SoftwareRepoURL "https://munki.test.oit.ohio.edu"
+/usr/bin/defaults write $LIBRARY_PREFERENCES/ManagedInstalls ManifestURL "https://munki.test.oit.ohio.edu"
 
 #Set Core Preferences
-/usr/bin/defaults write /Library/Preferences/ManagedInstalls AppleSoftwareUpdatesOnly -bool false
-/usr/bin/defaults write /Library/Preferences/ManagedInstalls ShowRemovalDetail -bool false
-/usr/bin/defaults write /Library/Preferences/ManagedInstalls SuppressStopButtonOnInstall -bool true
-/usr/bin/defaults write /Library/Preferences/ManagedInstalls SuppressUserNotification -bool false
-/usr/bin/defaults write /Library/Preferences/ManagedInstalls InstallAppleSoftwareUpdates -bool true
+/usr/bin/defaults write $LIBRARY_PREFERENCES/ManagedInstalls AppleSoftwareUpdatesOnly -bool false
+/usr/bin/defaults write $LIBRARY_PREFERENCES/ManagedInstalls ShowRemovalDetail -bool false
+/usr/bin/defaults write $LIBRARY_PREFERENCES/ManagedInstalls SuppressStopButtonOnInstall -bool true
+/usr/bin/defaults write $LIBRARY_PREFERENCES/ManagedInstalls SuppressUserNotification -bool false
+/usr/bin/defaults write $LIBRARY_PREFERENCES/ManagedInstalls InstallAppleSoftwareUpdates -bool true
 
 # For labs - seperate package or MCX
 # /usr/bin/defaults write /Library/Preferences/ManagedInstalls SuppressUserNotification      -bool true
@@ -48,4 +51,5 @@ sudo /usr/bin/defaults write /Library/Preferences/ManagedInstalls ManifestURL "h
 # /usr/bin/defaults write /Library/Preferences/ManagedInstalls BlockUpdateDays               -string "0,1,2,3,4"
 
 # Check for updates after restart
-/usr/bin/touch /Users/Shared/.com.googlecode.munki.checkandinstallatstartup
+mkdir -p $TARGET_PATH/Users/Shared
+/usr/bin/touch $TARGET_PATH/Users/Shared/.com.googlecode.munki.checkandinstallatstartup
