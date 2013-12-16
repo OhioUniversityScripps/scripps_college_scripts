@@ -1,0 +1,13 @@
+#!/bin/sh
+
+#Set Lab Preferences
+defaults write /Library/Preferences/ManagedInstalls AppleSoftwareUpdatesOnly      -bool false
+defaults write /Library/Preferences/ManagedInstalls InstallAppleSoftwareUpdates   -bool true
+defaults write /Library/Preferences/ManagedInstalls SuppressUserNotification      -bool true
+defaults write /Library/Preferences/ManagedInstalls SuppressStopButtonOnInstall   -bool true
+defaults write /Library/Preferences/ManagedInstalls ShowRemovalDetail             -bool false
+
+# Blockup Update settings
+/usr/bin/defaults write /Library/Preferences/ManagedInstalls BlockUpdateStartTime -string "8:00"
+/usr/bin/defaults write /Library/Preferences/ManagedInstalls BlockUpdateEndTime   -string "18:00"
+/usr/bin/defaults write /Library/Preferences/ManagedInstalls BlockUpdateDays      -string "0,1,2,3,4"
