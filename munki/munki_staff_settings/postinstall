@@ -1,0 +1,8 @@
+#!/bin/sh
+
+#Set Staff Preferences
+defaults write /Library/Preferences/ManagedInstalls AppleSoftwareUpdatesOnly      -bool false
+defaults write /Library/Preferences/ManagedInstalls InstallAppleSoftwareUpdates   -bool true
+defaults write /Library/Preferences/ManagedInstalls SuppressUserNotification      -bool true
+defaults write /Library/Preferences/ManagedInstalls SuppressStopButtonOnInstall   -bool false
+defaults write /Library/Preferences/ManagedInstalls ShowRemovalDetail             -bool false
