@@ -15,6 +15,7 @@
 #
 # 
 #  Luggage makefile for installing the adlmreg binary and executing the licensing postflight
+USE_PKGBUILD=1
 
 include /usr/local/share/luggage/luggage.make
 
@@ -22,4 +23,4 @@ TITLE=Maya_AdLM_2013_License
 REVERSE_DOMAIN=edu.ohio.scripps
 PAYLOAD=pack-usr-bin-adlmreg\
 		pack-script-postflight
-PACKAGE_VERSION=2013.1
+PACKAGE_VERSION=2013.2
