@@ -5,11 +5,11 @@ YEAR=2013
 LIC=/private/var/flexlm/${PRODUCT}${YEAR}.lic
 PRODCODE=657E1
 SERIAL=392-98114203
-SERVER=flexlm.mediaschool.ohio.edu
+SERVER=ent-licenses.ohio.edu
 LICENSEENV=/Applications/Autodesk/maya${YEAR}/${PRODUCT}.app/Contents/License.env
 
 # Network license file
-echo "SERVER ${SERVER} 0 2081" > ${LIC}
+echo "SERVER ${SERVER} 0 27000" > ${LIC}
 echo USE_SERVER >> ${LIC}
 echo VENDOR adskflex port=2080 >> ${LIC}
 chmod 644 ${LIC}
