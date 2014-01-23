@@ -1,0 +1,1 @@
+./server_mgr -i emulation/example_input -o emulation/example_output -hl 1

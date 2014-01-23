@@ -1,0 +1,10 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    optiflag (0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  optiflag
