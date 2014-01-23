@@ -85,14 +85,29 @@ def in_blocked_day():
         blockedDays = [day.strip() for day in blockedUpdateDays.split(',')]
         return todayNum in blockedDays
 
-# Set Client Identifier
-mac_address = get_mac_address('en0')
-set_client_identifier(mac_address)
+def main():
+    # support enterprise/802.1x user-context wifi auth.
+    # don't bother to perform preflight and exit OK immediately since there's no
+    # network connection.
+    if sys.argv[1] == 'logoutinstall':
+        sys.exit(0)
 
-# Should we block updates or continue on?
-if should_block_updates():
-    print 'Updates have been blocked at this time.'
-    sys.exit(1)
-else:
-    print 'Updates will continue at this time.'
-    sys.exit(0)
+    # Set Client Identifier
+    mac_address = get_mac_address('en0')
+    set_client_identifier(mac_address)
+      
+    if sys.argv[1] != 'logoutinstall':
+        print 'Checking to see if we are connected...'
+        # if not connected, 
+        # sys.exit(1)
+      
+    # Should we block updates or continue on?
+    if should_block_updates():
+        print 'Updates have been blocked at this time.'
+        sys.exit(1)
+    else:
+        print 'Updates will continue at this time.'
+        sys.exit(0)
+    
+if __name__ == '__main__':
+  main()

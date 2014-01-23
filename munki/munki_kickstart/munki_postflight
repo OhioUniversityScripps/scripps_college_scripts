@@ -51,12 +51,23 @@ def system_profiler_plist():
     tmp_path = "/tmp/system_profiler_{random}.plist".format(random=random.randint(0,1000))
     os.popen("/usr/sbin/system_profiler -xml SPHardwareDataType SPSoftwareDataType SPPrintersDataType > {path}".format(path=tmp_path))
     return tmp_path
-    
-post_command = "/usr/bin/curl {timeout} {ssl} --form \"managed_install_report_plist=@{lmirp}\" --form \"system_profiler_plist=@{spp}\" {cu}".format(timeout=timeout_option(), ssl=ssl_option(), lmirp=latest_managed_install_report_path(), spp=system_profiler_plist(), cu=checkin_url())
 
-if in_debug_or_test_mode():
-    print post_command
-    exit(0)
-else:
-    os.popen(post_command)
-    exit(0)
+
+def main():
+    # support enterprise/802.1x user-context wifi auth.
+    # don't bother to perform preflight and exit OK immediately since there's no
+    # network connection.
+    if sys.argv[1] == 'logoutinstall':
+        sys.exit(0)
+
+    post_command = "/usr/bin/curl {timeout} {ssl} --form \"managed_install_report_plist=@{lmirp}\" --form \"system_profiler_plist=@{spp}\" {cu}".format(timeout=timeout_option(), ssl=ssl_option(), lmirp=latest_managed_install_report_path(), spp=system_profiler_plist(), cu=checkin_url())
+
+    if in_debug_or_test_mode():
+        print post_command
+        exit(0)
+    else:
+        os.popen(post_command)
+        exit(0)
+        
+if __name__ == '__main__':
+  main()
