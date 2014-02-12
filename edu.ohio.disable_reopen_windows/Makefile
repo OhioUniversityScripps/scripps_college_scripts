@@ -17,6 +17,8 @@
 #  Luggage makefile for builing a package to disable the "reopen window" functionality made
 #  popular by Lion. YUCK!
 
+USE_PKGBUILD=1
+
 include /usr/local/share/luggage/luggage.make
 
 TITLE=edu.ohio.disable_reopen_windows
