@@ -1,0 +1,16 @@
+#!/bin/sh
+
+#Primary Time server for Company Macs
+TimeServer1=time.ohio.edu
+#Secondary Time server for Company Macs
+TimeServer2=time.nist.gov
+
+# Set the primary network server with systemsetup -setnetworktimeserver
+# Using this command will clear /etc/ntp.conf of existing entries and
+# add the primary time server as the first line.
+/usr/sbin/systemsetup -setnetworktimeserver $TimeServer1
+
+# Add the secondary time server as the second line in /etc/ntp.conf
+echo "server $TimeServer2" >> /etc/ntp.conf
+
+exit 0
