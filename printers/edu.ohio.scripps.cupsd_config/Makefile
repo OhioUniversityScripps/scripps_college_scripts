@@ -19,8 +19,8 @@
 USE_PKGBUILD=1
 include /usr/local/share/luggage/luggage.make
 
-TITLE=all_users_can_enable_printers
-REVERSE_DOMAIN=edu.ohio.all_users_can_enable_printers
+TITLE=cupsd_conf
+REVERSE_DOMAIN=edu.ohio.scripps.cupsd_conf
 PAYLOAD=pack-script-preinstall \
  				pack-script-postinstall \
 				pack-cupsd.conf
