@@ -21,10 +21,12 @@
 #
 #######################################################################################################
 
-import os, sys, time, commands, datetime
+import os, sys, time, commands, datetime, time
 from dateutil.parser import parse
 
 from munkilib import munkicommon
+from urlparse import urlparse
+from urllib2 import urlopen, URLError
 
 def set_client_identifier(ci):
     """set ClientIdentifier based on MAC Address"""
@@ -58,8 +60,7 @@ def should_block_updates():
         return False
 
 def in_blocked_mode():
-    runMode = sys.argv[1]
-    if (runMode == 'auto'):
+    if (run_mode() == 'auto'):
         return True
     else:
         return False
@@ -85,21 +86,40 @@ def in_blocked_day():
         blockedDays = [day.strip() for day in blockedUpdateDays.split(',')]
         return todayNum in blockedDays
 
+def run_mode():
+    return sys.argv[1]
+    
+def network_on():
+    try:
+        urlopen(munkicommon.pref('SoftwareRepoURL'),timeout=1)
+        return True
+    except URLError as err: pass
+    return False
+    
 def main():
-    # support enterprise/802.1x user-context wifi auth.
-    # don't bother to perform preflight and exit OK immediately since there's no
-    # network connection.
-    if sys.argv[1] == 'logoutinstall':
-        sys.exit(0)
-
     # Set Client Identifier
     mac_address = get_mac_address('en0')
     set_client_identifier(mac_address)
-      
-    if sys.argv[1] != 'logoutinstall':
-        print 'Checking to see if we are connected...'
-        # if not connected, 
-        # sys.exit(1)
+    
+    # support enterprise/802.1x user-context wifi auth.
+    # don't bother to perform preflight and exit OK immediately since there's no
+    # network connection.
+    if (run_mode() == 'logoutinstall'):
+        print 'Logout install, move along'
+        sys.exit(0)
+    
+    # Ping and check if munkiserver is up
+    bootstrap_file = '/Users/Shared/.com.googlecode.munki.checkandinstallatstartup'
+    serverUp = False
+    for unused_i in range(5):
+        if network_on():
+            serverUp = True
+            break
+        time.sleep(2)
+    if not serverUp:
+        if os.path.exists(bootstrap_file):
+            os.unlink(bootstrap_file)
+        sys.exit(1)
       
     # Should we block updates or continue on?
     if should_block_updates():
