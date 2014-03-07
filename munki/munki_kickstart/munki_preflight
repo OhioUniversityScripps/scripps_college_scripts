@@ -93,7 +93,7 @@ def network_on():
     try:
         urlopen(munkicommon.pref('SoftwareRepoURL'),timeout=1)
         return True
-    except URLError as err: pass
+    except Exception as err: pass
     return False
     
 def main():
