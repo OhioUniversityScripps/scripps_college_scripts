@@ -25,7 +25,7 @@ PAYLOAD=pack-script-preinstall \
  				pack-script-postinstall \
 				pack-cupsd.conf
 
-PACKAGE_VERSION=1.1
+PACKAGE_VERSION=1.2
 
 l_private_etc_cups: l_private_etc
 	@sudo mkdir -p ${WORK_D}/private/etc/cups
