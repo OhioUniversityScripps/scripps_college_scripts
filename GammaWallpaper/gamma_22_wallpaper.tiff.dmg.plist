@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>chilcotr</string>
+		<key>creation_date</key>
+		<date>2014-04-25T20:46:59Z</date>
+		<key>munki_version</key>
+		<string>2.0.0.1986</string>
+		<key>os_version</key>
+		<string>10.9.2</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>installer_item_hash</key>
+	<string>69629c9c19e5c0f2342cde2a32d3b0b2eefb614a7ee19fdc04f0cf919c0af2c6</string>
+	<key>installer_item_location</key>
+	<string>gamma_22_wallpaper.tiff.dmg</string>
+	<key>installer_item_size</key>
+	<integer>39</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>md5checksum</key>
+			<string>d78a2f8c29b2cc2b5c0a81f87087c58c</string>
+			<key>path</key>
+			<string>/Users/Shared/Wallpapers/gamma_22_wallpaper.tiff</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Users/Shared/Wallpapers/gamma_22_wallpaper.tiff</string>
+			<key>source_item</key>
+			<string>gamma_22_wallpaper.tiff</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Gamma Wallpaper</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>
+
