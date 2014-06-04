@@ -1,5 +1,5 @@
 #
-#   Copyright 2011 Ricky Chilcott <chilcotr@ohio.edu>
+#   Copyright 2014 Ricky Chilcott and Kahtan Al Jewary <chilcotr@ohio.edu>
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -22,9 +22,9 @@ include /usr/local/share/luggage/luggage.make
 
 TITLE=commandsets
 REVERSE_DOMAIN=edu.ohio.scripps.instructional_media.commandsets
-PAYLOAD=pack-IM-FCPX-RTG_CUSTOM_6v4.commandset\
+PAYLOAD=pack-IM-FCPX-RTG_CUSTOM_6.commandset\
         pack-IM-MOTION5-RTG_Final_Cut_Pro_Set.commandset
-PACKAGE_VERSION=1.0
+PACKAGE_VERSION=1.2
 
 # Create /Instructional Media/Commandsets
 l_instructional_media:
