@@ -23,7 +23,7 @@ TITLE=MouseLocator
 REVERSE_DOMAIN=com.2point5fish.mouselocator
 PAYLOAD=pack-usr-local-outset-login-every-mouse_locator_installer.sh\
 				pack-Library-Management-mouse-locator-MouseLocator.png\
-				pack-Library-Management-mouse-locator-MouseLocator.prefPane.tar.gz\
+				unbz2-preferencepanes-MouseLocator.prefPane\
 				
 PACKAGE_VERSION=1.1
 
