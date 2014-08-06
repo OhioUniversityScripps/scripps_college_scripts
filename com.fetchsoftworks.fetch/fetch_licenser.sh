@@ -1,3 +1,5 @@
+#!/bin/bash
+
 DOMAIN="${HOME}/Library/Preferences/com.fetchsoftworks.Fetch"
 
 defaults write ${DOMAIN} "RegistrantName" -string "Ohio University"
