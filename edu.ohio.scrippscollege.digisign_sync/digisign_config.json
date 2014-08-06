@@ -1,0 +1,20 @@
+{
+    "username": "",
+    "password": "",
+		"mount_point": "/Users/Shared/communication",
+		"rsync_cmd": "/usr/bin/rsync -av --perms --chmod=ug+rx,o+rwx --delete",
+		"share_point": "/communication",
+		"share_domain": "@shared.ohio.edu",
+		"mount_drive_cmd": "/sbin/mount_smbfs",
+		"pidfile": "/tmp/digitalSignageSync.pid",
+    "src_dest": [
+        {
+            "src": "/SCC-DO/DeansOffice/DigitalSignage/DeansOffice/",
+            "dest": "/Users/Shared/DigitalSignage/SharedContent/"
+        },
+        {
+            "src": "/mdia-office/DigitalSignage/",
+            "dest": "/Users/Shared/DigitalSignage/DepartmentalContent/"
+        }
+    ]
+}
