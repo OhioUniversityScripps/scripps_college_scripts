@@ -16,10 +16,11 @@
 # 
 #  Luggage makefile for installing and licensing Fetch
 
+USE_PKGBUILD=1
 include /usr/local/share/luggage/luggage.make
 
 TITLE=Fetch
-REVERSE_DOMAIN=ecom.fetchworks.fetch
+REVERSE_DOMAIN=com.fetchworks.fetch
 PAYLOAD=unbz2-applications-Fetch.app\
 				pack-Library-Management_fetch_licenser-fetch_licenser.sh\
 				pack-Library-LaunchAgents-com.fetchsoftworks.fetch_licenser.plist
