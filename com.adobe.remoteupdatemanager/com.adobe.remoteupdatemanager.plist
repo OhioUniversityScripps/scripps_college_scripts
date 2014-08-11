@@ -6,7 +6,7 @@
   	<string>com.adobe.remoteupdatemanager</string>
   	<key>ProgramArguments</key>
   	<array>
-  		<string>/usr/local/bin/adobe/RemoteUpdateManager</string>
+  		<string>/usr/sbin/RemoteUpdateManager</string>
   	</array>
   	<key>StartCalendarInterval</key>
   	<dict>

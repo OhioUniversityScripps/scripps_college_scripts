@@ -15,19 +15,10 @@
 #
 # 
 #  Luggage makefile for installing the Adobe Remote Update Mangager
-
+USE_PKGBUILD=1
 include /usr/local/share/luggage/luggage.make
 
-TITLE=remoteupdatemanager
+TITLE=RemoteUpdateManager
 REVERSE_DOMAIN=com.adobe
-PAYLOAD=pack-usr-local-bin-adobe-RemoteUpdateManager \
-        pack-Library-LaunchDaemons-com.adobe.remoteupdatemanager.plist
-PACKAGE_VERSION=3.0.1
-
-pack-usr-local-bin-adobe-%: % l_usr_local_bin_adobe
-	@sudo ${INSTALL} -m 755 -g wheel -o root $< ${WORK_D}/usr/local/bin/adobe
-  
-l_usr_local_bin_adobe: l_usr_local_bin
-	@sudo mkdir -p ${WORK_D}/usr/local/bin/adobe
-	@sudo chown -R root:wheel ${WORK_D}/usr/local/bin/adobe
-	@sudo chmod -R 755 ${WORK_D}/usr/local/bin/adobe
+PAYLOAD=pack-Library-LaunchDaemons-com.adobe.remoteupdatemanager.plist
+PACKAGE_VERSION=4.0
