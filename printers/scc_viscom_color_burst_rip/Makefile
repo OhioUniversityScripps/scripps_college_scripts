@@ -24,7 +24,7 @@ REVERSE_DOMAIN=edu.ohio.scripps
 PAYLOAD=pack-script-preinstall \
         pack-viscom-ppd \
         pack-script-postinstall
-PACKAGE_VERSION=1.0
+PACKAGE_VERSION=1.1
 
 
 pack-viscom-ppd: 
