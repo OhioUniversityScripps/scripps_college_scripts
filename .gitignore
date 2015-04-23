@@ -21,6 +21,7 @@ edu.ohio.scripps.transcriva_licenser/transcriva_licenser.sh
 edu.ohio.scripps.transcriva_licenser/com.bartastechnologies.transcriva2app.plist
 edu.ohio.scripps.coda_lic/coda_licenser.sh
 *.actual.json
+gridlab_backup.py
 
 OU Fonts/Galliard
 OU Fonts/Frutiger
