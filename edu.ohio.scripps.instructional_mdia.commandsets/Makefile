@@ -22,9 +22,9 @@ include /usr/local/share/luggage/luggage.make
 
 TITLE=commandsets
 REVERSE_DOMAIN=edu.ohio.scripps.instructional_media.commandsets
-PAYLOAD=pack-IM-FCPX-RTG_CUSTOM_6.commandset\
-        pack-IM-MOTION5-RTG_Final_Cut_Pro_Set.commandset
-PACKAGE_VERSION=1.2
+PAYLOAD=pack-IM-FCPX-RTG_FCPX_CUSTOM_6v7.commandset\
+        pack-IM-MOTION5-RTG_MOTION_FCPX_like.commandset
+PACKAGE_VERSION=1.3
 
 # Create /Instructional Media/Commandsets
 l_instructional_media:
