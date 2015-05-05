@@ -115,10 +115,12 @@ def main():
         if network_on():
             serverUp = True
             break
+        print 'Attempting to connect to munkisever...'
         time.sleep(2)
     if not serverUp:
         if os.path.exists(bootstrap_file):
             os.unlink(bootstrap_file)
+        print 'Munkiserver is not responding fast enough, try again later.'    
         sys.exit(1)
       
     # Should we block updates or continue on?
