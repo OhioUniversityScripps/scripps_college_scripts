@@ -22,4 +22,4 @@ include /usr/local/share/luggage/luggage.make
 TITLE=Munki_Lab_Settings
 REVERSE_DOMAIN=edu.ohio.oit.pkg.munki_lab_settings
 PAYLOAD=pack-script-postinstall
-PACKAGE_VERSION=1.2
+PACKAGE_VERSION=1.3
