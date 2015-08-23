@@ -24,11 +24,11 @@ REVERSE_DOMAIN=edu.ohio.scripps
 PAYLOAD=pack-script-preinstall \
         pack-viscom-ppd \
         pack-script-postinstall
-PACKAGE_VERSION=1.1
+PACKAGE_VERSION=1.2
 
 
-pack-viscom-ppd: 
-  
+pack-viscom-ppd:
+
 l_private_etc_cups: l_private_etc
 	@sudo mkdir -p ${WORK_D}/private/etc/cups
 	@sudo chown root:_lp ${WORK_D}/private/etc/cups
