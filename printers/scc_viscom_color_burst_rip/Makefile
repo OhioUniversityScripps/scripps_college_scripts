@@ -26,7 +26,6 @@ PAYLOAD=pack-viscom-ppd \
         pack-script-postinstall
 PACKAGE_VERSION=1.2
 
-
 pack-viscom-ppd:
 
 l_private_etc_cups: l_private_etc
