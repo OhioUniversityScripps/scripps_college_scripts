@@ -7,9 +7,9 @@
 
 # Variables. Edit these.
 printername="VisCom_RIP"
-location="VisCom Printer Room"
-gui_display_name="VisCom RIP"
-address="dnssd://VisCom_RIP._ipp._tcp.local."
+location="School of Visual Communication - RTV 485"
+gui_display_name="VisCom Lab Printer - RIP"
+address="lpd://132.235.58.53/"
 driver_ppd="/Library/Printers/PPDs/Contents/Resources/ColorBurst.ppd.gz"
 
 # Populate these options if you want to set specific options for the printer. E.g. duplexing installed, etc.
