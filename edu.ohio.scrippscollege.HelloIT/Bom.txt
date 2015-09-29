@@ -1,0 +1,190 @@
+.	40755	0/0
+./Applications	40755	0/0
+./Applications/._Hello IT.app	40755	0/0	0	0
+./Applications/Hello IT.app	40755	0/0
+./Applications/Hello IT.app/._Contents	40755	0/0	0	0
+./Applications/Hello IT.app/Contents	40755	0/0
+./Applications/Hello IT.app/Contents/._Frameworks	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/._Info.plist	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/._MacOS	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/._PkgInfo	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/._PlugIns	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/._Resources	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/.__CodeSignature	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/Frameworks	40755	0/0
+./Applications/Hello IT.app/Contents/Frameworks/._HITDevKit.framework	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework	40755	0/0
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/._Versions	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/HITDevKit	120755	0/0	26	2328930147	Versions/Current/HITDevKit
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Resources	120755	0/0	26	3302263027	Versions/Current/Resources
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Versions	40755	0/0
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Versions/._A	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Versions/A	40755	0/0
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Versions/A/._HITDevKit	100755	0/0	0	0
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Versions/A/._Resources	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Versions/A/.__CodeSignature	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Versions/A/HITDevKit	100755	0/0	25904	2692824809
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Versions/A/Resources	40755	0/0
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Versions/A/Resources/._Error.tiff	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Versions/A/Resources/._Info.plist	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Versions/A/Resources/._OK.tiff	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Versions/A/Resources/._Unavailable.tiff	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Versions/A/Resources/._Warning.tiff	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Versions/A/Resources/Error.tiff	100644	0/0	390	2632363039
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Versions/A/Resources/Info.plist	100644	0/0	1271	4038376430
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Versions/A/Resources/OK.tiff	100644	0/0	516	3135250857
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Versions/A/Resources/Unavailable.tiff	100644	0/0	7750	3032593094
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Versions/A/Resources/Warning.tiff	100644	0/0	436	1632230489
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Versions/A/_CodeSignature	40755	0/0
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Versions/A/_CodeSignature/._CodeResources	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Versions/A/_CodeSignature/CodeResources	100644	0/0	2870	1392460938
+./Applications/Hello IT.app/Contents/Frameworks/HITDevKit.framework/Versions/Current	120755	0/0	1	1751207896	A
+./Applications/Hello IT.app/Contents/Info.plist	100644	0/0	1529	345142624
+./Applications/Hello IT.app/Contents/MacOS	40755	0/0
+./Applications/Hello IT.app/Contents/MacOS/._Hello IT	100755	0/0	0	0
+./Applications/Hello IT.app/Contents/MacOS/Hello IT	100755	0/0	41968	589230407
+./Applications/Hello IT.app/Contents/PkgInfo	100644	0/0	8	742937289
+./Applications/Hello IT.app/Contents/PlugIns	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/._OpenApplication.hitp	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/._OpenResource.hitp	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/._Quit.hitp	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/._ScriptedItem.hitp	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/._Separator.hitp	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/._SubMenu.hitp	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/._TestHTTP.hitp	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/._Title.hitp	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/OpenApplication.hitp	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/OpenApplication.hitp/._Contents	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/OpenApplication.hitp/Contents	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/OpenApplication.hitp/Contents/._Info.plist	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/OpenApplication.hitp/Contents/._MacOS	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/OpenApplication.hitp/Contents/.__CodeSignature	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/OpenApplication.hitp/Contents/Info.plist	100644	0/0	1438	3584287931
+./Applications/Hello IT.app/Contents/PlugIns/OpenApplication.hitp/Contents/MacOS	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/OpenApplication.hitp/Contents/MacOS/._OpenApplication	100755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/OpenApplication.hitp/Contents/MacOS/OpenApplication	100755	0/0	19408	930683861
+./Applications/Hello IT.app/Contents/PlugIns/OpenApplication.hitp/Contents/_CodeSignature	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/OpenApplication.hitp/Contents/_CodeSignature/._CodeResources	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/OpenApplication.hitp/Contents/_CodeSignature/CodeResources	100644	0/0	2004	655202299
+./Applications/Hello IT.app/Contents/PlugIns/OpenResource.hitp	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/OpenResource.hitp/._Contents	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/OpenResource.hitp/Contents	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/OpenResource.hitp/Contents/._Info.plist	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/OpenResource.hitp/Contents/._MacOS	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/OpenResource.hitp/Contents/.__CodeSignature	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/OpenResource.hitp/Contents/Info.plist	100644	0/0	1423	3667663396
+./Applications/Hello IT.app/Contents/PlugIns/OpenResource.hitp/Contents/MacOS	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/OpenResource.hitp/Contents/MacOS/._OpenResource	100755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/OpenResource.hitp/Contents/MacOS/OpenResource	100755	0/0	19456	635309433
+./Applications/Hello IT.app/Contents/PlugIns/OpenResource.hitp/Contents/_CodeSignature	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/OpenResource.hitp/Contents/_CodeSignature/._CodeResources	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/OpenResource.hitp/Contents/_CodeSignature/CodeResources	100644	0/0	2004	655202299
+./Applications/Hello IT.app/Contents/PlugIns/Quit.hitp	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/Quit.hitp/._Contents	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/Quit.hitp/Contents	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/Quit.hitp/Contents/._Info.plist	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/Quit.hitp/Contents/._MacOS	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/Quit.hitp/Contents/._Resources	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/Quit.hitp/Contents/.__CodeSignature	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/Quit.hitp/Contents/Info.plist	100644	0/0	1382	1976238397
+./Applications/Hello IT.app/Contents/PlugIns/Quit.hitp/Contents/MacOS	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/Quit.hitp/Contents/MacOS/._Quit	100755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/Quit.hitp/Contents/MacOS/Quit	100755	0/0	19184	500332467
+./Applications/Hello IT.app/Contents/PlugIns/Quit.hitp/Contents/Resources	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/Quit.hitp/Contents/Resources/._Localizable.strings	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/Quit.hitp/Contents/Resources/Localizable.strings	100644	0/0	184	3233271954
+./Applications/Hello IT.app/Contents/PlugIns/Quit.hitp/Contents/_CodeSignature	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/Quit.hitp/Contents/_CodeSignature/._CodeResources	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/Quit.hitp/Contents/_CodeSignature/CodeResources	100644	0/0	2206	2474889083
+./Applications/Hello IT.app/Contents/PlugIns/ScriptedItem.hitp	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/ScriptedItem.hitp/._Contents	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/ScriptedItem.hitp/Contents	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/ScriptedItem.hitp/Contents/._Info.plist	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/ScriptedItem.hitp/Contents/._MacOS	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/ScriptedItem.hitp/Contents/.__CodeSignature	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/ScriptedItem.hitp/Contents/Info.plist	100644	0/0	1421	1456324267
+./Applications/Hello IT.app/Contents/PlugIns/ScriptedItem.hitp/Contents/MacOS	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/ScriptedItem.hitp/Contents/MacOS/._ScriptedItem	100755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/ScriptedItem.hitp/Contents/MacOS/ScriptedItem	100755	0/0	29504	2097232764
+./Applications/Hello IT.app/Contents/PlugIns/ScriptedItem.hitp/Contents/_CodeSignature	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/ScriptedItem.hitp/Contents/_CodeSignature/._CodeResources	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/ScriptedItem.hitp/Contents/_CodeSignature/CodeResources	100644	0/0	2004	655202299
+./Applications/Hello IT.app/Contents/PlugIns/Separator.hitp	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/Separator.hitp/._Contents	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/Separator.hitp/Contents	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/Separator.hitp/Contents/._Info.plist	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/Separator.hitp/Contents/._MacOS	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/Separator.hitp/Contents/.__CodeSignature	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/Separator.hitp/Contents/Info.plist	100644	0/0	1407	1839968730
+./Applications/Hello IT.app/Contents/PlugIns/Separator.hitp/Contents/MacOS	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/Separator.hitp/Contents/MacOS/._Separator	100755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/Separator.hitp/Contents/MacOS/Separator	100755	0/0	18704	1138418842
+./Applications/Hello IT.app/Contents/PlugIns/Separator.hitp/Contents/_CodeSignature	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/Separator.hitp/Contents/_CodeSignature/._CodeResources	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/Separator.hitp/Contents/_CodeSignature/CodeResources	100644	0/0	2004	655202299
+./Applications/Hello IT.app/Contents/PlugIns/SubMenu.hitp	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/SubMenu.hitp/._Contents	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/SubMenu.hitp/Contents	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/SubMenu.hitp/Contents/._Info.plist	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/SubMenu.hitp/Contents/._MacOS	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/SubMenu.hitp/Contents/.__CodeSignature	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/SubMenu.hitp/Contents/Info.plist	100644	0/0	1397	1084947429
+./Applications/Hello IT.app/Contents/PlugIns/SubMenu.hitp/Contents/MacOS	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/SubMenu.hitp/Contents/MacOS/._SubMenu	100755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/SubMenu.hitp/Contents/MacOS/SubMenu	100755	0/0	23936	3771406123
+./Applications/Hello IT.app/Contents/PlugIns/SubMenu.hitp/Contents/_CodeSignature	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/SubMenu.hitp/Contents/_CodeSignature/._CodeResources	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/SubMenu.hitp/Contents/_CodeSignature/CodeResources	100644	0/0	2004	655202299
+./Applications/Hello IT.app/Contents/PlugIns/TestHTTP.hitp	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/TestHTTP.hitp/._Contents	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/TestHTTP.hitp/Contents	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/TestHTTP.hitp/Contents/._Info.plist	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/TestHTTP.hitp/Contents/._MacOS	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/TestHTTP.hitp/Contents/.__CodeSignature	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/TestHTTP.hitp/Contents/Info.plist	100644	0/0	1403	2192489617
+./Applications/Hello IT.app/Contents/PlugIns/TestHTTP.hitp/Contents/MacOS	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/TestHTTP.hitp/Contents/MacOS/._TestHTTP	100755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/TestHTTP.hitp/Contents/MacOS/TestHTTP	100755	0/0	24416	2085060969
+./Applications/Hello IT.app/Contents/PlugIns/TestHTTP.hitp/Contents/_CodeSignature	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/TestHTTP.hitp/Contents/_CodeSignature/._CodeResources	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/TestHTTP.hitp/Contents/_CodeSignature/CodeResources	100644	0/0	2004	655202299
+./Applications/Hello IT.app/Contents/PlugIns/Title.hitp	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/Title.hitp/._Contents	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/Title.hitp/Contents	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/Title.hitp/Contents/._Info.plist	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/Title.hitp/Contents/._MacOS	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/Title.hitp/Contents/.__CodeSignature	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/Title.hitp/Contents/Info.plist	100644	0/0	1387	306903973
+./Applications/Hello IT.app/Contents/PlugIns/Title.hitp/Contents/MacOS	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/Title.hitp/Contents/MacOS/._Title	100755	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/Title.hitp/Contents/MacOS/Title	100755	0/0	18512	681646681
+./Applications/Hello IT.app/Contents/PlugIns/Title.hitp/Contents/_CodeSignature	40755	0/0
+./Applications/Hello IT.app/Contents/PlugIns/Title.hitp/Contents/_CodeSignature/._CodeResources	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/PlugIns/Title.hitp/Contents/_CodeSignature/CodeResources	100644	0/0	2004	655202299
+./Applications/Hello IT.app/Contents/Resources	40755	0/0
+./Applications/Hello IT.app/Contents/Resources/._AppIcon.icns	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/Resources/._Base.lproj	40755	0/0	0	0
+./Applications/Hello IT.app/Contents/Resources/._statusbar.tiff	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/Resources/AppIcon.icns	100644	0/0	848883	371473187
+./Applications/Hello IT.app/Contents/Resources/Base.lproj	40755	0/0
+./Applications/Hello IT.app/Contents/Resources/Base.lproj/._MainMenu.nib	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/Resources/Base.lproj/MainMenu.nib	100644	0/0	1116	1502498216
+./Applications/Hello IT.app/Contents/Resources/statusbar.tiff	100644	0/0	10002	555780286
+./Applications/Hello IT.app/Contents/_CodeSignature	40755	0/0
+./Applications/Hello IT.app/Contents/_CodeSignature/._CodeResources	100644	0/0	0	0
+./Applications/Hello IT.app/Contents/_CodeSignature/CodeResources	100644	0/0	7107	3685498556
+./Library	40755	0/0
+./Library/LaunchAgents	40755	0/0
+./Library/LaunchAgents/._com.github.ygini.hello-it.plist	100644	0/0	0	0
+./Library/LaunchAgents/com.github.ygini.hello-it.plist	100644	0/0	464	3906540446
+./Library/Management	40755	0/0
+./Library/Management/HelloIT	40755	0/0
+./Library/Management/HelloIT/._MunkiCheck.sh	100755	0/0	0	0
+./Library/Management/HelloIT/._SerialNo.sh	100755	0/0	0	0
+./Library/Management/HelloIT/._clientID.sh	100755	0/0	0	0
+./Library/Management/HelloIT/MunkiCheck.sh	100755	0/0	211	3875592381
+./Library/Management/HelloIT/SerialNo.sh	100755	0/0	161	452289187
+./Library/Management/HelloIT/clientID.sh	100755	0/0	162	3142403529
+./Library/Preferences	40755	0/0
+./Library/Preferences/._com.github.ygini.Hello-IT.plist	100644	0/0	0	0
+./Library/Preferences/com.github.ygini.Hello-IT.plist	100644	0/0	5272	2238793953

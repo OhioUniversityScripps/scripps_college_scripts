@@ -1,0 +1,9 @@
+{
+    "postinstall_action": "logout",
+    "suppress_bundle_relocation": true,
+    "name": "HelloIT.pkg",
+    "distribution_style": false,
+    "version": "1.0",
+    "ownership": "recommended",
+    "identifier": "edu.scrippscollege.HelloIT"
+}
