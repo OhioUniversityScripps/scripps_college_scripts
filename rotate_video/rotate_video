@@ -1,0 +1,33 @@
+#!/usr/bin/python
+
+import sys, os, logging
+from subprocess import call
+
+ffmpegPath = "/usr/local/bin/ffmpeg"
+ffmpegOverwrite = "-y"
+ffmpegTranspose = "transpose=3" # 1->90deg, 2->180deg, 3-> 270deg
+
+def rotateVideo(input, output):
+    # ffmpeg -i in.mov -vf "transpose=1" out.mov
+    commands = [ffmpegPath, "-i", input, ffmpegOverwrite, "-vf", ffmpegTranspose, output]
+    call(commands)
+
+    os.remove(input) # delete original
+    os.rename(output, input) # rename rotated to original
+    pass
+
+# Return first argument to script
+def inputPath():
+    firstArg = sys.argv[1]
+    return firstArg
+
+# Tack on '-rotated'
+def outputPath():
+    (path, filename)       = os.path.split(inputPath())
+    (shortname, extension) = os.path.splitext(filename)
+
+    shortname = shortname + "Rotated"
+    fullPath = path + "/" + shortname + extension
+    return fullPath
+
+rotateVideo(inputPath(), outputPath())

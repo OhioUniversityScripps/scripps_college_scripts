@@ -13,7 +13,6 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 #
-# 
 #  Luggage makefile for building a package that installs the ColorBurst VisCom RIP printer
 USE_PKGBUILD=1
 
@@ -21,14 +20,13 @@ include /usr/local/share/luggage/luggage.make
 
 TITLE=viscom_colorburst_rip
 REVERSE_DOMAIN=edu.ohio.scripps
-PAYLOAD=pack-script-preinstall \
-        pack-viscom-ppd \
+PAYLOAD=pack-viscom-ppd \
+				pack-script-preinstall \
         pack-script-postinstall
-PACKAGE_VERSION=1.0
+PACKAGE_VERSION=1.2
 
+pack-viscom-ppd:
 
-pack-viscom-ppd: 
-  
 l_private_etc_cups: l_private_etc
 	@sudo mkdir -p ${WORK_D}/private/etc/cups
 	@sudo chown root:_lp ${WORK_D}/private/etc/cups

@@ -3,6 +3,7 @@
 TARGET_PATH=$2
 MANAGED_INSTALL_DIR="$TARGET_PATH/Library/Managed Installs"
 LIBRARY_PREFERENCES="$TARGET_PATH/Library/Preferences"
+MSU_PREFS="$TARGET_PATH/Library/Preferences/ManagedInstalls"
 
 # Disable munki's launchd task, enable ours
 /bin/launchctl unload -w /Library/LaunchDaemons/com.googlecode.munki.managedsoftwareupdate-check.plist
@@ -33,22 +34,23 @@ mkdir -p "$MANAGED_INSTALL_DIR/Cache"
 
 #Set MunkiServer Locations
 mkdir -p $TARGET_PATH/Library/Preferences
-/usr/bin/defaults write $LIBRARY_PREFERENCES/ManagedInstalls SoftwareRepoURL "https://munki.test.oit.ohio.edu"
-/usr/bin/defaults write $LIBRARY_PREFERENCES/ManagedInstalls ManifestURL "https://munki.test.oit.ohio.edu"
+/usr/bin/defaults write $MSU_PREFS SoftwareRepoURL 		"https://munki.test.oit.ohio.edu"
+/usr/bin/defaults write $MSU_PREFS ManifestURL 			"https://munki.test.oit.ohio.edu"
 
 #Set Core Preferences
-/usr/bin/defaults write $LIBRARY_PREFERENCES/ManagedInstalls AppleSoftwareUpdatesOnly -bool false
-/usr/bin/defaults write $LIBRARY_PREFERENCES/ManagedInstalls ShowRemovalDetail -bool false
-/usr/bin/defaults write $LIBRARY_PREFERENCES/ManagedInstalls SuppressStopButtonOnInstall -bool true
-/usr/bin/defaults write $LIBRARY_PREFERENCES/ManagedInstalls SuppressUserNotification -bool false
-/usr/bin/defaults write $LIBRARY_PREFERENCES/ManagedInstalls InstallAppleSoftwareUpdates -bool true
+/usr/bin/defaults write $MSU_PREFS AppleSoftwareUpdatesOnly		 -bool false
+/usr/bin/defaults write $MSU_PREFS ShowRemovalDetail			 -bool false
+/usr/bin/defaults write $MSU_PREFS SuppressStopButtonOnInstall	 -bool true
+/usr/bin/defaults write $MSU_PREFS SuppressUserNotification		 -bool false
+/usr/bin/defaults write $MSU_PREFS InstallAppleSoftwareUpdates	 -bool true
+/usr/bin/defaults write $MSU_PREFS DaysBetweenNotifications		 1
 
 # For labs - seperate package or MCX
-# /usr/bin/defaults write /Library/Preferences/ManagedInstalls SuppressUserNotification      -bool true
-# /usr/bin/defaults write /Library/Preferences/ManagedInstalls InstallAppleSoftwareUpdates   -bool false
-# /usr/bin/defaults write /Library/Preferences/ManagedInstalls BlockUpdateStartTime          -string "8:00"
-# /usr/bin/defaults write /Library/Preferences/ManagedInstalls BlockUpdateEndTime            -string "18:00"
-# /usr/bin/defaults write /Library/Preferences/ManagedInstalls BlockUpdateDays               -string "0,1,2,3,4"
+# /usr/bin/defaults write $MSU_PREFS SuppressUserNotification      -bool true
+# /usr/bin/defaults write $MSU_PREFS InstallAppleSoftwareUpdates   -bool false
+# /usr/bin/defaults write $MSU_PREFS BlockUpdateStartTime          -string "8:00"
+# /usr/bin/defaults write $MSU_PREFS BlockUpdateEndTime            -string "18:00"
+# /usr/bin/defaults write $MSU_PREFS BlockUpdateDays               -string "0,1,2,3,4"
 
 # Check for updates after restart
 mkdir -p $TARGET_PATH/Users/Shared

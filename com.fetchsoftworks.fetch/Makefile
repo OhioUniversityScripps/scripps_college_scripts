@@ -24,7 +24,7 @@ REVERSE_DOMAIN=com.fetchworks.fetch
 PAYLOAD=unbz2-applications-Fetch.app\
 				pack-Library-Management_fetch_licenser-fetch_licenser.sh\
 				pack-Library-LaunchAgents-com.fetchsoftworks.fetch_licenser.plist
-PACKAGE_VERSION=5.7.3
+PACKAGE_VERSION=5.7.4
 
 # Create /Library/Management
 l_Library_Management: l_Library

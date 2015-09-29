@@ -6,12 +6,11 @@
 # Make sure to install the required drivers first!
 
 # Variables. Edit these.
-printername="VisCom_RIP"
+printername="vico_rtv_485_xerox_4600"
 location="School of Visual Communication - RTV 485"
-gui_display_name="VisCom Lab Printer - VisCom RIP"
-address="lpd://132.235.58.53/VisCom_RIP"
-driver_ppd="/Library/Printers/PPDs/Contents/Resources/ColorBurst.ppd.gz"
-
+gui_display_name="VisCom Lab Printer - Xerox 4600"
+address="lpd://scc-rtvc-485-phaser4600.scrippscollege.ohio.edu/"
+driver_ppd="/Library/Printers/PPDs/Contents/Resources/Xerox Phaser 4600.gz"
 # Populate these options if you want to set specific options for the printer. E.g. duplexing installed, etc.
 option_1=""
 option_2=""
@@ -21,7 +20,7 @@ option_3=""
 # In case we are making changes to a printer we need to remove an existing queue if it exists.
 /usr/bin/lpstat -p $printername
 if [ $? -eq 0 ]; then
-        /usr/sbin/lpadmin -x $printername
+  /usr/sbin/lpadmin -x $printername
 fi
 
 # Now we can install the printer.

@@ -1,5 +1,5 @@
 #
-#   Copyright 2013 Ricky Chilcott <chilcotr@ohio.edu>
+#   Copyright 2009 Joe Block <jpb@ApesSeekingKnowledge.net>
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -13,13 +13,11 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 #
-# 
-#  Luggage makefile for building a package that installs munki lab settings
-
-USE_PKGBUILD=1
+#
+#  Luggage makefile for building a package that installs a printer.
 include /usr/local/share/luggage/luggage.make
 
-TITLE=Munki_Lab_Settings
-REVERSE_DOMAIN=edu.ohio.oit.pkg.munki_lab_settings
+TITLE=vico_rtv_463_xerox_4600
+REVERSE_DOMAIN=edu.ohio.scripps.vico
 PAYLOAD=pack-script-postinstall
-PACKAGE_VERSION=1.3
+PACKAGE_VERSION=2.0

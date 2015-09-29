@@ -1,5 +1,5 @@
 #
-#   Copyright 2013 Ricky Chilcott <chilcotr@ohio.edu>
+#   Copyright 2014 Kahtan Al Jewary <ka983112@ohio.edu>, Ricky Chilcott <chilcotr@ohio.edu>
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -14,12 +14,19 @@
 #   limitations under the License.
 #
 # 
-#  Luggage makefile for building a package that installs munki lab settings
+#  Luggage makefile for installing an rsync script. The script was created to do a one way sync (from server to client)
+# of digital signage files located on a smb drive to digital signage computers located around the college.
+
 
 USE_PKGBUILD=1
 include /usr/local/share/luggage/luggage.make
 
-TITLE=Munki_Lab_Settings
-REVERSE_DOMAIN=edu.ohio.oit.pkg.munki_lab_settings
-PAYLOAD=pack-script-postinstall
-PACKAGE_VERSION=1.3
+TITLE=digisign_sync
+REVERSE_DOMAIN=edu.ohio.scrippscollege.digisign_sync
+PACKAGE_VERSION=1.0
+PAYLOAD=\
+	pack-usr-local-bin-digisign_sync\
+	pack-Library-LaunchDaemons-edu.ohio.scrippscollege.digisign_sync.plist\
+	bundle-digisign_config.json\
+	pack-script-preinstall\
+	pack-script-postinstall
