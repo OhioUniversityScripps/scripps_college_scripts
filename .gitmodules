@@ -1,0 +1,3 @@
+[submodule "munki-pkg"]
+	path = munki-pkg
+	url = https://github.com/munki/munki-pkg
