@@ -1,0 +1,57 @@
+#!/bin/sh
+
+TARGET_PATH=$2
+MANAGED_INSTALL_DIR="$TARGET_PATH/Library/Managed Installs"
+LIBRARY_PREFERENCES="$TARGET_PATH/Library/Preferences"
+MSU_PREFS="$TARGET_PATH/Library/Preferences/ManagedInstalls"
+
+# Disable munki's launchd task, enable ours
+/bin/launchctl unload -w /Library/LaunchDaemons/com.googlecode.munki.managedsoftwareupdate-check.plist
+/bin/launchctl load   -w /Library/LaunchDaemons/edu.ohio.munki.managedsoftwareupdate-check.plist
+
+#Make Munki directories more secure
+mkdir -p $MANAGED_INSTALL_DIR
+/usr/sbin/chown -R root:wheel $MANAGED_INSTALL_DIR
+/bin/chmod -R 755 $MANAGED_INSTALL_DIR
+
+mkdir -p "$MANAGED_INSTALL_DIR/catalogs"
+/bin/chmod 700 "$MANAGED_INSTALL_DIR/catalogs"
+
+mkdir -p "$MANAGED_INSTALL_DIR/Archives"
+/bin/chmod 700 "$MANAGED_INSTALL_DIR/Archives"
+
+mkdir -p "$MANAGED_INSTALL_DIR/Logs"
+/bin/chmod 700 "$MANAGED_INSTALL_DIR/Logs"
+
+mkdir -p "$MANAGED_INSTALL_DIR/manifests"
+/bin/chmod 700 "$MANAGED_INSTALL_DIR/manifests"
+
+mkdir -p "$MANAGED_INSTALL_DIR/certs"
+/bin/chmod 700 "$MANAGED_INSTALL_DIR/certs"
+
+mkdir -p "$MANAGED_INSTALL_DIR/Cache"
+/bin/chmod 700 "$MANAGED_INSTALL_DIR/Cache"
+
+#Set MunkiServer Locations
+mkdir -p $TARGET_PATH/Library/Preferences
+/usr/bin/defaults write $MSU_PREFS SoftwareRepoURL 		"https://munki.test.oit.ohio.edu"
+/usr/bin/defaults write $MSU_PREFS ManifestURL 			"https://munki.test.oit.ohio.edu"
+
+#Set Core Preferences
+/usr/bin/defaults write $MSU_PREFS AppleSoftwareUpdatesOnly		 -bool false
+/usr/bin/defaults write $MSU_PREFS ShowRemovalDetail			 -bool false
+/usr/bin/defaults write $MSU_PREFS SuppressStopButtonOnInstall	 -bool true
+/usr/bin/defaults write $MSU_PREFS SuppressUserNotification		 -bool false
+/usr/bin/defaults write $MSU_PREFS InstallAppleSoftwareUpdates	 -bool true
+/usr/bin/defaults write $MSU_PREFS DaysBetweenNotifications		 1
+
+# For labs - seperate package or MCX
+# /usr/bin/defaults write $MSU_PREFS SuppressUserNotification      -bool true
+# /usr/bin/defaults write $MSU_PREFS InstallAppleSoftwareUpdates   -bool false
+# /usr/bin/defaults write $MSU_PREFS BlockUpdateStartTime          -string "8:00"
+# /usr/bin/defaults write $MSU_PREFS BlockUpdateEndTime            -string "18:00"
+# /usr/bin/defaults write $MSU_PREFS BlockUpdateDays               -string "0,1,2,3,4"
+
+# Check for updates after restart
+mkdir -p $TARGET_PATH/Users/Shared
+/usr/bin/touch $TARGET_PATH/Users/Shared/.com.googlecode.munki.checkandinstallatstartup

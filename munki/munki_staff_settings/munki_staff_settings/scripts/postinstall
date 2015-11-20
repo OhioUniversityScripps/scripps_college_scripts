@@ -1,0 +1,12 @@
+#!/bin/sh
+
+TARGET_PATH=$2
+MSU_PREFS="$TARGET_PATH/Library/Preferences/ManagedInstalls"
+
+#Set Staff Preferences
+/usr/bin/defaults write $MSU_PREFS AppleSoftwareUpdatesOnly      -bool false
+/usr/bin/defaults write $MSU_PREFS InstallAppleSoftwareUpdates   -bool true
+/usr/bin/defaults write $MSU_PREFS SuppressUserNotification      -bool true
+/usr/bin/defaults write $MSU_PREFS SuppressStopButtonOnInstall   -bool false
+/usr/bin/defaults write $MSU_PREFS ShowRemovalDetail             -bool false
+/usr/bin/defaults write $MSU_PREFS DaysBetweenNotifications		 1

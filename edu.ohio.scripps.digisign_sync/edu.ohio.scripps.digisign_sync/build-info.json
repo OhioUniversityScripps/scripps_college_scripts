@@ -1,8 +1,0 @@
-{
-    "postinstall_action": "none",
-    "name": "digisign_sync-1.0.pkg",
-    "distribution_style": false,
-    "install_location": "/",
-    "version": "1.0",
-    "identifier": "edu.ohio.scrippscollege.digisign_sync.digisign_sync"
-}

@@ -1,0 +1,6 @@
+.	40755	0/0
+./private	40755	0/0
+./private/etc	40755	0/0
+./private/etc/cups	40755	0/26
+./private/etc/cups/ppd	40751	0/26
+./private/etc/cups/ppd/VisCom_RIP.ppd	100644	0/26	4618	4063421314

@@ -1,0 +1,9 @@
+.	40755	0/0
+./Library	41775	0/80
+./Library/LaunchDaemons	40755	0/0
+./Library/LaunchDaemons/edu.ohio.munki.managedsoftwareupdate-check.plist	100644	0/0	704	499473190
+./usr	40755	0/0
+./usr/local	40755	0/0
+./usr/local/munki	40755	0/0
+./usr/local/munki/postflight	100755	0/0	2047	2341424433
+./usr/local/munki/preflight	100755	0/0	4511	2497279220

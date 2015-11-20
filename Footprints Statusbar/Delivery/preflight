@@ -1,4 +1,0 @@
-#!/bin/sh
-/usr/bin/killall "Footprints Statusbar"
-/bin/launchctl unload edu.ohio.oit.desktop_support.footprints_statusbar
-exit 0

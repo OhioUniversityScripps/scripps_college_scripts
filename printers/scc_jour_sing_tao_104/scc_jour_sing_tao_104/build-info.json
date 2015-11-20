@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "scc_jour_sing_tao_104_5100-1.0.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "1.0",
+    "identifier": "edu.ohio.scripps.jour.scc_jour_sing_tao_104_5100"
+}

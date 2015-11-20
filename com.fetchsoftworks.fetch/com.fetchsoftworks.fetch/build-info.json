@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "Fetch-5.7.4.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "5.7.4",
+    "identifier": "com.fetchworks.fetch.Fetch"
+}
