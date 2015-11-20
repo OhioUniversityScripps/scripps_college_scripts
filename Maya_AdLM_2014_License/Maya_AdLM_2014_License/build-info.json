@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "Maya_AdLM_2014_License-2014.1.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "2014.1",
+    "identifier": "edu.ohio.scripps.Maya_AdLM_2014_License"
+}

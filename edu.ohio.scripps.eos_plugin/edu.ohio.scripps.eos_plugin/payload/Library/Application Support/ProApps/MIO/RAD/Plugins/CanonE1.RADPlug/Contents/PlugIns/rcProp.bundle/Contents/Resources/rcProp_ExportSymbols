@@ -1,0 +1,66 @@
+#for Init
+#_rcProp_Init
+
+	_PpcMakeImageProp	
+	_PpcSetImageProp
+	_PpcGetStrImageProp
+	_PpcGetStrImagePropVal
+	_PpcGetStrImagePropUnit
+
+	_PpcGetImagePropSize
+	_PpcMakeImageProp2
+
+	_PpcSetImageProp2
+	_PpcGetImagePropStart
+	_PpcGetImagePropEnd
+	_PpcGetStrImageProp2
+	_PpcGetStrImagePropVal2
+	_PpcGetStrImagePropUnit2
+	
+	_PpcGetDispSettingStart
+	_PpcGetDispSettingEnd
+	_PpcGetStrDispSetting
+	_PpcGetPropID
+	_PpcSetDispSetting
+
+	_PpcSetShootingPrm
+	_PpcGetStrShootingPrm
+	_PpcGetStrShootingPrmVal
+	_PpcGetStrShootingPrmUnit
+
+	_PpcMakeSimpleImageProp
+	_PpcSetSimpleImageProp
+	_PpcGetStrSimpleImageProp
+
+	_CDPGetStrImageSize
+
+	_CDPSetProperty
+	_CDPSetFileInfo
+	_CDPGetImagePropSize
+	_CDPMakeImageProp
+	_CDPSetImageProp
+
+	_CDPGetImagePropStart
+	_CDPGetImagePropEnd
+	_CDPGetStrImageProp
+	_CDPGetStrImagePropVal
+	_CDPGetStrImagePropUnit
+	
+	_CDPGetDispSettingStart
+	_CDPGetDispSettingEnd
+	_CDPGetStrDispSetting
+	_CDPGetPropID
+	_CDPSetDispSetting
+
+	_CDPSetCamSetting
+	_CDPSetShootingPrm
+	_CDPGetStrShootingPrm
+	_CDPGetStrShootingPrmVal
+	_CDPGetStrShootingPrmUnit
+
+	_CDPMakeSimpleImageProp
+	_CDPGetStrSimpleImageProp
+	_CDPSetSimpleImageProp
+	_CDPGetSimpleImagePropStart
+	_CDPGetSimpleImagePropEnd
+	_CDPGetSimpleImagePropSize

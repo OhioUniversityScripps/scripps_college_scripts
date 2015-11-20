@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "colorburst-4.1.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "4.1",
+    "identifier": "edu.ohio.scripps.colorburst"
+}

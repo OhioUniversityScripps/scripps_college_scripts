@@ -1,0 +1,9 @@
+.	40755	0/0
+./Library	41775	0/80
+./Library/LaunchAgents	40755	0/0
+./Library/LaunchAgents/edu.ohio.scripps.kludge_city.plist	100644	0/0	427	843333360
+./Library/Management	40755	0/0
+./Library/Management/kludge_city	40755	0/0
+./Library/Management/kludge_city/EdW_KludgeCity.mel	100644	0/0	99420	992515312
+./Library/Management/kludge_city/KCity_Footprints.mb	100644	0/0	1247280	3651971227
+./Library/Management/kludge_city/kludge_city.sh	100644	0/0	539	1956452029

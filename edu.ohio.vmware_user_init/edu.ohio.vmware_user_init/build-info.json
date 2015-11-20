@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "edu.ohio.vmware_user_init-1.3.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "1.3",
+    "identifier": "edu.ohio.edu.ohio.vmware_user_init"
+}

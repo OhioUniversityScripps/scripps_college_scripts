@@ -1,0 +1,84 @@
+   _PSParseFullViewFileStream
+   _PSParseThumbnailFileStream	
+   _PSParseFullViewFileStreamEx
+   _PSParseThumbnailFileStreamEx	
+   _PSParseThumbnailFileStreamEx2
+   _PSParseGetDCFThumbnail	
+   _PSParseGetFileStream	
+   _PSParseGetFileStream2
+   _PSParseGetJPEGInfo
+   _PSParseGetJPEGInfoEx
+   _PSParseGetWAVEInfo
+   _PSEstimateSoundProperties
+   _PSParseSoundProperties
+   _PSParseGetRttIDLatest
+   _PSParseGetSOFData
+   _PSParseReplaceProperties2
+   _psParseGetFileType
+   _psParseGetJpegDataFromPsRAW
+   _psParseGetTWAINThumbnailDataFromTiffRAW
+   _psParseGetLCDDataFromTiffRAW
+   _PSParseHasCanonOptionalData
+   _PSParseReplaceOffsetOfOptionalData
+
+   _PSParseGetICCProfileData
+   
+   _PSParseGetIIMInfo
+   _PSParseReplaceIIMInfo
+   _PSParseMakePreserveIIMInfo
+   _PSParseReadPreserveIIMInfo
+   _PSParseSetIIMInfo
+   
+   _psParseExifPropertyEx
+   _psParseExifPropertyPtr
+   _psParseExifPropertyPtrEx
+   _psParseExifPropertyOffset
+   _psParseExifPropertyOffsetEx
+   _psParseCreateExifProperty
+   _psParseCreateExifPropertyEx
+   _psParseSeeIfExifProperty
+   _psParseFreeExifBuffer
+   _psGetNextMarker
+   
+   _psParseGetHeapObjectDeveloped
+   __CreateICCProfileFromFile
+   _psParseCreateHeapObject
+   _psParseCreateHeapObjectEx
+   _psParseCreateHeapObjectEx2
+   _psParseGetPropHeapObject
+   _PSParseStream
+   _PSParseStream2
+   _psParseCreateExifPropBuffer
+   _psParseCreateExifPropBufferEx
+   _psParseCreateLossLessPropBuffer
+   _psParseCreateMakerNote
+   _psParseFreeMakerNoteBuffer
+   _psParseGetExifPropBufferWithReplace
+   _PSParseReplaceProperties
+   _PSParseReplaceProperties2
+   _PSParseCreateAppMarkerData
+   _PSParseCreateAppMarkerDataEx
+   _PSParseFreeAppMarkerData
+   _PSParseCreateTiffTagData
+   _PSParseFreeTiffTagData
+   _PSParseReplaceProperties2
+   __GetHeapRecordEntryPtr
+   _psParseGetDCFMakerNote
+   _psParseGetFileType
+   _psParseGetJpegDataFromPsRAW
+   _psParseGetTWAINThumbnailDataFromTiffRAW
+   _psParseGetLCDDataFromTiffRAW
+   _psParseGetMainImageFromCR2
+   _psParseGetTagData
+   _psParseGetOptionAreaData
+   
+   _psParseMergePropertiesIntoHeapObject
+   _psParseHeapObject
+   _psParseFreeHeapObject
+   
+   _psParseGetPropertyData
+   _psParseCreatePropertyBlock
+   
+   
+   
+

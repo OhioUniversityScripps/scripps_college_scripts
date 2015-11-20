@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#Turn mirroring on after install
+/usr/local/bin/mirror -on

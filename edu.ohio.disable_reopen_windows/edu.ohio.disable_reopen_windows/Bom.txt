@@ -1,0 +1,7 @@
+.	40755	0/0
+./Library	41775	0/80
+./Library/LaunchAgents	40755	0/0
+./Library/LaunchAgents/edu.ohio.disable_reopen_windows.plist	100644	0/0	452	3826686975
+./Library/Management	40755	0/0
+./Library/Management/disable_reopen_windows	40755	0/0
+./Library/Management/disable_reopen_windows/disable_reopen_windows.sh	100644	0/0	188	535971248

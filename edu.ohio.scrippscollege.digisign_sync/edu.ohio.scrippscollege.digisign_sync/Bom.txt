@@ -1,0 +1,9 @@
+.	40755	0/0
+./Library	41775	0/80
+./Library/LaunchDaemons	40755	0/0
+./Library/LaunchDaemons/edu.ohio.scrippscollege.digisign_sync.plist	100644	0/0	409	3948661722
+./usr	40755	0/0
+./usr/local	40755	0/0
+./usr/local/bin	40755	0/0
+./usr/local/bin/._digisign_sync	100755	0/0	0	0
+./usr/local/bin/digisign_sync	100755	0/0	1883	111185360

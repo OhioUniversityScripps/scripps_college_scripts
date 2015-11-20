@@ -1,0 +1,7 @@
+.	40755	0/0
+./Library	41775	0/80
+./Library/LaunchDaemons	40755	0/0
+./Library/LaunchDaemons/edu.ohio.remove_outdated_users.plist	100644	0/0	458	1296600261
+./Library/Management	40755	0/0
+./Library/Management/remove_outdated_users	40755	0/0
+./Library/Management/remove_outdated_users/edu.ohio.remove_outdated_users.sh	100644	0/0	752	670831253

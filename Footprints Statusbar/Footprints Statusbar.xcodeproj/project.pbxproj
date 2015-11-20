@@ -153,6 +153,9 @@
 /* Begin PBXProject section */
 		37FA050F142784850010025C /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+			};
 			buildConfigurationList = 37FA0512142784850010025C /* Build configuration list for PBXProject "Footprints Statusbar" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;

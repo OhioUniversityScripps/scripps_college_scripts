@@ -1,0 +1,15 @@
+#!/bin/bash
+
+mkdir -p /Users/Shared/digisign
+
+dmg_directory=`dirname $1`
+echo $dmg_directory
+
+if [ ! -f /Users/Shared/digisign/digisign_config.json ]; then
+	echo "Copying digisign_config.json"	
+	cp $dmg_directory/digisign_config.json /Users/Shared/digisign/
+fi
+
+/bin/launchctl load /Library/LaunchDaemons/edu.ohio.scrippscollege.digisign_sync.plist
+
+exit 0

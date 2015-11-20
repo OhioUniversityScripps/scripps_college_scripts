@@ -1,0 +1,77 @@
+#!/usr/bin/env python
+
+from subprocess import call
+import os
+import sys
+import json
+
+#WARNING: "shell=True" is used throughout the script.
+
+#loading json_data
+json_data=open('/Users/Shared/digisign/digisign_config.json')
+config = json.load(json_data)
+json_data.close()
+
+username				=	config["username"]
+password				= config["password"]
+mount_point 		= config["mount_point"]
+rsync_cmd   		= config["rsync_cmd"]
+share_point 		= config["share_point"]
+share_domain 		= config["share_domain"]
+mount_drive_cmd = config["mount_drive_cmd"]
+src_dest				= config["src_dest"]
+pidfile     		= config["pidfile"]
+
+def checkPidRunning(pid):
+	'''Check For the existence of a unix pid.
+	'''
+	try:
+		os.kill(pid, 0)
+	except OSError:
+		return False
+	else:
+		return True
+
+def make_directories(src_dest):
+	'''creating destination directories if they don't exist
+	'''
+	for item in src_dest:
+		directory = item['dest']
+
+		if not os.path.exists(directory):
+			os.makedirs(directory, 0755)		
+		
+def mount_path():
+	"""Mounting Drive
+	"""
+	return mount_drive_cmd + " //" + username + ":" + password + share_domain + share_point + " " + mount_point
+	
+# Starting the sync process:
+def sync():
+	#creating destination dirctories if they don't exist
+	make_directories(src_dest)
+
+	#mount network share
+	if call('mount | grep ' + share_point + '> /dev/null', shell=True) == 1:
+		call(['/bin/mkdir','-p', mount_point])   
+		print "Mounting Shared Drive..."
+		call(mount_path(), shell=True)
+
+	# sync items 
+	for item in src_dest:
+		line = rsync_cmd + " " + mount_point + item['src'] + " " + item['dest']
+		call(line, shell=True)
+	
+	os.unlink(pidfile)
+
+# Entry point
+if __name__ == '__main__':
+	pid = str(os.getpid())
+
+	if os.path.isfile(pidfile) and checkPidRunning(int(file(pidfile,'r').readlines()[0])):
+		print "%s already exists, exiting" % pidfile
+		sys.exit()
+	else:
+		file(pidfile, 'w').write(pid)
+      
+	sync()

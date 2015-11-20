@@ -1,0 +1,10 @@
+.	40755	0/0
+./Library	41775	0/80
+./Library/LaunchAgents	40755	0/0
+./Library/LaunchAgents/edu.ohio.scripps.houdini_licenser-login.plist	100644	0/0	471	3319466460
+./Library/LaunchDaemons	40755	0/0
+./Library/LaunchDaemons/edu.ohio.scripps.houdini_licenser-boot.plist	100644	0/0	469	678756912
+./Library/Management	40755	0/0
+./Library/Management/houdini_licenser	40755	0/0
+./Library/Management/houdini_licenser/edu.ohio.scripps.houdini_licenser-boot.sh	100644	0/0	514	1007218081
+./Library/Management/houdini_licenser/edu.ohio.scripps.houdini_licenser-login.sh	100644	0/0	142	817608408

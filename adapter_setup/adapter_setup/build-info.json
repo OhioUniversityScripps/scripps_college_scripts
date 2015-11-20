@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "AdapterSetup-2.1.1.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "2.1.1",
+    "identifier": "edu.ohio.scrippscollege.AdapterSetup"
+}

@@ -1,0 +1,31 @@
+#!/bin/bash
+
+PRODUCT=Maya
+YEAR=2013
+LIC=/private/var/flexlm/${PRODUCT}${YEAR}.lic
+PRODCODE=657E1
+SERIAL=392-98114203
+SERVER=ent-licenses.ohio.edu
+LICENSEENV=/Applications/Autodesk/maya${YEAR}/${PRODUCT}.app/Contents/License.env
+
+# Network license file
+echo "SERVER ${SERVER} 0 27000" > ${LIC}
+echo USE_SERVER >> ${LIC}
+echo VENDOR adskflex port=2080 >> ${LIC}
+chmod 644 ${LIC}
+chown root:wheel ${LIC}
+
+# License.env file
+echo "MAYA_LICENSE=unlimited" > ${LICENSEENV}
+echo "MAYA_LICENSE_METHOD=network" >> ${LICENSEENV}
+chmod 755 ${LICENSEENV}
+chown root:admin ${LICENSEENV}
+
+# registration
+/usr/bin/adlmreg -i N ${PRODCODE} ${PRODCODE} ${YEAR}.0.0.F ${SERIAL} /Library/Application\ Support/Autodesk/Adlm/PIT/${YEAR}/${PRODUCT}Config.pit
+
+# symlink in Applications
+ln -s /Applications/Autodesk/maya${YEAR}/${PRODUCT}.app /Applications/${PRODUCT}\ ${YEAR}.app
+
+# disable MC3
+/usr/bin/defaults write /Library/Preferences/com.autodesk.MC3Framework MC3Enabled -int 0

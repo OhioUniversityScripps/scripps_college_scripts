@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "edu.ohio.scripps.houdini_licenser-1.2.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "1.2",
+    "identifier": "edu.ohio.scripps.edu.ohio.scripps.houdini_licenser"
+}

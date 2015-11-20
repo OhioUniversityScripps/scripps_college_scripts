@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>CanonE1</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.canon.CanonE1</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>CanonE1</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.2.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.2.0.0</string>
+	<key>NSPrincipalClass</key>
+	<string>CanonE1_Factory</string>
+	<key>RADPlugins</key>
+	<array>
+		<dict>
+			<key>Copyright</key>
+			<string>Copyright © CANON INC. 2011</string>
+			<key>PluginID</key>
+			<string>56FBADDD-2583-4D65-9AA7-09381EDECC07</string>
+			<key>PluginName</key>
+			<string>Canon E1</string>
+			<key>PluginType</key>
+			<string>Import</string>
+			<key>PluginVersion</key>
+			<string>1.2.0.203</string>
+			<key>SDKVersion</key>
+			<string>2.0</string>
+			<key>VendorName</key>
+			<string>CANON INC.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

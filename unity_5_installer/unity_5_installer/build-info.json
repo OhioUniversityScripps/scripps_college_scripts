@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "UnityDownloadAndInstall-1.1.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "1.1",
+    "identifier": "edu.ohio.scrippscollege.unity_download_and_install.UnityDownloadAndInstall"
+}
