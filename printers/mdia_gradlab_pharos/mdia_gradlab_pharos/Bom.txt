@@ -1,0 +1,7 @@
+.	40755	0/0
+./private	40755	0/0
+./private/etc	40755	0/0
+./private/etc/cups	40755	0/26
+./private/etc/cups/cupsd.conf	100644	0/26	4791	3359121792
+./private/etc/cups/ppd	40644	0/26
+./private/etc/cups/printers.conf	100600	0/26	0	4294967295

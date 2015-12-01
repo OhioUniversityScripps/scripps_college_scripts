@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "MouseLocator-1.1.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "1.1",
+    "identifier": "com.2point5fish.mouselocator.MouseLocator"
+}

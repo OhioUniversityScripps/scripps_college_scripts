@@ -1,8 +1,8 @@
 {
-    "postinstall_action": "none",
-    "name": "edu.ohio.install_box_edit-1.0.pkg",
+    "postinstall_action": "logout",
+    "name": "edu.ohio.install_box_edit-3.0.23.pkg",
     "distribution_style": false,
     "install_location": "/",
-    "version": "1.0",
+    "version": "3.0.23",
     "identifier": "edu.ohio.edu.ohio.install_box_edit"
 }

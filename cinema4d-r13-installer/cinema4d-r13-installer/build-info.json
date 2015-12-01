@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "viscom.cinema4d_r13-13.0.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "13.0",
+    "identifier": "edu.ohio.scripps.viscom.cinema4d_r13"
+}

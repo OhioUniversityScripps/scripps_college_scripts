@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "edu.ohio.scripps.coda_licenser-1.0.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "1.0",
+    "identifier": "edu.ohio.scripps.edu.ohio.scripps.coda_licenser"
+}

@@ -1,0 +1,1 @@
+##Note that the file "/payload/private/etc/cups/printers.conf" & the folder "/payload/private/etc/cups/ppd" are both empty. Make sure to update them.

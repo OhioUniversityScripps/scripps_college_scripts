@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "clean_scc_guest-20151201.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "20151201",
+    "identifier": "edu.ohio.scripps.clean_scc_guest"
+}

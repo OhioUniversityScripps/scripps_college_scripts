@@ -1,0 +1,8 @@
+.	40755	0/0
+./Library	41775	0/80
+./Library/LaunchAgents	40755	0/0
+./Library/LaunchAgents/._edu.ohio.scripps.coda_licenser.plist	100644	0/0	0	0
+./Library/LaunchAgents/edu.ohio.scripps.coda_licenser.plist	100644	0/0	433	3832733142
+./Library/Management	40755	0/0
+./Library/Management/coda_licenser	40755	0/0
+./Library/Management/coda_licenser/coda_licenser.sh	100644	0/0	0	4294967295
