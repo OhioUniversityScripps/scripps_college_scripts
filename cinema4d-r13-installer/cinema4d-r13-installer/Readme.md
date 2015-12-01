@@ -1,1 +1,1 @@
-##The folder "/payload/Applications/MAXON" is empty. Replace it with the real package before creating the package.
+##The folder "/payload/Applications/MAXON" is empty. Replace it with the real folder before creating the package.
