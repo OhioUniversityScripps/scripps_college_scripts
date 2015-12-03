@@ -1,5 +1,0 @@
-#!/bin/bash
-
-# Restart CUPS
-/bin/launchctl stop org.cups.cupsd 
-/bin/launchctl start org.cups.cupsd 

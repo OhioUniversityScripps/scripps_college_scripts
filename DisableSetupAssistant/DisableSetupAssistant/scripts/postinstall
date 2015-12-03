@@ -1,8 +1,0 @@
-#!/bin/sh
-
-TARGET_VOL="$3"
-
-touch "${TARGET_VOL}/var/db/.AppleSetupDone"
-touch "${TARGET_VOL}/Library/Receipts/.SetupRegComplete"
-
-exit 0

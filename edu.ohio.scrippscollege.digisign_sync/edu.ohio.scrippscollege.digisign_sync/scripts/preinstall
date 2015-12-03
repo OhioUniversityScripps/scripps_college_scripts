@@ -1,5 +1,0 @@
-#!/bin/bash
-
-/bin/launchctl unload /Library/LaunchDaemons/edu.ohio.scrippscollege.digisign_sync.plist
-
-exit 0
