@@ -5,3 +5,5 @@ echo "hitp-enabled: YES"
 echo "hitp-title: Client Identifier - $MAC_EN0"
 echo "hitp-state: ok"
 
+##This line copies the MAC address
+ifconfig en0 | grep ether | awk '{print $2}' | pbcopy
