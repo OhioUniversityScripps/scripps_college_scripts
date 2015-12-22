@@ -1,5 +1,0 @@
-#!/bin/bash
-
-/bin/launchctl load /Library/Preferences/com.github.ygini.hello-it.plist
-
-exit 0
