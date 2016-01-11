@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "Munki_Lab_Settings-1.3.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "1.3",
+    "identifier": "edu.ohio.oit.pkg.munki_lab_settings.Munki_Lab_Settings"
+}

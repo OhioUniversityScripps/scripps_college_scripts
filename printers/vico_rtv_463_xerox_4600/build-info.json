@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "vico_rtv_463_xerox_4600-2.0.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "2.0",
+    "identifier": "edu.ohio.scripps.vico.vico_rtv_463_xerox_4600"
+}

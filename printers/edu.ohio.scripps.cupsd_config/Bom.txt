@@ -1,0 +1,5 @@
+.	40755	0/0
+./private	40755	0/0
+./private/etc	40755	0/0
+./private/etc/cups	40755	0/26
+./private/etc/cups/cupsd.conf	100644	0/26	4978	1292807682

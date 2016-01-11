@@ -1,0 +1,55 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                ActivationStateChanged = id; 
+                AlwaysOnStateChanged = id; 
+                CloseAbout = id; 
+                CloseImmunityWindow = id; 
+                DisplayAbout = id; 
+                DisplayTimeValueChanged = id; 
+                ExposeImmunityChanged = id; 
+                FadeOnClickStateChanged = id; 
+                GoToHomePage = id; 
+                HotKeyChanged = id; 
+                ShowButtonClicksStateChanged = id; 
+                TestDisplay = id; 
+                TriggerTimeValueChanged = id; 
+            }; 
+            CLASS = MLPreferencePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                aboutTabPane = NSTabView; 
+                aboutWindow = NSWindow; 
+                activateCheckboxControl = NSButton; 
+                alwaysOnCheckboxControl = NSButton; 
+                displayTimeSettingsBox = NSBox; 
+                displayTimeSliderControl = NSSlider; 
+                exposeProgressIndicator = NSProgressIndicator; 
+                fadeOnClickCheckboxControl = NSButton; 
+                hotKeyMenu = NSPopUpButton; 
+                immunityCheckboxControl = NSButton; 
+                immunityOKButton = NSButton; 
+                immunityWindow = NSWindow; 
+                showButtonClicksCheckboxControl = NSButton; 
+                testLocatorButtonControl = NSButton; 
+                triggerDelaySettingsBox = NSBox; 
+                triggerTimeSliderControl = NSSlider; 
+            }; 
+            SUPERCLASS = NSPreferencePane; 
+        }, 
+        {
+            CLASS = NSPreferencePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_firstKeyView" = NSView; 
+                "_initialKeyView" = NSView; 
+                "_lastKeyView" = NSView; 
+                "_window" = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "mdia_main_office_hp_laserjet_4250-1.0.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "1.0",
+    "identifier": "edu.ohio.scripps.mdia.mdia_main_office_hp_laserjet_4250"
+}

@@ -1,0 +1,12 @@
+.	40755	0/0
+./usr	40755	0/0
+./usr/local	40755	0/0
+./usr/local/bin	40755	0/0
+./usr/local/bin/ffmpeg	100755	0/0	21983604	395646621
+./usr/local/outset	40755	0/0
+./usr/local/outset/everyboot-scripts	40755	0/0
+./usr/local/outset/firstboot-packages	40755	0/0
+./usr/local/outset/firstboot-scripts	40755	0/0
+./usr/local/outset/login-every	40755	0/0
+./usr/local/outset/login-every/adapter_setup.sh	100755	0/0	621	325367161
+./usr/local/outset/login-once	40755	0/0

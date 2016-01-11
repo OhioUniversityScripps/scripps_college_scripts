@@ -1,0 +1,15 @@
+.	40755	0/0
+./Library	41775	0/80
+./Library/Management	40755	0/0
+./Library/Management/BootWipe	40755	0/0
+./Library/Management/BootWipe/._README.txt	100644	0/0	0	0
+./Library/Management/BootWipe/README.txt	100644	0/0	1074	2897160930
+./Library/Management/BootWipe/clean_scc_guest.sh	100655	0/0	998	1875720487
+./Library/Management/BootWipe/clean_scc_guest_init.sh	100655	0/0	647	1549414239
+./Library/Management/BootWipe/clean_scc_guest_outset_runner.sh	100655	0/0	132	1077631574
+./Library/Management/BootWipe/login.keychain	100444	0/0	0	4294967295
+./usr	40755	0/0
+./usr/local	40755	0/0
+./usr/local/outset	40755	0/0
+./usr/local/outset/everyboot-scripts	40755	0/0
+./usr/local/outset/everyboot-scripts/clean_scc_guest_outset_runner.sh	100755	0/0	132	1077631574

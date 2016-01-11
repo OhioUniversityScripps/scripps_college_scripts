@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>MouseLocator</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Mouse Locator version 1.1, Copyright (c)2006 2POINT5FISH.COM, All Rights Reserved</string>
+	<key>CFBundleIconFile</key>
+	<string>MouseLocator.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.2point5fish.mouselocator</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>Mouse Locator version 1.1</string>
+	<key>CFBundleSignature</key>
+	<string>2p5A</string>
+	<key>CFBundleVersion</key>
+	<string>1.1</string>
+	<key>NSMainNibFile</key>
+	<string>MouseLocator</string>
+	<key>NSPrincipalClass</key>
+	<string>MLPreferencePane</string>
+</dict>
+</plist>

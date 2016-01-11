@@ -1,0 +1,153 @@
+.	40755	0/0
+./Library	41775	0/80
+./Library/Application Support	40755	0/80
+./Library/Application Support/ProApps	40755	0/80
+./Library/Application Support/ProApps/MIO	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins	40775	0/0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/._Info.plist	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/Info.plist	100755	0/80	1262	3896485692
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/MacOS	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/MacOS/._CanonE1	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/MacOS/CanonE1	100755	0/80	170040	1931965933
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/canonIHL.bundle	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/canonIHL.bundle/Contents	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/canonIHL.bundle/Contents/._Info.plist	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/canonIHL.bundle/Contents/Info.plist	100755	0/80	761	3759885812
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/canonIHL.bundle/Contents/MacOS	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/canonIHL.bundle/Contents/MacOS/._canonIHL	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/canonIHL.bundle/Contents/MacOS/canonIHL	100755	0/80	350004	1937926002
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/canonIHL.bundle/Contents/Resources	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/canonIHL.bundle/Contents/Resources/._canonIHL_ExportSymbols	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/canonIHL.bundle/Contents/Resources/canonIHL_ExportSymbols	100755	0/80	1931	368483557
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/ipBaseParse.bundle	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/ipBaseParse.bundle/Contents	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/ipBaseParse.bundle/Contents/._Info.plist	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/ipBaseParse.bundle/Contents/Info.plist	100755	0/80	791	557046235
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/ipBaseParse.bundle/Contents/MacOS	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/ipBaseParse.bundle/Contents/MacOS/._ipBaseParse	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/ipBaseParse.bundle/Contents/MacOS/ipBaseParse	100755	0/80	3948112	3120617618
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/ipBaseParse.bundle/Contents/Resources	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/ipBaseParse.bundle/Contents/Resources/._Info.plist	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/ipBaseParse.bundle/Contents/Resources/English.lproj	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/ipBaseParse.bundle/Contents/Resources/English.lproj/._InfoPlist.strings	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/ipBaseParse.bundle/Contents/Resources/English.lproj/InfoPlist.strings	100755	0/80	256	213292342
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/ipBaseParse.bundle/Contents/Resources/Info.plist	100755	0/80	850	2598207937
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/._Info.plist	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Info.plist	100755	0/80	766	3189185987
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/MacOS	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/MacOS/._psProp	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/MacOS/psProp	100755	0/80	154748	2931295205
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/._psProp_ExportSymbols	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/de.lproj	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/de.lproj/._Localizable.strings	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/de.lproj/Localizable.strings	100755	0/80	11618	3580234091
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/en.lproj	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/en.lproj/._Localizable.strings	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/en.lproj/Localizable.strings	100755	0/80	5584	958458973
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/es.lproj	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/es.lproj/._Localizable.strings	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/es.lproj/Localizable.strings	100755	0/80	12104	722439726
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/fr.lproj	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/fr.lproj/._Localizable.strings	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/fr.lproj/Localizable.strings	100755	0/80	12058	3644922722
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/it.lproj	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/it.lproj/._Localizable.strings	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/it.lproj/Localizable.strings	100755	0/80	11722	3085632527
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/ja.lproj	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/ja.lproj/._Localizable.strings	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/ja.lproj/Localizable.strings	100755	0/80	6480	2263947680
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/psProp_ExportSymbols	100755	0/80	658	1690036044
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/ru.lproj	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/ru.lproj/._Localizable.strings	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/ru.lproj/Localizable.strings	100755	0/80	11838	3804862793
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/zh_CN.lproj	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/zh_CN.lproj/._Localizable.strings	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/psProp.bundle/Contents/Resources/zh_CN.lproj/Localizable.strings	100755	0/80	8420	1810609785
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscDcd.bundle	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscDcd.bundle/Contents	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscDcd.bundle/Contents/._Info.plist	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscDcd.bundle/Contents/Info.plist	100755	0/80	763	3413325297
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscDcd.bundle/Contents/MacOS	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscDcd.bundle/Contents/MacOS/._pscDcd	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscDcd.bundle/Contents/MacOS/pscDcd	100755	0/80	914704	4161938703
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscDcd.bundle/Contents/Resources	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscDcd.bundle/Contents/Resources/._pscDcd_ExportSymbols	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscDcd.bundle/Contents/Resources/pscDcd_ExportSymbols	100755	0/80	486	2956327716
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscDvlp.bundle	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscDvlp.bundle/Contents	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscDvlp.bundle/Contents/._Info.plist	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscDvlp.bundle/Contents/Info.plist	100755	0/80	765	4121527977
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscDvlp.bundle/Contents/MacOS	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscDvlp.bundle/Contents/MacOS/._pscDvlp	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscDvlp.bundle/Contents/MacOS/pscDvlp	100755	0/80	440480	3707414502
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscDvlp.bundle/Contents/Resources	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscDvlp.bundle/Contents/Resources/._pscDvlp_ExportSymbols	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscDvlp.bundle/Contents/Resources/pscDvlp_ExportSymbols	100755	0/80	1695	3617525083
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscParse.bundle	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscParse.bundle/Contents	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscParse.bundle/Contents/._Info.plist	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscParse.bundle/Contents/Info.plist	100755	0/80	770	1705710255
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscParse.bundle/Contents/MacOS	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscParse.bundle/Contents/MacOS/._pscParse	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscParse.bundle/Contents/MacOS/pscParse	100755	0/80	457824	4122631349
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscParse.bundle/Contents/Resources	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscParse.bundle/Contents/Resources/._pscParse_ExportSymbols	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/pscParse.bundle/Contents/Resources/pscParse_ExportSymbols	100755	0/80	1632	2936769788
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcDcd.bundle	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcDcd.bundle/Contents	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcDcd.bundle/Contents/._Info.plist	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcDcd.bundle/Contents/Info.plist	100755	0/80	757	531976966
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcDcd.bundle/Contents/MacOS	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcDcd.bundle/Contents/MacOS/._rcDcd	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcDcd.bundle/Contents/MacOS/rcDcd	100755	0/80	939932	2017239725
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcDcd.bundle/Contents/Resources	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcDcd.bundle/Contents/Resources/._rcDcd_ExportSymbols	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcDcd.bundle/Contents/Resources/rcDcd_ExportSymbols	100755	0/80	566	606834579
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcDvlp.bundle	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcDvlp.bundle/Contents	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcDvlp.bundle/Contents/._Info.plist	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcDvlp.bundle/Contents/Info.plist	100755	0/80	759	2921033771
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcDvlp.bundle/Contents/MacOS	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcDvlp.bundle/Contents/MacOS/._rcDvlp	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcDvlp.bundle/Contents/MacOS/rcDvlp	100755	0/80	664280	3369839729
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcDvlp.bundle/Contents/Resources	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcDvlp.bundle/Contents/Resources/._rcDvlp_ExportSymbols	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcDvlp.bundle/Contents/Resources/rcDvlp_ExportSymbols	100755	0/80	1662	2925497313
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcParse.bundle	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcParse.bundle/Contents	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcParse.bundle/Contents/._Info.plist	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcParse.bundle/Contents/Info.plist	100755	0/80	761	3744807783
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcParse.bundle/Contents/MacOS	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcParse.bundle/Contents/MacOS/._rcParse	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcParse.bundle/Contents/MacOS/rcParse	100755	0/80	572972	2842184439
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcParse.bundle/Contents/Resources	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcParse.bundle/Contents/Resources/._rcParse_ExportSymbols	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcParse.bundle/Contents/Resources/rcParse_ExportSymbols	100755	0/80	2199	2647110639
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcProp.bundle	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcProp.bundle/Contents	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcProp.bundle/Contents/._Info.plist	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcProp.bundle/Contents/Info.plist	100755	0/80	759	543107336
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcProp.bundle/Contents/MacOS	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcProp.bundle/Contents/MacOS/._rcProp	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcProp.bundle/Contents/MacOS/rcProp	100755	0/80	277572	502788385
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcProp.bundle/Contents/Resources	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcProp.bundle/Contents/Resources/._rcProp_ExportSymbols	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcProp.bundle/Contents/Resources/en.lproj	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcProp.bundle/Contents/Resources/en.lproj/._Localizable.strings	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcProp.bundle/Contents/Resources/en.lproj/Localizable.strings	100755	0/80	39066	676818360
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/PlugIns/rcProp.bundle/Contents/Resources/rcProp_ExportSymbols	100755	0/80	1272	730774227
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/Resources	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/Resources/._cameras.plist	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/Resources/._icon.pdf	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/Resources/English.lproj	40755	0/80
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/Resources/English.lproj/._InfoPlist.strings	100755	0/80	0	0
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/Resources/English.lproj/InfoPlist.strings	100755	0/80	396	2326593590
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/Resources/cameras.plist	100755	0/80	470	624862472
+./Library/Application Support/ProApps/MIO/RAD/Plugins/CanonE1.RADPlug/Contents/Resources/icon.pdf	100755	0/80	248658	3814648958

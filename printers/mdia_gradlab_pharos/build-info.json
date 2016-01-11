@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "mdia_gradlab_pharos-1.0.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "1.0",
+    "identifier": "edu.ohio.scripps.mdia.mdia_gradlab_pharos"
+}

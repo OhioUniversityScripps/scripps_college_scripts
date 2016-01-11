@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "DisableSetupAssistant-1.0.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "1.0",
+    "identifier": "edu.ohio.oit.pkg.DisableSetupAssistant"
+}

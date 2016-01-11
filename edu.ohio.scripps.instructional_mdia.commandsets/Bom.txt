@@ -1,0 +1,7 @@
+.	40755	0/0
+./Instructional Media	40755	0/0
+./Instructional Media/Commandsets	40755	0/0
+./Instructional Media/Commandsets/FCP X	40755	0/0
+./Instructional Media/Commandsets/FCP X/RTG_FCPX_CUSTOM_6v7.commandset	100555	0/0	18317	3341724825
+./Instructional Media/Commandsets/Motion 5	40755	0/0
+./Instructional Media/Commandsets/Motion 5/RTG_MOTION_FCPX_like.commandset	100555	0/0	10433	3851906183

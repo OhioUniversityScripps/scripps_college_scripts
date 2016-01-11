@@ -1,0 +1,52 @@
+.	40755	0/0
+./Library	41775	0/0
+./Library/Management	40755	0/0
+./Library/Management/MouseLocator	40755	0/0
+./Library/Management/MouseLocator/MouseLocator.png	100555	0/0	19302	3227534134
+./Library/PreferencePanes	40755	0/0
+./Library/PreferencePanes/MouseLocator.prefPane	40755	0/0
+./Library/PreferencePanes/MouseLocator.prefPane/Contents	40755	0/0
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Info.plist	100644	0/0	1026	3871916513
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/MacOS	40755	0/0
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/MacOS/MouseLocator	100755	0/0	73372	2656945645
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources	40755	0/0
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/._MouseLocatorAgent.app	40755	0/0	0	0
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/2ndLogo.jpg	100644	0/0	39274	380907459
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/English.lproj	40755	0/0
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/English.lproj/InfoPlist.strings	100644	0/0	368	1854629364
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/English.lproj/Localizable.strings	100644	0/0	628	1356342129
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/English.lproj/MouseLocator.nib	40755	0/0
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/English.lproj/MouseLocator.nib/classes.nib	100644	0/0	2044	1560291637
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/English.lproj/MouseLocator.nib/info.nib	100644	0/0	1177	2298294385
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/English.lproj/MouseLocator.nib/keyedobjects.nib	100644	0/0	30429	829453709
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/French.lproj	40755	0/0
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/French.lproj/InfoPlist.strings	100644	0/0	226	3616480228
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/French.lproj/Localizable.strings	100644	0/0	630	1391117573
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/French.lproj/MouseLocator.nib	40755	0/0
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/French.lproj/MouseLocator.nib/classes.nib	100644	0/0	2044	1560291637
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/French.lproj/MouseLocator.nib/info.nib	100644	0/0	1188	2567391988
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/French.lproj/MouseLocator.nib/keyedobjects.nib	100644	0/0	32231	1813001065
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/LocatorRingIcon.icns	100644	0/0	21868	3068902540
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/MouseLocator.icns	100644	0/0	3748	72460135
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/MouseLocatorAgent.app	40755	0/0
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/MouseLocatorAgent.app/Contents	40755	0/0
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/MouseLocatorAgent.app/Contents/Info.plist	100644	0/0	1073	4272988735
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/MouseLocatorAgent.app/Contents/MacOS	40755	0/0
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/MouseLocatorAgent.app/Contents/MacOS/MouseLocatorAgent	100755	0/0	152224	4190273096
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/MouseLocatorAgent.app/Contents/PkgInfo	100644	0/0	8	1368791197
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/MouseLocatorAgent.app/Contents/Resources	40755	0/0
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/MouseLocatorAgent.app/Contents/Resources/English.lproj	40755	0/0
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/MouseLocatorAgent.app/Contents/Resources/English.lproj/InfoPlist.strings	100644	0/0	224	307231020
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/MouseLocatorAgent.app/Contents/Resources/IndicatorButton.icns	100644	0/0	2072	3376503746
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/MouseLocatorAgent.app/Contents/Resources/LocatorRing.icns	100644	0/0	21868	368147226
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/Question_Mark.icns	100644	0/0	2635	1371364738
+./Library/PreferencePanes/MouseLocator.prefPane/Contents/Resources/Question_Mark_Pressed.icns	100644	0/0	2622	3984086232
+./usr	40755	0/0
+./usr/local	40755	0/0
+./usr/local/outset	40755	0/0
+./usr/local/outset/everyboot-scripts	40755	0/0
+./usr/local/outset/firstboot-packages	40755	0/0
+./usr/local/outset/firstboot-scripts	40755	0/0
+./usr/local/outset/login-every	40755	0/0
+./usr/local/outset/login-every/mouse_locator_installer.sh	100755	0/0	163	2274608327
+./usr/local/outset/login-once	40755	0/0

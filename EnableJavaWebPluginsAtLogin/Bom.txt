@@ -1,0 +1,7 @@
+.	40755	0/0
+./Library	41775	0/80
+./Library/LaunchDaemons	40755	0/0
+./Library/LaunchDaemons/edu.ohio.oit.enable_web_java_plugin.plist	100644	0/0	449	4013114453
+./Library/Management	40755	0/0
+./Library/Management/enable_web_java_plugin	40755	0/0
+./Library/Management/enable_web_java_plugin/enable_web_java_plugin.sh	100644	0/0	1313	147490317

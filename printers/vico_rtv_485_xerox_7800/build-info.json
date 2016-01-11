@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "vico_rtv_485_xerox_7800-1.0.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "1.0",
+    "identifier": "edu.ohio.scripps.vico.vico_rtv_485_xerox_7800"
+}

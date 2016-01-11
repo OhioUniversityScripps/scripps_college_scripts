@@ -1,0 +1,8 @@
+.	40755	0/0
+./Applications	40775	0/80
+./Applications/Adobe After Effects CC 2014	40755	0/80
+./Applications/Adobe After Effects CC 2014/Scripts	40755	0/80
+./Applications/Adobe After Effects CC 2014/Scripts/ScriptUI Panels	40755	0/80
+./Applications/Adobe After Effects CC 2014/Scripts/ScriptUI Panels/Duik.jsx	100755	0/80	170433	4020572641
+./Applications/Adobe After Effects CC 2014/Scripts/ScriptUI Panels/Duik_images.jsxinc	100755	0/80	265302	3465945663
+./Applications/Adobe After Effects CC 2014/Scripts/ScriptUI Panels/Duik_translations.jsxinc	100755	0/80	57084	4265062536

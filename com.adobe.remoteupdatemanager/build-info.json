@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "remoteupdatemanager-3.0.1.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "3.0.1",
+    "identifier": "com.adobe.remoteupdatemanager"
+}

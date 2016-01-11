@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "edu.ohio.scripps.kludge_city-2010.04.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "2010.04",
+    "identifier": "edu.ohio.scripps.edu.ohio.scripps.kludge_city"
+}

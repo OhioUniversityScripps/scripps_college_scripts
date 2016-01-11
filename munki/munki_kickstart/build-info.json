@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "munki_kickstart-20151120.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "20151120",
+    "identifier": "edu.ohio.oit.pkg.munki_kickstart"
+}

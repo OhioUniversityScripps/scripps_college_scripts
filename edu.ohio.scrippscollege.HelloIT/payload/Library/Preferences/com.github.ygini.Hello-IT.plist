@@ -92,6 +92,23 @@
 							<string>/Library/Management/HelloIT/clientID.sh</string>
 							<key>repeat</key>
 							<integer>0</integer>
+							<key>run</key>
+							<integer>0</integer>
+							<key>args</key>
+							<string>title</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>functionIdentifier</key>
+						<string>public.script.item</string>
+						<key>settings</key>
+						<dict>
+							<key>path</key>
+							<string>/Library/Management/HelloIT/clientIP.sh</string>
+							<key>repeat</key>
+							<integer>0</integer>
+							<key>run</key>
+							<integer>0</integer>
 							<key>args</key>
 							<string>title</string>
 						</dict>
@@ -117,6 +134,8 @@
 							<key>path</key>
 							<string>/Library/Management/HelloIT/SerialNo.sh</string>
 							<key>repeat</key>
+							<integer>0</integer>
+							<key>run</key>
 							<integer>0</integer>
 							<key>args</key>
 							<string>title</string>

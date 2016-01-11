@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys */
+/* Version française : Laure Guggenheim */
+
+CFBundleName = "Mouse Locator";
+NSHumanReadableCopyright = "Copyright (c) 2POINT5FISH.COM, 2006";
+NSPrefPaneIconLabel = "Mouse\nLocator";

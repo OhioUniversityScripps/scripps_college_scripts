@@ -1,5 +1,0 @@
-#!/bin/bash
-# Automatically generated preflight script which
-# will not do anything but return success.
-exit 0
-

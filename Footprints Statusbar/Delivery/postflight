@@ -1,5 +1,0 @@
-#!/bin/sh
-/bin/launchctl load edu.ohio.oit.desktop_support.footprints_statusbar
-/bin/launchctl start edu.ohio.oit.desktop_support.footprints_statusbar
-/usr/bin/open "/Applications/Footprints Statusbar.app"
-exit 0

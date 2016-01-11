@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>60D</key>
+	<array>
+		<string>Canon EOS 60D</string>
+	</array>
+	<key>1D</key>
+	<array>
+		<string>Canon EOS-1D Mark IV</string>
+	</array>
+	<key>5D</key>
+	<array>
+		<string>Canon EOS 5D Mark II</string>
+	</array>
+	<key>7D</key>
+	<array>
+		<string>Canon EOS 7D</string>
+	</array>
+</dict>
+</plist>

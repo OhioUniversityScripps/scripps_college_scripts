@@ -1,0 +1,8 @@
+.	40755	0/0
+./Library	41775	0/80
+./Library/LaunchAgents	40755	0/0
+./Library/LaunchAgents/edu.ohio.oit.desktop_support.mirror_displays.plist	100644	0/0	412	1422740668
+./usr	40755	0/0
+./usr/local	40755	0/0
+./usr/local/bin	40755	0/0
+./usr/local/bin/mirror	100755	0/0	42192	2343772562
