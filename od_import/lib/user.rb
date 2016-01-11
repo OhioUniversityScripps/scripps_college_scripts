@@ -1,5 +1,5 @@
 class User
-  DEFAULT_QUOTA = (2).to_bytes_from_gb.to_i
+  DEFAULT_QUOTA = (4).to_bytes_from_gb.to_i
   @data = {}
 
   def uid
