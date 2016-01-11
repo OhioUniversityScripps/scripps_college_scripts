@@ -5,4 +5,4 @@ This app was created using HelloIT Project (https://github.com/ygini/Hello-IT). 
 
 To build or update the package, issue the following command
 
-	/path/to/munkipkg --export-bom-info /path/to/scrippscollege_scripts_repo/edu.ohio.scrippscollege.HelloIT
+	./buildPkg.sh
