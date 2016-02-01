@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "scc_coms_schn_421_2025-1.0.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "1.0",
+    "identifier": "edu.ohio.scripps.coms.scc_coms_schn_421_2025"
+}
