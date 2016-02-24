@@ -1,0 +1,113 @@
+Alertus Desktop
+App Store
+Apple Configurator
+Automator
+Caffeine
+Calculator
+Calendar
+Chess
+Contacts
+CreateUserPkg
+DVD Player
+Dashboard
+Dictionary
+DiskWarrior
+FaceTime
+Font Book
+Game Center
+GitHub Desktop
+GitX
+Hello IT
+Identity Finder
+Image Capture
+Mail
+Managed Software Center
+Maps
+Messages
+MunkiMenu
+Notes
+Pacifist
+Photo Booth
+Photos
+Preview
+QuickTime Player
+Reminders
+Remote Desktop Connection
+Remote Desktop
+Safari
+Salute
+ScreenFlow
+Sophos Anti-Virus
+Stickies
+System Preferences
+TextEdit
+TextMate
+Time Machine
+Workgroup Manager
+Xcode
+fseventer
+iBooks
+iMovie
+iTerm
+iTunes
+Activity Monitor
+AirPort Utility
+Bluetooth File Exchange
+Boot Camp Assistant
+ColorSync Utility
+Console
+Digital Color Meter
+Disk Utility
+Grab
+Grapher
+Install Box Edit
+Keychain Access
+Migration Assistant
+Script Editor
+System Information
+Terminal
+VoiceOver Utility
+Microsoft Document Connection
+VoiceOver
+FAX Utility
+Microsoft Office Setup Assistant
+Launchpad
+SophosAutoUpdate
+Setup Assistant
+PowerChime
+Speech Downloader
+HP Utility
+AppleMobileDeviceHelper
+FindReaperFiles
+Folder Actions Dispatcher
+iCloud Drive
+Git Gui
+CIMFindInputCodeTool
+X11
+Wish
+Template
+stackbuilder
+SA Color Finesse 3 UI
+mocha AE CC
+MakePDF
+HyperVue
+DV
+Build Web Page
+Eclipse
+Simulator
+Simulator (Watch)
+MonoDevelop
+Dictation
+CineRenderAE
+Cinema Tools
+Audio MIDI Setup
+Carbon Copy Cloner
+CineWare
+Eclipse
+Flip Player
+Grapher
+Grab
+My Day
+soundBlade HD
+Stickies
+VirtualScanner
