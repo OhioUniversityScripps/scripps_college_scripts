@@ -315,3 +315,7 @@ TamilIM
 ThermalTrap
 Ticket Viewer
 TrackpadIM
+Impulse Response Utility
+InkServer
+Photos Agent
+imagent
