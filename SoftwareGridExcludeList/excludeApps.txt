@@ -126,6 +126,7 @@ Grab
 Grapher
 Hello IT
 HelpViewer
+HindiIM
 HP Utility
 hpdot4d
 hpPreProcessing
@@ -141,6 +142,7 @@ Image Capture Extension
 Image Events
 ImageCaptureService
 imagent
+imavagent
 iMovie
 Impulse Response Utility
 IMServicePlugInAgent
