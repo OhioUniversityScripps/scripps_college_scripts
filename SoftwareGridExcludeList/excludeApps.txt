@@ -12,6 +12,7 @@ AinuIM
 AirPlayUIAgent
 AirPort Base Station Agent
 AirPort Utility
+AirScanLegacyDiscovery
 AirScanScanner
 Alertus Desktop
 AOSAlertManager
@@ -33,6 +34,7 @@ Audio MIDI Setup
 AutoImporter
 Automator
 Automator Runner
+AVB Audio Configuration
 Bluetooth File Exchange
 Bluetooth Setup Assistant
 BluetoothUIServer
@@ -46,6 +48,7 @@ CalendarFileHandler
 Calibration Assistant
 Canon IJScanner2
 Canon IJScanner4
+Canon IJScanner6
 Captive Network Assistant
 Carbon Copy Cloner
 Certificate Assistant
@@ -76,6 +79,8 @@ DatabaseProcess
 Dictation
 Dictionary
 Digital Color Meter
+Directory Utility
+DiscHelper
 Disk Utility
 DiskImageMounter
 DiskImages UI Agent
@@ -86,12 +91,13 @@ DV
 DVD Player
 eaptlstrust
 Eclipse
-Eclipse
 EPFaxAutoSetupTool
+EPSON Scanner
 epsonfax
 EscrowSecurityAlert
 Expansion Slot Utility
 FaceTime
+Family
 fax
 Fax Receive Monitor
 FAX Utility
@@ -106,6 +112,8 @@ FindReaperFiles
 Flip Player
 Folder Actions Dispatcher
 Folder Actions Setup
+FolderActionsDispatcher
+FollowUpUI
 Font Book
 FontRegistryUIAgent
 fseventer
@@ -115,8 +123,6 @@ GitHub Desktop
 GitX
 GoogleVoiceAndVideoUninstaller
 Grab
-Grab
-Grapher
 Grapher
 Hello IT
 HelpViewer
@@ -131,6 +137,8 @@ Identity Finder
 identityservicesd
 IDSRemoteURLConnectionAgent
 Image Capture
+Image Capture Extension
+Image Events
 ImageCaptureService
 imagent
 iMovie
@@ -141,8 +149,8 @@ InkServer
 Install Box Edit
 Install Command Line Developer Tools
 Install in Progress
-Install in Progress
 Installer
+Installer Progress
 InterCheck
 InterLok Helper
 iTerm
@@ -151,6 +159,7 @@ JapaneseIM
 Jar Launcher
 Java 8 Update 65
 Java 8 Update 66
+Java Mission Control
 Java Web Start
 KeyboardSetupAssistant
 KeyboardViewer
@@ -185,7 +194,9 @@ Migration Assistant
 MiniTerm
 Mission Control
 mocha AE CC
+monitor
 MonoDevelop
+MRT
 MunkiMenu
 My Day
 nbagent
@@ -271,7 +282,7 @@ Spotlight
 SpotlightNetHelper
 stackbuilder
 Stickies
-Stickies
+Stocks
 storeuid
 Summary Service
 Switch Control
@@ -283,24 +294,20 @@ System Image Utility
 System Information
 System Preferences
 SystemUIServer
-SystemUIServer
 TamilIM
-TamilIM
-TCIM
 TCIM
 Template
 Terminal
 TextEdit
 TextMate
 ThermalTrap
-ThermalTrap
 Ticket Viewer
 Time Machine
-TrackpadIM
 TrackpadIM
 Type4Camera
 Type5Camera
 Type8Camera
+Uninstall VMware Tools
 universalAccessAuthWarn
 UniversalAccessControl
 UnmountAssistantAgent
@@ -310,6 +317,7 @@ VirtualScanner
 VoiceOver
 VoiceOver Quickstart
 VoiceOver Utility
+Weather
 WebKitPluginHost
 WebProcess
 Wi-Fi
@@ -319,3 +327,4 @@ Wish
 Workgroup Manager
 X11
 Xcode
+ZoomWindow
