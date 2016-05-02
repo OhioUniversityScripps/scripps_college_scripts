@@ -1,46 +1,57 @@
 #!/usr/bin/env python
-# Kahtan Al Jewary (aljewaryk@gmail.com)
+# Kahtan Al Jewary (aljewaryk@gmail.com) 2016
+# Ricky Chilcott (chilcotr@ohio.edu) 2016
 
+import subprocess
 from subprocess import call
+def diskUsage(path):
+  command = "du -sh %s | awk \'{print $1}\'"  % path
+  usage = subprocess.check_output(command, shell=True).replace("\n", "").strip()
 
-#-------------------------------------------------------------
-# Get usage statistics and save to a temp file
-#-------------------------------------------------------------
-tempFile = "/tmp/usageStat.txt"
-command = "du -sh $HOME | awk '{print $1}' > %s" % tempFile
-call(command, shell=True)
-
-f = open(tempFile, 'r')
-usage = (f.readline()).replace("\n", "")
-f.close()
-#-------------------------------------------------------------
-
-# Assign values to variables used in the alert box
-timeout = "300"
-title = "Disk Usage Alert"
-message1 = "You are using %s of your 10G quota" % usage
-message2 = "You are going over your 10G quota"
-safeUsage = 8
-unsafeUsage = 10
-
+  return(usage)
+  
+def diskHomeUsage():
+  return diskUsage("$HOME")
+  
 # Will display an alert box with the specified message
 def alert(message):
-  line1 = """ osascript -e 'tell app "System Events" to display dialog """
-  line2 = """ "%s" with title "%s" default button 1 buttons {"OK"} """ %(message, title)
-  line3 = """ giving up after %s' """ % timeout
-  command = line1+line2+line3
+  command = "osascript -e \'tell app \"System Events\" to display dialog "
+  command += "\"%s\" with title \"%s\" default button 1 buttons {\"OK\"} " %(message, title)
+  command += "giving up after %s\'" % timeout
   call(command, shell=True)
 
 # Will check the current usage and alert if needed
-def checkUsage(usage):
-  if usage[-1] != 'G':
+def checkUsageAndAlert(usage):
+  denomination = usage[-1]
+  value = float(usage[0:-1])
+  
+  if denomination != 'G' and denomination != 'T': # Not GB or TB.
+    print "Less than 1 GB. Actually %s of usage." % usage
     return
-  elif int(usage[0:-1]) <= safeUsage:
+  if denomination == 'T': # TERABYTES
+    alert(over_quota_msg)
     return
-  elif int(usage[0:-1]) <= unsafeUsage:
-    alert(message1)
+  elif value <= softQuotaLimit:
+    print "Below safe usage limit"
+    return
+  elif value < hardQuotaLimit:
+    alert(close_to_quota_msg)
   else:
-    alert(message2)
+    alert(over_quota_msg)
+  
+  exit(0)
 
-# Starts here
-checkUsage(usage)
+usage = diskHomeUsage()
+# ============================
+# Variables to change
+# ============================
+
+timeout = "150" #seconds (i.e. 2.5 mins)
+title = "Home Usage Alert"
+softQuotaLimit = 8 # GB
+hardQuotaLimit = 10 # GB
+
+close_to_quota_msg = "You are getting close to your %s of your %sG quota" % (usage, hardQuotaLimit)
+over_quota_msg = "You are over your %sG quota. Currently have used %s. Delete files immediately and empty trash to continue using this computer." % (hardQuotaLimit, usage)
+
+checkUsageAndAlert(usage)
