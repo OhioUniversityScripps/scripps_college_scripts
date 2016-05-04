@@ -51,7 +51,7 @@ title = "Home Usage Alert"
 softQuotaLimit = 8 # GB
 hardQuotaLimit = 10 # GB
 
-close_to_quota_msg = "You are getting close to your %s of your %sG quota" % (usage, hardQuotaLimit)
-over_quota_msg = "You are over your %sG quota. Currently have used %s. Delete files immediately and empty trash to continue using this computer." % (hardQuotaLimit, usage)
+close_to_quota_msg = "You are getting close to your %sG home drive quota. You are currently using %s." % (hardQuotaLimit, usage)
+over_quota_msg = "You are over your %sG home drive quota. Currently, you are using %s. Delete files immediately and empty trash to continue using this computer." % (hardQuotaLimit, usage)
 
 checkUsageAndAlert(usage)

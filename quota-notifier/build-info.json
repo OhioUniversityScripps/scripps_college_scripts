@@ -1,0 +1,10 @@
+{
+  "ownership": "recommended",
+  "suppress_bundle_relocation": true,
+  "identifier": "edu.ohio.quota-notifier",
+  "postinstall_action": "logout",
+  "distribution_style": false,
+  "version": "1.0",
+  "name": "quota-notifier.pkg",
+  "install_location": "/"
+}
