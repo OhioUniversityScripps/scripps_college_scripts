@@ -163,6 +163,77 @@
 		</dict>
 		<dict>
 			<key>functionIdentifier</key>
+			<string>public.submenu</string>
+			<key>settings</key>
+			<dict>
+			<key>title</key>
+			<string>Troubleshooting</string>
+				<key>content</key>
+				<array>
+					<dict>
+						<key>functionIdentifier</key>
+						<string>public.script.item</string>
+						<key>settings</key>
+						<dict>
+							<key>path</key>
+							<string>/Library/Management/HelloIT/preferences/AdobeAfterEffects.sh</string>
+							<key>run</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<dict>
+						<key>functionIdentifier</key>
+						<string>public.script.item</string>
+						<key>settings</key>
+						<dict>
+							<key>path</key>
+							<string>/Library/Management/HelloIT/preferences/AdobePremiere.sh</string>
+							<key>run</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<dict>
+						<key>functionIdentifier</key>
+						<string>public.script.item</string>
+						<key>settings</key>
+						<dict>
+							<key>path</key>
+							<string>/Library/Management/HelloIT/preferences/AutodeskMaya.sh</string>
+							<key>run</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<dict>
+						<key>functionIdentifier</key>
+						<string>public.script.item</string>
+						<key>settings</key>
+						<dict>
+							<key>path</key>
+							<string>/Library/Management/HelloIT/preferences/FinalCutMotionComp.sh</string>
+							<key>run</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+				<dict>
+				<key>functionIdentifier</key>
+				<string>public.separator</string>
+				</dict>
+					<dict>
+						<key>functionIdentifier</key>
+						<string>public.script.item</string>
+						<key>settings</key>
+						<dict>
+							<key>path</key>
+							<string>/Library/Management/HelloIT/cache/Adobe.sh</string>
+							<key>run</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+		</dict>	
+		<dict>
+			<key>functionIdentifier</key>
 			<string>public.separator</string>
 		</dict>
 		<dict>
