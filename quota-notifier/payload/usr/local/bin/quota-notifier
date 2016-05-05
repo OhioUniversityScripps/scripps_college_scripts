@@ -4,6 +4,22 @@
 
 import subprocess
 from subprocess import call
+import os
+
+def shouldCheckQuota():
+  try:
+    dscl_command = "dscl /Active\ Directory/OHIO/All\ Domains/ -read /Users/$USER"
+    output = subprocess.check_output(dscl_command, shell=True).strip()
+    
+  except subprocess.CalledProcessError, e:
+    output = "eDSUnknownNodeName"
+  
+  if "eDSUnknownNodeName" in output:
+    print "AD error encountered, or unknown user"
+    return False
+  else:
+    return True 
+
 def diskUsage(path):
   command = "du -sh %s | awk \'{print $1}\'"  % path
   usage = subprocess.check_output(command, shell=True).replace("\n", "").strip()
@@ -41,15 +57,18 @@ def checkUsageAndAlert(usage):
   
   exit(0)
 
-usage = diskHomeUsage()
+if shouldCheckQuota():
+  usage = diskHomeUsage()
+else:
+  exit(1)
 # ============================
 # Variables to change
 # ============================
 
 timeout = "150" #seconds (i.e. 2.5 mins)
 title = "Home Usage Alert"
-softQuotaLimit = 8 # GB
-hardQuotaLimit = 10 # GB
+hardQuotaLimit = int(os.getenv('HARD_QUOTA', 10)) # GB
+softQuotaLimit = int(os.getenv('SOFT_QUOTA', 8)) # GB
 
 close_to_quota_msg = "You are getting close to your %sG home drive quota. You are currently using %s." % (hardQuotaLimit, usage)
 over_quota_msg = "You are over your %sG home drive quota. Currently, you are using %s. Delete files immediately and empty trash to continue using this computer." % (hardQuotaLimit, usage)
