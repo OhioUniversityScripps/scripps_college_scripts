@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [ "$1" != "run" ]; then
-  sleep 10
+  sleep 5 # Just to give us enough time to grab an IP
 fi
 
 IP_EN0=`ipconfig getifaddr en0`

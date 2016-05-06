@@ -1,9 +1,9 @@
 {
-    "postinstall_action": "logout",
+    "postinstall_action": "restart",
     "suppress_bundle_relocation": true,
-    "name": "HelloIT.pkg",
+    "name": "HelloIT-Settings.pkg",
     "distribution_style": false,
     "version": "1.3",
     "ownership": "recommended",
-    "identifier": "edu.scrippscollege.HelloIT"
+    "identifier": "edu.ohio.scripps.HelloIT"
 }

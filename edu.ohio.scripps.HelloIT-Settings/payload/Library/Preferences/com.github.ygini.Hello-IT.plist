@@ -9,8 +9,6 @@
 			<string>public.title</string>
 			<key>settings</key>
 			<dict>
-				<key>title</key>
-				<string>Hello Scripps IT</string>
 			</dict>
 		</dict>
 		<dict>
@@ -300,7 +298,5 @@
 			</dict>
 		</dict>
 	</array>
-	<key>title</key>
-	<string>Hello Scripps IT</string>
 </dict>
 </plist>
