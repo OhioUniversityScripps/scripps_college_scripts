@@ -4,7 +4,7 @@
   "identifier": "edu.ohio.quota-notifier",
   "postinstall_action": "logout",
   "distribution_style": false,
-  "version": "1.0",
+  "version": "1.1",
   "name": "quota-notifier.pkg",
   "install_location": "/"
 }

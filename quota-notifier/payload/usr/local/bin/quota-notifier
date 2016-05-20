@@ -6,7 +6,7 @@ import subprocess
 from subprocess import call
 import os
 
-def shouldCheckQuota():
+def isNetworkAccount():
   try:
     dscl_command = "dscl /Active\ Directory/OHIO/All\ Domains/ -read /Users/$USER"
     output = subprocess.check_output(dscl_command, shell=True).strip()
@@ -19,6 +19,23 @@ def shouldCheckQuota():
     return False
   else:
     return True 
+    
+def doesntHaveLocalHome():
+  echo_command = "echo $HOME | grep '/Users/'"
+  output = subprocess.check_output(echo_command, shell=True).strip()
+  
+  if output != "":
+    print "Has local home"
+    return False
+  else:
+    print "Doesn't have local home"
+    return True 
+
+def shouldCheckQuota():
+  if doesntHaveLocalHome() and isNetworkAccount():
+    return True
+  else:
+    return False
 
 def diskUsage(path):
   command = "du -sh %s | awk \'{print $1}\'"  % path
