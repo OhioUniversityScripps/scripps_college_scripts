@@ -1,0 +1,22 @@
+#!/bin/sh
+
+MAJOR_VERSION="15"
+APP="CINEMA 4D R$MAJOR_VERSION"
+DMG=CINEMA_4D.dmg
+
+echo "Removing prexisting version"
+rm -rf "./CINEMA_4D"
+rm -rf "./$DMG"
+rm -rf "./$APP.plist"
+
+echo "Copying version version"
+mkdir -p ./CINEMA_4D
+cp -rf "/Applications/MAXON/$APP" ./CINEMA_4D
+
+echo "Building DMG"
+/usr/local/bin/dropdmg --always-create "./CINEMA_4D"
+
+echo "Build pkginfo file"
+/usr/local/munki/makepkginfo -i "$APP" -d "/Applications/MAXON/" -f "/Applications/MAXON/$APP/CINEMA 4D.app" -f "/Applications/MAXON/$APP/license.ini" $DMG > "$DMG.plist"
+
+echo "COMPLETE!"
