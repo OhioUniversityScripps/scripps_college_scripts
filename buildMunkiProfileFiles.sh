@@ -45,7 +45,16 @@ EOF
 echo
 echo "Generating PKGINFO..."
 rm -rf $PROFILE_DMG_PLIST
-makepkginfo --pkgvers $VERSION -i $PROFILE_FILENAME -d $PROFILE_INSTALL_LOC --postinstall_script=$POSTINSTALL_SCRIPT --preuninstall_script=$PREUNINSTALL_SCRIPT $PROFILE_DMG > $PROFILE_DMG_PLIST
+makepkginfo --pkgvers $VERSION \
+            -i $PROFILE_FILENAME \
+            -d $PROFILE_INSTALL_LOC \
+            --postinstall_script=$POSTINSTALL_SCRIPT \
+            --preuninstall_script=$PREUNINSTALL_SCRIPT \
+            --RestartAction=RequireLogout \
+            --description="Scripps College Policy" \
+            --minimum_os_version="10.7" \
+            --category="Profiles" \
+            $PROFILE_DMG > $PROFILE_DMG_PLIST
 
 # echo "Cleaning up after myself..."
 rm -rf $POSTINSTALL_SCRIPT
