@@ -1,0 +1,466 @@
+//LANGUAGE
+STR:English
+//DLL_MSG_SOFTELICENSERNOPERMISSION
+STR:Soft-eLiceneser doesn't have enought permissions to run properly. Please run LCC to fix this problem.
+//GENERAL_BUTTON_OK
+STR:_OK
+//GENERAL_BUTTON_CANCEL
+STR:_Cancel
+//GENERAL_BUTTON_RETRY
+STR:_Retry
+//GENERAL_BUTTON_HELP
+STR:_Help
+//GENERAL_BUTTON_REFRESH_DEVICE_LIST
+STR:_Refresh
+//GENERAL_BUTTON_VIEW_LICENSES
+STR:_Licenses
+//GENERAL_NO_LICENSE_FOUND
+STR:No licenses found
+//GENERAL_NO_DEVICE_FOUND
+STR:No eLicenser found
+//GENERAL_CANT_INTERPRET_LICENSES
+STR:Can't interpret licenses
+//ERROR_DLG_TITLE
+STR:eLicenser Control - Error
+//DLL_DLG_SELECT_LICENSE_TITLE
+STR:eLicenser Control - Select License
+//DLL_DLG_SELECT_LICENSE_TEXT
+STR:Select a license in the device tree and click the <start> button below to launch application.
+//DLL_DLG_SELECT_LICENSE_CHECKBOX_VIEW_ALL_DEVICES_LICENSES
+STR:_View all eLicensers and Licenses
+//DLL_DLG_SELECT_LICENSE_CHECKBOX_VIEW_PROPERTIES
+STR:_View all License Properties
+//DLL_DLG_SELECT_LICENSE_BUTTON_START
+STR:_Start
+//LCC_TREE_ROOT_MYPROTECTIONDEVICES
+STR:My eLicensers
+//POS_DLG_SCANNINGDEVICES_TITLE
+STR:eLicenser Control
+//POS_DLG_SCANNINGDEVICES_DESCRIPTION
+STR:Scanning for eLicensers ...
+//DLL_POS_ACCESS_CLIENT_DLL_EXCEPTION_POS_REGISTRATION_EXCEPTION_PD_CONTAINS_NO_VALID_LICENSES
+STR:eLicenser(s) contain(s) no valid license for this application.
+//DLL_POS_ACCESS_CLIENT_EXCEPTION_CLASS_NOT_REGISTERED
+STR:Class not registered:
+//DLL_POS_ACCESS_CLIENT_EXCEPTION_CPP_A_NULL_POINTER_HAS_BEEN_PASSED
+STR:A null pointer has been passed.
+//DLL_POS_ACCESS_UI_DIALOG_HANDLER_CPP_EXCEPTION_SORRY_THE_APP_WILL_NOT_RUN
+STR:The user has canceled the license selection.
+//DLL_POS_TRANSFER_OBJECT_TRADER_POS_EXCEPTION_NO_VALID_POS_INTERFACE
+STR:POS interface is invalid for this synsoacc.dll. SDNL Please reinstall application or update eLicenser driver.SDNL SDNL SDNL SDNLOptions: SDNL - Click <Ok> to abort.
+//DLL_ERROR_POS_PROTECTION_DEVICE_NOT_FOUND_EXCEPTION
+STR:SDNLOptions: SDNL - For troubleshooting information click <Help>.SDNL - Connect a valid eLicenser and click <Retry>. SDNL - Click <Cancel> to abort.
+//DLL_ERROR_POS_CLASS_OR_DRIVER_NOT_FOUND_EXCEPTION
+STR:The application installation is not complete. Please reinstall application or update eLicenser driver.SDNL SDNL SDNLOptions: SDNL - Click <Ok> to abort.
+//DLL_ERROR_POS_OBJECT_INSTANTIATION_EXCEPTION
+STR:Please connect a valid eLicenser and restart application.SDNL SDNL SDNLOptions: SDNL - Click <Ok> to abort.
+//DLL_ERROR_POS_LPT_PORT_IN_USE_EXCEPTION
+STR:The LPT port is blocked by another driver (e.g. printer or midi interface). Please close all applications that use the LPT port. SDNL SDNLOptions: SDNL - Click <Ok> to abort. 
+//DLL_ERROR_POS_PROTECTED_EXECUTER_DEFECT_EXCEPTION
+STR:The eLicenser is in an invalid state. The application might not run anymore. SDNL SDNL SDNLOptions: SDNL - Click <Ok> to abort.
+//DLL_ERROR_POS_REGISTRATION_EXCEPTION
+STR:Options: SDNL - For troubleshooting information click <Help>. SDNL - Click <Licenses> to view available licenses. SDNL - Connect a valid eLicenser and click <Retry>. SDNL - Click <Cancel> to abort.
+//DLL_ERROR_UNRECOVERABLE_ERROR
+STR:SDNL SDNL SDNLOptions: SDNL - Click <Ok> to abort.
+//DLL_ERROR_ERRORMESSAGEHEAD_PART1
+STR:Application '
+//DLL_ERROR_ERRORMESSAGEHEAD_PART2
+STR:' has caused the following error: SDNL SDNL
+//DLL_ERROR_DIALOG_TITLE
+STR:eLicenser Control - Error
+//DLL_ATTENTION_MESSAGE
+STR:Attention: If you cancel this operation the application might crash.SDNL SDNL SDNL SDNL SDNLOptions: SDNL - For troubleshooting information click <Help>. SDNL - Connect a valid eLicenser and click <Retry>. SDNL - Click <Cancel> to abort.
+//DLL_MESSAGE_DIALOG_TITLE
+STR:eLicenser Control - Message
+//DLL_MESSAGE_DIALOG_CLICK_OK_TO_CONFIRM
+STR:SDNL SDNL SDNL SDNLPlease click <Ok> to confirm this message.
+//LCC_GENERAL_DEVICETREEBOX
+STR:Device Tree
+//DLL_FILEPROTECTOR_WRONGVERSION
+STR:The protected file has been saved in a format too new for the installed version of the eLicencer Control and therefore it cannot be accepted.SDNLPlease download the latest version from the website: 'http://www.eLicenser.net'.
+//DLL_FILEPROTECTOR_NOSYNCROHEADER
+STR:This file was not protected with a method from the eLicenser Control.
+//DLL_DATAPROTECTOR_WRONGVERSION
+STR:The protected data has been saved in a format too new for the installed version of the eLicencer Control and therefore it cannot be accepted.SDNLPlease download the latest version from the website: <http://www.eLicenser.net>.
+//DLL_DATAPROTECTOR_NOSYNCROHEADER
+STR:The protected data has an unknown format.
+//POS_REQUEST_DLG_ENTER_PIN
+STR:PIN Code:
+//POS_REQUEST_DLG_ENTER_SUPERPIN
+STR:SuperPIN: 
+//POS_REQUEST_DLG_ENTER_PASSWORD
+STR:Password:
+//DLL_ERROR_PIN_WRONG_EXCEPTION
+STR:Options:SDNL - Click <Retry> to enter the PIN again.SDNL - Click <Cancel> to abort.
+//DLL_ERROR_PIN_LOCKED_EXCEPTION
+STR:SDNLTo unlock please click on <Retry> and then enter the Super Pin.
+//POS_REQUEST_DLG_PIN_MESSAGE_FIRST_TIME
+STR:The license for the function you wish to use is protected by a PIN Code.SDNLPlease enter the PIN Code to allow usage:
+//POS_REQUEST_DLG_PIN_WARNING
+STR:You entered an invalid PIN Code.SDNLATTENTION!SDNLIf an invalid PIN Code is entered five consecutive times, the PIN Code will be locked.SDNLPlease enter the correct PIN Code:
+//POS_REQUEST_DLG_SUPERPIN_MESSAGE_FIRST_TIME
+STR:WARNING!SDNLYour PIN Code has been LOCKED!SDNLThis happenend because of five invalid PIN Codes having been entered.SDNL SDNLTo unlock your PIN Code, please enter your Super PIN Code:
+//POS_REQUEST_DLG_SUPERPIN_WARNING
+STR:You entered an invalid Super PIN Code.SDNLATTENTION!SDNLIf an invalid Super PIN Code is entered five consecutive times, the protected license will be unrecoverably destroyed!SDNLPlease enter the correct Super PIN Code:
+//DLL_PIN_INITIALIZATION_MESSAGE_PART1
+STR:The license has been used for the first time.SDNLThe following PIN and SuperPIN have been created:SDNL SDNL
+//DLL_PIN_INITIALIZATION_MODIFICATION_MESSAGE_PART2
+STR:SDNL SDNLAfter clicking on <OK> you can save the pin information in a file.
+//DLL_PIN_MODIFICATION_MESSAGE
+STR:The PIN has been modified and the result is as follow:SDNL SDNL
+//DLL_PIN_SUCCESSFULL_FILE_CREATION_MESSAGE
+STR:The PIN information has been written successfully in the following file:SDNL SDNL
+//POS_DLG_PIN_HANDLING_TITLE
+STR:eLicenser Control - Pin Handling
+//POS_EXCEPTION_PINHANDLING_NOT_SUPPORTED
+STR:PIN handling is not supported on this platform.
+//DCP_ERRORMSG_CREATEENCRYPTIONCONTEXT_NOVALIDELICENSER
+STR:Key generation failed:SDNLNo valid license found.
+//DCP_ERRORMSG_ENCRYPTDATA_NOCONTEXTINCACHE
+STR:Encryption failed:SDNLA problem with the key cache occurred.SDNLPlease generate a new key.
+//DCP_ERRORMSG_ENCRYPTDATA_PCALGORITHM
+STR:Encryption failed:SDNLThe installed version of the 'eLicenser Control' is not recent enough to recognize the chosen encryption algorithm.SDNLPlease install the latest 'eLicenser Control'.
+//DCP_ERRORMSG_ENCRYPTDATA_ENCRYPTIONFORMAT
+STR:Encryption failed:SDNLThe installed version of the 'eLicenser Control' is not recent enough to recognize the chosen encryption format.SDNLPlease install the latest 'eLicenser Control'.
+//DCP_ERRORMSG_DECRYPTDATA_NOVALIDELICENSER
+STR:Decryption failed:SDNLNo valid license found.
+//DCP_ERRORMSG_DECRYPTDATA_PCALGORITHM
+STR:Decryption failed:SDNLThe installed version of the 'eLicenser Control' is not recent enough to recognize the algorithm which was used to encrypt the data.SDNLPlease install the latest 'eLicenser Control'.
+//DCP_ERRORMSG_DECRYPTDATA_ENCRYPTIONFORMAT
+STR:Decryption failed:SDNLThe installed version of the 'eLicenser Control' is not recent enough to recognize the format of the encrypted data.SDNLPlease install the latest 'eLicenser Control'.
+//DCP_ERRORMSG_SETENCRYPTIONCONTEXT_NOENCRYPTIONCONTEXT
+STR:The key could not be identified:SDNLThe format of the key is invalid.
+//DCP_ERRORMSG_SETENCRYPTIONCONTEXT_VERSIONOFENCRYPTIONCONTEXT
+STR:The key could not be identified:SDNLThe installed version of the 'eLicenser Control' is not recent enough to recognize the format of the key.
+//DLL_MSG_FOUNDMATCHEDANDDISABLEDDATELICENSES_1
+STR:The license required for application '
+//DLL_MSG_FOUNDMATCHEDANDDISABLEDDATELICENSES_2
+STR:' was deactivated, because it needs to be validated.SDNLShould the licenseserver validate the licenses now?SDNL SDNLYou can use the 'Validate License Usage Periods' wizard of the 'eLicenser Control Center' to validate this license later.
+//DLL_MSG_ELICENSERCANTINTERPRETATELICENSE
+STR:At least one connected eLicenser contains licenses which cannot be usedSDNLwith the installed version of 'eLicenser Control'.SDNL SDNLPlease download the latest version from the website: <http://www.eLicenser.net>
+//DLL_MSG_FOUNDMATCHEDANDNOTACTIVATEDDATELICENSES
+STR:The connected eLicensers contain at least one 'not active' license for these program.SDNL SDNLYou can use the 'Validate License Usage Periods' wizard of the 'eLicenser Control Center' to activate this license.
+//DLL_MSG_SOFTELICENSERHARDWARECHANGED_1
+STR:Your system finger print is not valid anymore.SDNLThe systems' hardware configuration has been changed!SDNLSoft-eLicenser '
+//DLL_MSG_SOFTELICENSERHARDWARECHANGED_2
+STR:' and stored licenses have been disabled.SDNLHardware eLicensers are not affected!SDNL SDNLPlease contact your software vendors' support department for help and reactivation.
+//DLL_MSG_SOFTELICENSERMANIPULATED_1
+STR:Necessary files or information for the validity of the Soft-eLicenser have been changed or corrupted.SDNLThis can be caused by exchanging single files, the usage of cleanup and backup tools or similar.SDNLSoft-eLicenser '
+//DLL_MSG_SOFTELICENSERMANIPULATED_2
+STR:' and stored licenses have been disabled.SDNLHardware eLicensers are not affected!SDNL SDNLPlease contact your software vendors' support department for help and reactivation.
+//DLL_MSG_SYNSOPOS_IS_MISSING_MACOSX
+STR:Application 'Synsopos.app' could not be located in the 'Application Support' folder. Probably the installation is incomplete.SDNLSDNLPlease download and install the latest version of the eLicenser Control software fromSDNLSDNL<http://www.eLicenser.net>
+//DLL_MSG_SYNSOPOS_IS_CORRUPT_MACOSX
+STR:Application 'Synsopos.app' could not be started. Probably the file is corrupted or incompatible, or file access permissions are set incorrectly.SDNLSDNLPlease download and install the latest version of the eLicenser Control software fromSDNLSDNL<http://www.eLicenser.net>
+//LANGUAGE
+STR:German
+//DLL_MSG_SOFTELICENSERNOPERMISSION
+STR:Aufgrund von Problemen mit den Zugriffsrechten, kann der Soft-eLicenser nicht genutzt werden. Bitte starten Sie das LCC, um dieses Problem zu beheben.
+//GENERAL_BUTTON_OK
+STR:_OK
+//GENERAL_BUTTON_CANCEL
+STR:_Abbrechen
+//GENERAL_BUTTON_RETRY
+STR:_Wiederholen
+//GENERAL_BUTTON_EXIT
+STR:B_eenden
+//GENERAL_BUTTON_HELP
+STR:_Hilfe
+//GENERAL_BUTTON_REFRESH_DEVICE_LIST
+STR:_Aktualisieren
+//GENERAL_BUTTON_VIEW_LICENSES
+STR:_Lizenzen
+//GENERAL_NO_LICENSE_FOUND
+STR:Keine Lizenzen gefunden
+//GENERAL_NO_DEVICE_FOUND
+STR:Keine eLicenser gefunden
+//GENERAL_CANT_INTERPRET_LICENSES
+STR:Lizenzen können nicht interpretiert werden.
+//ERROR_DLG_TITLE
+STR:eLicenser Control - Fehler
+//DLL_DLG_SELECT_LICENSE_TITLE
+STR:eLicenser Control - Lizenz Auswählen
+//DLL_DLG_SELECT_LICENSE_TEXT
+STR:Bitte selektieren Sie eine Lizenz im Gerätebaum. Dann klicken Sie auf <Start>.
+//DLL_DLG_SELECT_LICENSE_CHECKBOX_VIEW_ALL_DEVICES_LICENSES
+STR:Alle elicenser und Lizenzen
+//DLL_DLG_SELECT_LICENSE_CHECKBOX_VIEW_PROPERTIES
+STR:Lizenz-Eigenschaften
+//DLL_DLG_SELECT_LICENSE_BUTTON_START
+STR:Start
+//LCC_TREE_ROOT_MYPROTECTIONDEVICES
+STR:Meine eLicenser
+//POS_DLG_SCANNINGDEVICES_TITLE
+STR:eLicenser Control
+//POS_DLG_SCANNINGDEVICES_DESCRIPTION
+STR:Suche nach eLicenser...
+//DLL_POS_ACCESS_CLIENT_DLL_EXCEPTION_POS_REGISTRATION_EXCEPTION_PD_CONTAINS_NO_VALID_LICENSES
+STR:Die eLicenser enthalten keine gültige Lizenz.
+//DLL_POS_ACCESS_CLIENT_EXCEPTION_CLASS_NOT_REGISTERED
+STR:Class not registered:
+//DLL_POS_ACCESS_CLIENT_EXCEPTION_CPP_A_NULL_POINTER_HAS_BEEN_PASSED
+STR:Ein Nullpointer wurde übergeben.
+//DLL_POS_ACCESS_UI_DIALOG_HANDLER_CPP_EXCEPTION_SORRY_THE_APP_WILL_NOT_RUN
+STR:Der Benutzer hat die Lizenz-Auswahl abgebrochen.
+//DLL_POS_TRANSFER_OBJECT_TRADER_POS_EXCEPTION_NO_VALID_POS_INTERFACE
+STR:Die POS Schnittstelle ist ungültig. Bitte installieren Sie die Applikation noch einmal, oder installieren Sie aktuelle eLicenser-Treiber.SDNL SDNLOptionen: SDNL - Um abzubrechen klicken Sie <Ok>.
+//DLL_ERROR_POS_PROTECTION_DEVICE_NOT_FOUND_EXCEPTION
+STR:SDNLOptionen: SDNL - Für Hilfestellung klicken Sie <Hilfe>. SDNL - eLicenser anstecken und <Wiederholen>. SDNL - Um abzubrechen klicken Sie <Abbrechen>.
+//DLL_ERROR_POS_CLASS_OR_DRIVER_NOT_FOUND_EXCEPTION
+STR:Die Applikations-Installation ist nicht komplett. Bitte installieren Sie die Applikation noch einmal, oder installieren Sie aktuelle eLicenser-Treiber.SDNL SDNLOptionen: SDNL - Um abzubrechen klicken Sie <Ok>.
+//DLL_ERROR_POS_OBJECT_INSTANTIATION_EXCEPTION
+STR:Bitte schliessen Sie einen gültigen eLicenser an und starten die Applikation noch einmal.SDNL SDNLOptionen: SDNL - Um abzubrechen klicken Sie <Ok>.
+//DLL_ERROR_POS_LPT_PORT_IN_USE_EXCEPTION
+STR:Der LPT Anschluss wird durch ein Zusatzgerät (z. B. Drucker oder MIDI Interface) blockiert. Bitte beenden Sie alle Applikationen, die ein Zusatzgerät am LPT Anschluss benutzen. SDNL SDNLOptionen: SDNL - Um abzubrechen klicken Sie <Ok>.
+//DLL_ERROR_POS_PROTECTED_EXECUTER_DEFECT_EXCEPTION
+STR:Der eLicenser ist in einem ungültigen internen Zustand. Die Applikation ist nicht zu starten. SDNL SDNL SDNLOptionen: SDNL - Um abzubrechen klicken Sie <Ok>.
+//DLL_ERROR_POS_REGISTRATION_EXCEPTION
+STR:Optionen: SDNL - Für Hilfestellung klicken Sie <Hilfe>. SDNL - <Lizenzen> anklicken, um alle Lizenzen anzuzeigen. SDNL - eLicenser anstecken und <Wiederholen>. SDNL - Um abzubrechen klicken Sie <Abbrechen>.
+//DLL_ERROR_UNRECOVERABLE_ERROR
+STR:SDNL SDNL SDNLOptionen: SDNL - Klicken Sie <Ok>, um zu beenden.
+//DLL_ERROR_ERRORMESSAGEHEAD_PART1
+STR:Applikation '
+//DLL_ERROR_ERRORMESSAGEHEAD_PART2
+STR:' hat den folgenden Fehler verursacht: SDNL SDNL
+//DLL_ERROR_DIALOG_TITLE
+STR:eLicenser Control - Fehler
+//DLL_ATTENTION_MESSAGE
+STR:Achtung: Wenn Sie hier abbrechen, kann die Applikation abstürzen.SDNL SDNL SDNL SDNL SDNLOptionen: SDNL - Für Hilfestellung klicken Sie <Hilfe>. SDNL - eLicenser anstecken und <Wiederholen>. SDNL - Um abzubrechen klicken Sie <Abbrechen>.
+//DLL_MESSAGE_DIALOG_TITLE
+STR:eLicenser Control - Meldung
+//DLL_MESSAGE_DIALOG_CLICK_OK_TO_CONFIRM
+STR:SDNL SDNL SDNL SDNLBitte klicken Sie <Ok>, um die Meldung zu bestätigen.
+//LCC_GENERAL_DEVICETREEBOX
+STR:Gerätebaum
+//DLL_FILEPROTECTOR_WRONGVERSION
+STR:Die geschützte Datei hat ein zu neues Format und kann von dieser Lizenz Kontroll Version nicht akzeptiert werden.SDNLBitte laden Sie eine aktuelle Version unter <http://www.eLicenser.net> herunter.
+//DLL_FILEPROTECTOR_NOSYNCROHEADER
+STR:Diese Datei wurde nicht mit einem eLicenser-Mechanismus geschützt.
+//DLL_DATAPROTECTOR_WRONGVERSION
+STR:Die geschützten Daten haben ein zu neues Format und können von dieser eLicencer-Control-Version nicht akzeptiert werden.SDNLBitte laden Sie eine aktuelle Version unter <http://www.eLicenser.net> herunter.
+//DLL_DATAPROTECTOR_NOSYNCROHEADER
+STR:Die geschützten Daten haben ein unbekanntes Format.
+//POS_REQUEST_DLG_ENTER_PIN
+STR:PIN Code:
+//POS_REQUEST_DLG_ENTER_SUPERPIN
+STR:SuperPIN: 
+//POS_REQUEST_DLG_ENTER_PASSWORD
+STR:Passwort:
+//DLL_ERROR_PIN_WRONG_EXCEPTION
+STR:Möglichkeiten:SDNL- Klicken Sie auf <Neuer Versuch> um die PIN einzugeben.SDNL- Klicken Sie auf <Abbrechen> um abzubrechen.
+//DLL_ERROR_PIN_LOCKED_EXCEPTION
+STR:SDNLGE Please start eLicenser Control Center application (eLCC) to unlock the license.
+//POS_REQUEST_DLG_PIN_MESSAGE_FIRST_TIME
+STR:Die Lizenz für die Funktion, die Sie verwenden möchten, ist durch einen PIN Code geschützt.SDNLBitte geben Sie den PIN Code ein, um die Verwendung zu erlauben:
+//POS_REQUEST_DLG_PIN_WARNING
+STR:Sie haben einen ungültigen PIN Code eingegeben.SDNLACHTUNG!SDNLWenn Sie fünf mal in Folge einen ungültigen PIN Code eingeben, wird der PIN Code gesperrt.SDNLBitte geben Sie den korrekten PIN Code ein:
+//POS_REQUEST_DLG_SUPERPIN_MESSAGE_FIRST_TIME
+STR:WARNUNG!SDNLIhr PIN Code wurde GESPERRT!SDNLDie Sperrung erfolgte, weil fünf mal in Folge ein ungültiger PIN Code eingegeben wurde.SDNL SDNLUm den PIN Code zu entsperren, geben Sie bitte den Super PIN Code ein:
+//POS_REQUEST_DLG_SUPERPIN_WARNING
+STR:Sie haben einen ungültigen Super PIN Code eingegeben.SDNLACHTUNG!SDNLWenn Sie fünf mal in Folge einen ungültigen Super PIN Code eingeben, wird die geschützte Lizenz unwiederbringlich zerstört!SDNLBitte geben Sie den korrekten Super PIN Code ein:
+//DLL_PIN_INITIALIZATION_MESSAGE_PART1
+STR:Die Lizenz wurde zu ersten Mal verwendet.SDNLDie folgende PIN und SuperPIN wurden generiert.SDNL SDNL
+//DLL_PIN_INITIALIZATION_MODIFICATION_MESSAGE_PART2
+STR:SDNL SDNLSie können die PIN-Information in einer Datei speichern, nachdem Sie auf <OK> geklickt haben.
+//DLL_PIN_MODIFICATION_MESSAGE
+STR:Die PIN wurde modifiziert und es ergibt sich folgendes Ergebnis:SDNL SDNL
+//DLL_PIN_SUCCESSFULL_FILE_CREATION_MESSAGE
+STR:Die PIN Information wurde erfolgreich in folgender Datei gespeichert:SDNL SDNL
+//POS_DLG_PIN_HANDLING_TITLE
+STR:eLicenser Control - PIN Verwaltung
+//POS_EXCEPTION_PINHANDLING_NOT_SUPPORTED
+STR:PIN-Handling wird auf dieser Plattform nicht unterstützt.
+//DCP_ERRORMSG_CREATEENCRYPTIONCONTEXT_NOVALIDELICENSER
+STR:Das Generieren des Schlüssels ist fehlgeschlagen:SDNLEs wurde keine passende Lizenz gefunden.
+//DCP_ERRORMSG_ENCRYPTDATA_NOCONTEXTINCACHE
+STR:Die Verschlüsselung ist fehlgeschlagen:SDNLEs ist ein Problem mit dem Schlüssel-Cache aufgetreten.SDNLBitte generieren Sie einen neuen Schlüssel.
+//DCP_ERRORMSG_ENCRYPTDATA_PCALGORITHM
+STR:Die Verschlüsselung ist fehlgeschlagen:SDNLDie installierte Version der 'eLicenser Control' ist nicht aktuell genug, um den gewählten Verschlüsselungsalgorithmus erkennen zu können.SDNLBitte installieren Sie die aktuellste 'eLicenser Control'.
+//DCP_ERRORMSG_ENCRYPTDATA_ENCRYPTIONFORMAT
+STR:Die Verschlüsselung ist fehlgeschlagen:SDNLDie installierte Version der 'eLicenser Control' ist nicht aktuell genug, um das gewählte Verschlüsselungsformat erkennen zu können.SDNLBitte installieren Sie die aktuellste 'eLicenser Control'.
+//DCP_ERRORMSG_DECRYPTDATA_NOVALIDELICENSER
+STR:Die Entschlüsselung ist fehlgeschlagen:SDNLEs wurde keine passende Lizenz gefunden.
+//DCP_ERRORMSG_DECRYPTDATA_PCALGORITHM
+STR:Die Verschlüsselung ist fehlgeschlagen:SDNLDie installierte Version der 'eLicenser Control' ist nicht aktuell genug, um den Algorithmus, mit dem die Daten verschlüsselt wurden, erkennen zu können.SDNLBitte installieren Sie die aktuellste 'eLicenser Control'.
+//DCP_ERRORMSG_DECRYPTDATA_ENCRYPTIONFORMAT
+STR:Die Verschlüsselung ist fehlgeschlagen:SDNLDie installierte Version der 'eLicenser Control' ist nicht aktuell genug, um das Format der verschlüsselten Daten erkennen zu können.SDNLBitte installieren Sie die aktuellste 'eLicenser Control'.
+//DCP_ERRORMSG_SETENCRYPTIONCONTEXT_NOENCRYPTIONCONTEXT
+STR:Der Schlüssel konnte nicht identifiziert werden:SDNLDas Format des Schlüssels ist ungültig.
+//DCP_ERRORMSG_SETENCRYPTIONCONTEXT_VERSIONOFENCRYPTIONCONTEXT
+STR:Der Schlüssel konnte nicht identifiziert werden:SDNLDie installierte Version der 'eLicenser Control' ist nicht aktuell genug, um das Format des Schlüssels erkennen zu können.SDNLBitte installieren Sie die aktuellste 'eLicenser Control'.
+//DLL_MSG_FOUNDMATCHEDANDDISABLEDDATELICENSES_1
+STR:Die für '
+//DLL_MSG_FOUNDMATCHEDANDDISABLEDDATELICENSES_2
+STR:' benötigte Lizenz wurde deaktiviert, da ihre Gültigkeit überprüft werden muss.SDNLSoll die Gültigkeit jetzt durch den Lizenzserver überprüft werden?SDNL SDNLSie können diese Lizenz auch zu einen späteren Zeitpunkt mit dem 'Lizenznutzungszeiträume überprüfen'-Assistenten des 'eLicenser Control Center' überprüfen.
+//DLL_MSG_ELICENSERCANTINTERPRETATELICENSE
+STR:Es wurde mindestens ein angeschlossener eLicenser gefunden, der eine Lizenz enthält,SDNLwelche nicht mit der installierten 'eLicenser Control' benutzt werden kann.SDNL SDNLBitte laden Sie eine aktuelle Version unter <http://www.eLicenser.net> herunter.
+//DLL_MSG_FOUNDMATCHEDANDNOTACTIVATEDDATELICENSES
+STR:Es wurde mindestens eine gültige Lizenz für dieses Programm gefunden, die noch nicht aktiv ist.SDNL SDNLSie können nicht aktivierte Lizenzen mit Hilfe des 'Lizenznutzungszeiträume überprüfen'-Assistenten des 'eLicenser Control Center' aktivieren.
+//DLL_MSG_SOFTELICENSERHARDWARECHANGED_1
+STR:Ihr System wurde grundlegend in der Hardware Konfiguration geändert!SDNLDer Soft-eLicenser '
+//DLL_MSG_SOFTELICENSERHARDWARECHANGED_2
+STR:' und die darin enthaltenen Lizenzen wurden deaktiviert.SDNLUSB oder LPT eLicenser sind nicht betroffen!SDNL SDNLBitte kontaktieren Sie die Support Abteilung Ihres Softwareherstellers, um weitere Hilfe zur erneuten Aktivierung zu erhalten.
+//DLL_MSG_SOFTELICENSERMANIPULATED_1
+STR:Dateien oder Informationen, die für die Gültigkeit des Soft-eLicensers benötigt werden, wurden geändert oder sind fehlerhaft. Dies kann durch das Benutzen von Daten-Sicherungsprogrammen oder ähnlichem verursacht werden. Der Soft-eLicenser '
+//DLL_MSG_SOFTELICENSERMANIPULATED_2
+STR:' und die darin enthaltenen Lizenzen wurden deshalb deaktiviert.SDNLUSB oder LPT eLicenser sind nicht betroffen!SDNL SDNLBitte kontaktieren Sie die Support-Abteilung Ihres Softwareherstellers, um weitere Hilfe zur erneuten Aktivierung des Soft-eLicensers zu erhalten.
+//DLL_MSG_SYNSOPOS_IS_MISSING_MACOSX
+STR:Das Programm 'Synsopos.app' befindet sich nicht im SDNL'Application Support'-Ordner. Wahrscheinlich ist die Installation unvollständig.SDNLSDNLBitte laden und installieren Sie die neueste Version der 'eLicenser Control' von dieser Web-Seite:SDNLSDNL<http://www.eLicenser.net>
+//DLL_MSG_SYNSOPOS_IS_CORRUPT_MACOSX
+STR:Das Programm 'Synsopos.app' konnte nicht gestartet werden. Wahrscheinlich ist die Datei beschädigt oder inkompatibel, oder die Datei-Zugriffsrechte sind inkorrekt.SDNLSDNLBitte laden und installieren Sie die neueste Version der 'eLicenser Control' von dieser Web-Seite:SDNLSDNL<http://www.eLicenser.net>
+//LANGUAGE
+STR:Français
+//GENERAL_BUTTON_OK
+STR:_OK
+//GENERAL_BUTTON_CANCEL
+STR:_Annuler
+//GENERAL_BUTTON_RETRY
+STR:_Réessayer
+//GENERAL_BUTTON_EXIT
+STR:_Terminer
+//GENERAL_BUTTON_HELP
+STR:_Aide
+//GENERAL_BUTTON_REFRESH_DEVICE_LIST
+STR:_Actualiser
+//GENERAL_BUTTON_VIEW_LICENSES
+STR:_Licences
+//GENERAL_NO_LICENSE_FOUND
+STR:Aucune licence trouvée
+//GENERAL_NO_DEVICE_FOUND
+STR:Aucun stick anti-copie trouvé
+//GENERAL_CANT_INTERPRET_LICENSES
+STR:Can't interpret licenses
+//ERROR_DLG_TITLE
+    - erreur
+//DLL_DLG_SELECT_LICENSE_TITLE
+STR:eLicenser Control - sélectionner la licence
+//DLL_DLG_SELECT_LICENSE_TEXT
+STR:Veuillez sélectionner une licence dans l'arborescence de navigation, puis cliquer sur <Démarrer>.
+//DLL_DLG_SELECT_LICENSE_CHECKBOX_VIEW_ALL_DEVICES_LICENSES
+STR:Tous les périphériques et licences
+//DLL_DLG_SELECT_LICENSE_CHECKBOX_VIEW_PROPERTIES
+STR:Propriétés des licences
+//DLL_DLG_SELECT_LICENSE_BUTTON_START
+STR:Démarrer
+//LCC_TREE_ROOT_MYPROTECTIONDEVICES
+STR:Mes sticks anti-copie
+//POS_DLG_SCANNINGDEVICES_TITLE
+STR:eLicenser Control
+//POS_DLG_SCANNINGDEVICES_DESCRIPTION
+STR:Recherche de périphériques...
+//DLL_POS_ACCESS_CLIENT_DLL_EXCEPTION_POS_REGISTRATION_EXCEPTION_PD_CONTAINS_NO_VALID_LICENSES
+STR:Les sticks anti-copie ne contiennent aucune licence valide.
+//DLL_POS_ACCESS_CLIENT_EXCEPTION_CLASS_NOT_REGISTERED
+STR:Classe non répertoriée:
+//DLL_POS_ACCESS_CLIENT_EXCEPTION_CPP_A_NULL_POINTER_HAS_BEEN_PASSED
+STR:Une erreur  Null pointer est survenue
+//DLL_POS_ACCESS_UI_DIALOG_HANDLER_CPP_EXCEPTION_SORRY_THE_APP_WILL_NOT_RUN
+STR:L'utilisateur a annulé la sélection de licence.
+//DLL_POS_TRANSFER_OBJECT_TRADER_POS_EXCEPTION_NO_VALID_POS_INTERFACE
+STR:L'interface POS n'est pas valide. Veuillez réinstaller l'application, ou bien installez des drivers actuels du stick anti-copie.SDNL SDNLOptions: SDNL - pour annuler, cliquez sur <Ok>.
+//DLL_ERROR_POS_PROTECTION_DEVICE_NOT_FOUND_EXCEPTION
+STR:SDNLOptions: SDNL - Pour accéder à l'aide, cliquez sur <Aide>. SDNL - Introduire le stick anti-copie puis cliquer sur <Réessayer>. SDNL - Pour annuler, cliquez sur <Annuler>. 
+//DLL_ERROR_POS_CLASS_OR_DRIVER_NOT_FOUND_EXCEPTION
+STR:L'installation de l'application n'est pas complète. Veuillez réinstaller l'application ou bien installez des drivers actuels du stick anti-copie. SDNL SDNLOptions: SDNL - Pour annuler, cliquez sur <Ok>.
+//DLL_ERROR_POS_OBJECT_INSTANTIATION_EXCEPTION
+STR:Veuillez introduire un stick anti-copie valide et redémarrez l'application. SDNL SDNLOptions: SDNL - Pour annuler, cliquez sur <Ok>.
+//DLL_ERROR_POS_LPT_PORT_IN_USE_EXCEPTION
+STR:Le port LPT est bloqué par un un autre périphérique (par exemple une imprimante ou une interface MIDI. Veuillez fermer toutes les applications utilisant un périphérique branché au port LPT. SDNL SDNLOptions: SDNL - Pour annuler, cliquez sur <Ok>.
+//DLL_ERROR_POS_PROTECTED_EXECUTER_DEFECT_EXCEPTION
+STR:le stick anti-copie se trouve dans un état interne non valide. L'application ne peut être démarrée. SDNL SDNLOptions: SDNL - Pour annuler, cliquez sur <Ok>
+//DLL_ERROR_POS_REGISTRATION_EXCEPTION
+STR:Options: SDNL - Pour obtenir de l'aide, cliquez sur <Aide>. SDNL - cliquez sur <Licences> pour afficher toutes les licences.SDNL - introduire le stick anti-copie et <Réessayer>. SDNL - Pour annuler, cliquez sur <Annuler>
+//DLL_ERROR_UNRECOVERABLE_ERROR
+STR:SDNL SDNL SDNLOptions: SDNL - Cliquez sur <Ok> pour quitter.
+//DLL_ERROR_ERRORMESSAGEHEAD_PART1
+STR:L’application '
+//DLL_ERROR_ERRORMESSAGEHEAD_PART2
+STR:' a causé l'erreur suivante: SDNL SDNL
+//DLL_ERROR_DIALOG_TITLE
+STR:eLicenser Control - erreur
+//DLL_ATTENTION_MESSAGE
+STR:Attention, si vous annulez maintenant, l'application peut ne plus répondre. SDNL SDNL SDNL SDNL SDNLOptions: SDNL - Pour obtenir de l'aide, cliquez sur <Aide>. SDNL - introduire le stick anti-copie et <Réessayer>. SDNL - Pour annuler, cliquez sur <Annuler>.
+//DLL_MESSAGE_DIALOG_TITLE
+STR:eLicenser Control - message
+//DLL_MESSAGE_DIALOG_CLICK_OK_TO_CONFIRM
+STR:SDNL SDNL SDNL SDNLVeuillez cliquer sur <Ok>, pour confirmer le message.
+//LCC_GENERAL_DEVICETREEBOX
+STR:Arborescence de navigation
+//DLL_FILEPROTECTOR_WRONGVERSION
+STR:Le fichier protégé a été sauvegardé dans un format trop nouveau pour la version installé du CCL et par conséquent ne peut pas étre accepté.SDNLVeuillez télécharger la version actuelle de l'installation CCL du site de web <http://www.eLicenser.net>.
+//DLL_FILEPROTECTOR_NOSYNCROHEADER
+STR:Ce fichier n'a été pas protégé avec un méthode du fabricant eLicenser.
+//DLL_DATAPROTECTOR_WRONGVERSION
+STR:Les données protégé a été sauvegardé dans un format trop nouveau pour la version installé du CCL et par conséquent ne peuvent pas étre accepté.SDNLVeuillez télécharger la version actuelle de l'installation CCL du site de web <http://www.eLicenser.net>.
+//DLL_DATAPROTECTOR_NOSYNCROHEADER
+STR:Les données protégé a été sauvegardé dans un format inconnu.
+//POS_REQUEST_DLG_ENTER_PIN
+STR:Code de PIN:
+//POS_REQUEST_DLG_ENTER_SUPERPIN
+STR:SuperPIN:
+//POS_REQUEST_DLG_ENTER_PASSWORD
+STR:Mot de passe:
+//DLL_ERROR_PIN_WRONG_EXCEPTION
+STR:Possibilités:SDNL- Cliquez sur <Encore une fois> pour entrer le PIN.SDNL- Cliquez sur <Annuler> pour terminer le processus.
+//DLL_ERROR_PIN_LOCKED_EXCEPTION
+STR:SDNLFr Please start eLicenser Control Center application (eLCC) to unlock the license.
+//POS_REQUEST_DLG_PIN_MESSAGE_FIRST_TIME
+STR:La licence pour la fonction que vous désirez d'utiliser est protegé par un code de PIN.SDNLVeulliez entrer le numéro d'identifation personnel (PIN) pour permettre l'utilisation:
+//POS_REQUEST_DLG_PIN_WARNING
+STR:Vous avez entré un code de PIN non valable.SDNLAttention!SDNLSi vous entrez un code de PIN non valable pour cinq fois de suite le code de PIN va être bloquer.SDNLVeulliez entrer le code de PIN valable:
+//POS_REQUEST_DLG_SUPERPIN_MESSAGE_FIRST_TIME
+STR:Attention!SDNLVotre code de PIN a été BLOQUÉ justement!SDNLLe blocage est advenu parce que vous avez entré un code de PIN non valable cinq fois de suite.SDNL SDNLPour libérer le code de PIN il faut entrer le code de Super PIN:
+//POS_REQUEST_DLG_SUPERPIN_WARNING
+STR:Vous avez entré un code de Super PIN non valable.SDNLAttention!SDNLSi vous entrez un code de Super PIN non valable pour cinq fois de suite la licence protégé va être détruite irréparablement.SDNLVeulliez entrer le code de Super PIN valable:
+//DLL_PIN_INITIALIZATION_MESSAGE_PART1
+STR:La licence a été utilisé pour la première fois.SDNLLe PIN et le SuperPIN suivants a été créés.SDNL SDNL
+//DLL_PIN_INITIALIZATION_MODIFICATION_MESSAGE_PART2
+STR:SDNL SDNLAprès avoir cliquer sur <OK> vous pouvez enristrer l'information du PIN dans un fichier de votre choix.
+//DLL_PIN_MODIFICATION_MESSAGE
+STR:Le PIN a été modifié et à la suite il a y le résultat suivant:SDNL SDNL
+//DLL_PIN_SUCCESSFULL_FILE_CREATION_MESSAGE
+STR:L'information du PIN a été enregistré avec succès dans le fichier suivant:SDNL SDNL
+//POS_DLG_PIN_HANDLING_TITLE
+STR:eLicenser Control - PIN organisation
+//POS_EXCEPTION_PINHANDLING_NOT_SUPPORTED
+STR:PIN handling is not supported on this platform.
+//DCP_ERRORMSG_CREATEENCRYPTIONCONTEXT_NOVALIDELICENSER
+STR:Echec de création de clé:SDNLImpossible de trouver une licence valide.
+//DCP_ERRORMSG_ENCRYPTDATA_NOCONTEXTINCACHE
+STR:Echec de l'encryptage:SDNLProblème de cache.SDNL Veuillez générer une nouvelle clé.
+//DCP_ERRORMSG_ENCRYPTDATA_PCALGORITHM
+STR:Echec de l'encryptage:SDNL La version du 'eLicenser Control' n'est pas assez récente pour reconnaître l'algorithme de cryptage choisi.SDNL Veuillez installer la dernière version du 'eLicenser Control'.
+//DCP_ERRORMSG_ENCRYPTDATA_ENCRYPTIONFORMAT
+STR:Echec de l'encryptage:SDNL La version du 'eLicenser Control' n'est pas assez récente pour reconnaître le format de cryptage choisi.SDNL Veuillez installer la dernière version du 'eLicenser Control'.
+//DCP_ERRORMSG_DECRYPTDATA_NOVALIDELICENSER
+STR:Echec du décryptage:SDNLImpossible de trouver une licence valide.
+//DCP_ERRORMSG_DECRYPTDATA_PCALGORITHM
+STR:Echec du décryptage:SDNLLa version du 'eLicenser Control' n'est pas assez récente pour reconnaître l'algorithme de cryptage des données.SDN Veuillez installer la dernière version du 'eLicenser Control'.
+//DCP_ERRORMSG_DECRYPTDATA_ENCRYPTIONFORMAT
+STR:Echec du décryptage:SDNL La version du 'eLicenser Control' n'est pas assez récente pour reconnaître le format de cryptage des données.SDNL Veuillez installer la dernière version du 'eLicenser Control'.
+//DCP_ERRORMSG_SETENCRYPTIONCONTEXT_NOENCRYPTIONCONTEXT
+STR:Identification de la clé impossible:SDNLFormat de clé invalide.
+//DCP_ERRORMSG_SETENCRYPTIONCONTEXT_VERSIONOFENCRYPTIONCONTEXT
+STR:Identification de la clé impossible:SDNL La version du 'eLicenser Control' n'est pas assez récente pour reconnaître le format de la clé.
+//DLL_MSG_FOUNDMATCHEDANDDISABLEDDATELICENSES_1
+STR:The license required for application '
+//DLL_MSG_FOUNDMATCHEDANDDISABLEDDATELICENSES_2
+STR:' was deactivated, because it needs to be validated.SDNLShould the licenseserver validate the licenses now?SDNL SDNLYou can use the 'Validate License Usage Periods' wizard of the 'eLicenser Control Center' to validate this license later.
+//DLL_MSG_ELICENSERCANTINTERPRETATELICENSE
+STR:At least one connected eLicenser contains licenses which cannot be usedSDNLwith the installed version of 'eLicenser Control'.SDNL SDNLPlease download the latest version from the website: <http://www.eLicenser.net>
+//DLL_MSG_FOUNDMATCHEDANDNOTACTIVATEDDATELICENSES
+STR:The connected eLicenser contain at least one 'not active' license for these program.SDNL SDNLYou can use the 'Validate License Usage Periods' wizard of the 'eLicenser Control Center' to activate this license.
+//DLL_MSG_SOFTELICENSERHARDWARECHANGED_1
+STR:Your system finger print is not valid anymore.SDNLThe systems' hardware configuration has been changed!SDNLSoft-eLicenser '
+//DLL_MSG_SOFTELICENSERHARDWARECHANGED_2
+STR:' and stored licenses have been disabled.SDNLHardware eLicensers are not affected!SDNL SDNLPlease contact your software vendors' support department for help and reactivation.
+//DLL_MSG_SOFTELICENSERMANIPULATED_1
+STR:Necessary files or information for the validity of the Soft-eLicenser have been changed or corrupted.SDNLThis can be caused by exchanging single files, the usage of cleanup and backup tools or similar.SDNLSoft-eLicenser '
+//DLL_MSG_SOFTELICENSERMANIPULATED_2
+STR:' and stored licenses have been disabled.SDNLHardware eLicensers are not affected!SDNL SDNLPlease contact your software vendors' support department for help and reactivation.
+//DLL_MSG_SOFTELICENSERNOPERMISSION
+STR:Soft-eLiceneser doesn't have enought permissions to run properly. Please run LCC to fix this problem.
+//DLL_MSG_SYNSOPOS_IS_MISSING_MACOSX
+STR:Application 'Synsopos.app' could not be located in theSDNLApplication Support folder. Probably the installation is incomplete.SDNLSDNLPlease download and install the latest version of the eLicenser Control software fromSDNLSDNL<http://www.eLicenser.net>
+//DLL_MSG_SYNSOPOS_IS_CORRUPT_MACOSX
+STR:Application 'Synsopos.app' could not be started. Probably the file is corrupted or incompatible, or file access permissions are set incorrectly.SDNLSDNLPlease download and install the latest version of the eLicenser Control software fromSDNLSDNL<http://www.eLicenser.net>

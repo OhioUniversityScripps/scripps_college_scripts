@@ -1,0 +1,8 @@
+{
+  "postinstall_action": "none",
+  "name": "eLicenser-6.10.2.181194.pkg",
+  "distribution_style": false,
+  "install_location": "/",
+  "version": "6.10.2.181194",
+  "identifier": "edu.ohio.scrippscollege.elicenser"
+}

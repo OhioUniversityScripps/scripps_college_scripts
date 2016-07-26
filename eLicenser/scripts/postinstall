@@ -1,0 +1,3 @@
+#!/bin/sh
+
+ln -s "/Library/Application Support/eLicenser/pos" "/Library/Application Support/Syncrosoft/pos"

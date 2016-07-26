@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.10.95</string>
+	<key>CFBundleGetInfoString</key>
+	<string>1.0.10.95, Copyright © 2014, Steinberg Media Technologies GmbH</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleExecutable</key>
+	<string>eLicenserCore</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.eLicenser.eLicenserCore-DLL</string>
+</dict>
+</plist>
