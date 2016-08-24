@@ -58,7 +58,7 @@
 						<key>settings</key>
 						<dict>
 							<key>URL</key>
-							<string>http://munki.test.oit.ohio.edu</string>
+							<string>https://munki.test.oit.ohio.edu/ping</string>
 							<key>mode</key>
 							<string>contain</string>
 							<key>originalString</key>
@@ -266,7 +266,7 @@
 			<key>settings</key>
 			<dict>
 				<key>URL</key>
-				<string>https://support.oit.ohio.edu</string>
+				<string>http://www.ohio.edu/scrippscollege/help/</string>
 				<key>title</key>
 				<string>Submit Service Request</string>
 			</dict>

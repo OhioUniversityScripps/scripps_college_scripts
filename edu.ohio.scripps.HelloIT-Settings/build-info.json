@@ -3,7 +3,7 @@
     "suppress_bundle_relocation": true,
     "name": "HelloIT-Settings.pkg",
     "distribution_style": false,
-    "version": "1.3",
+    "version": "1.4",
     "ownership": "recommended",
     "identifier": "edu.ohio.scripps.HelloIT"
 }

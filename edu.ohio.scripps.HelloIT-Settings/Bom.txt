@@ -1,12 +1,19 @@
 .	40755	0/0
 ./Library	40755	0/0
-./Library/LaunchAgents	40755	0/0
-./Library/LaunchAgents/._com.github.ygini.hello-it.plist	100644	0/0	0	0
-./Library/LaunchAgents/com.github.ygini.hello-it.plist	100644	0/0	464	3906540446
 ./Library/Management	40755	0/0
 ./Library/Management/HelloIT	40755	0/0
-./Library/Management/HelloIT/MunkiCheck.sh	100755	0/0	211	3875592381
-./Library/Management/HelloIT/SerialNo.sh	100755	0/0	161	452289187
-./Library/Management/HelloIT/clientID.sh	100755	0/0	162	3142403529
+./Library/Management/HelloIT/MunkiCheck.sh	100755	0/0	213	3566654722
+./Library/Management/HelloIT/SerialNo.sh	100755	0/0	347	2878154839
+./Library/Management/HelloIT/cache	40755	0/0
+./Library/Management/HelloIT/cache/Adobe.sh	100755	0/0	479	714829393
+./Library/Management/HelloIT/clientID.sh	100755	0/0	334	3777920314
+./Library/Management/HelloIT/clientIP.sh	100755	0/0	360	3734434939
+./Library/Management/HelloIT/preferences	40755	0/0
+./Library/Management/HelloIT/preferences/AdobeAfterEffects.sh	100755	0/0	500	1109589930
+./Library/Management/HelloIT/preferences/AdobePremiere.sh	100755	0/0	503	636727652
+./Library/Management/HelloIT/preferences/AutodeskMaya.sh	100755	0/0	533	426839238
+./Library/Management/HelloIT/preferences/FinalCutMotionComp.sh	100755	0/0	572	1469184140
+./Library/Management/HelloIT/softwareGrid.py	100755	0/0	2133	1835345739
+./Library/Management/HelloIT/softwareGrid.sh	100755	0/0	293	3522952549
 ./Library/Preferences	40755	0/0
-./Library/Preferences/com.github.ygini.Hello-IT.plist	100644	0/0	5099	3281303199
+./Library/Preferences/com.github.ygini.Hello-IT.plist	100644	0/0	7764	2417396993

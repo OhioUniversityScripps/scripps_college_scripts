@@ -7,5 +7,5 @@ echo "hitp-state: none"
 
 ##This line copies the MAC address to the clipboard if the argument "run" is passed.
 if [ "$1" == "run" ]; then
-  ifconfig en0 | grep ether | awk '{print $2}' | pbcopy
+  echo $MAC_EN0 | pbcopy
 fi
