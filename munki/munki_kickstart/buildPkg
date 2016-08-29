@@ -1,0 +1,9 @@
+#!/bin/sh
+
+rm build/*.pkg
+rm build/*.dmg
+
+munkipkg --sync .
+munkipkg .
+
+dropdmg build/*.pkg
