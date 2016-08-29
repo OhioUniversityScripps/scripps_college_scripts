@@ -52,23 +52,6 @@
 							<string>Ohio.edu</string>
 						</dict>
 					</dict>
-					<dict>
-						<key>functionIdentifier</key>
-						<string>public.test.http</string>
-						<key>settings</key>
-						<dict>
-							<key>URL</key>
-							<string>https://munki.test.oit.ohio.edu/ping</string>
-							<key>mode</key>
-							<string>contain</string>
-							<key>originalString</key>
-							<string>Munki</string>
-							<key>repeat</key>
-							<integer>3600</integer>
-							<key>title</key>
-							<string>Software Deployment</string>
-						</dict>
-					</dict>
 				</array>
 				<key>title</key>
 				<string>Services State</string>
