@@ -1,0 +1,8 @@
+{
+    "postinstall_action": "none",
+    "name": "scc_do_scrp_212_hp_402.pkg",
+    "distribution_style": false,
+    "install_location": "/",
+    "version": "1.0",
+    "identifier": "edu.ohio.scripps.scc-do.scc_do_scrp_212_hp_402"
+}
