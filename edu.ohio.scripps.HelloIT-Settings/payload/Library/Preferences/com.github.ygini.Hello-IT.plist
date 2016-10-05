@@ -195,6 +195,17 @@
 							<integer>0</integer>
 						</dict>
 					</dict>
+					<dict>
+						<key>functionIdentifier</key>
+						<string>public.script.item</string>
+						<key>settings</key>
+						<dict>
+							<key>path</key>
+							<string>/Library/Management/HelloIT/preferences/Wacom.sh</string>
+							<key>run</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
 				<dict>
 				<key>functionIdentifier</key>
 				<string>public.separator</string>
@@ -249,7 +260,7 @@
 			<key>settings</key>
 			<dict>
 				<key>URL</key>
-				<string>http://www.ohio.edu/scrippscollege/help/</string>
+				<string>http://bit.ly/scripps-it-help</string>
 				<key>title</key>
 				<string>Submit Service Request</string>
 			</dict>
