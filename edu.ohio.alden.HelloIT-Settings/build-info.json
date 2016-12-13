@@ -1,0 +1,9 @@
+{
+    "postinstall_action": "restart",
+    "suppress_bundle_relocation": true,
+    "name": "Alden-HelloIT-Settings.pkg",
+    "distribution_style": false,
+    "version": "1.0",
+    "ownership": "recommended",
+    "identifier": "edu.ohio.alden.HelloIT"
+}
