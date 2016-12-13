@@ -4,7 +4,11 @@ AAM Updates Notifier
 AAMLauncherUtil
 AASIapp
 ABAssistantService
+About This Mac
 Accessibility Inspector
+ACCFinderBundleLoader_32
+ACCFinderBundleLoader_64
+Acrobat Distiller
 Acrobat Update Helper
 Activity Monitor
 AddPrinter
@@ -16,11 +20,15 @@ Adobe AIR Application Installer
 Adobe AIR Uninstaller
 Adobe AIR Updater
 Adobe Application Manager
+Adobe CEF Helper
+Adobe CEF Helper EH
+Adobe CEF Helper NP
 Adobe Crash Reporter
 Adobe Extension Manager CS6
 Adobe Fireworks CS6 version 12.0.1.274
 Adobe Flash Player Install Manager
 Adobe Help
+Adobe IT Tools Uninstaller
 AdobeCrashDaemon
 AdobeGCClient
 AdobeIPCBroker
@@ -32,6 +40,7 @@ AirPort Utility
 AirScanLegacyDiscovery
 AirScanScanner
 Alertus Desktop
+All My Files
 Android File Transfer
 AOSAlertManager
 AOSHeartbeat
@@ -98,6 +107,7 @@ Contacts
 CoreLocationAgent
 CoreServicesUIAgent
 CreateUserPkg
+CreativeCloud(URIHandler)
 CS6ServiceManager
 cscrmal
 cscrmfd
@@ -105,10 +115,12 @@ Dashboard
 Database Events
 DatabaseProcess
 DaVinci Resolve Welcome
+DesktopReplayer
 Dictation
 Dictionary
 Digital Asset Viewer
 Digital Color Meter
+DigiTest
 Directory Utility
 DiscHelper
 Disk Utility
@@ -122,6 +134,7 @@ DV
 DVD Player
 eaptlstrust
 Eclipse
+eLicenser Control Center
 EPFaxAutoSetupTool
 EPSON Scanner
 epsonfax
@@ -173,6 +186,10 @@ Hello IT
 HelpViewer
 HindiIM
 Houdini Uninstaller
+HP Alerts
+HP Device Monitor Manager
+HP Email Alerts
+HP Event Status
 HP Utility
 hpdot4d
 hpPreProcessing
@@ -237,6 +254,7 @@ ManagedClient
 Maps
 MassStorageCamera
 Memory Slot Utility
+Merger-mac64
 Messages
 Microsoft Alerts Daemon
 Microsoft AutoUpdate
@@ -270,11 +288,13 @@ Network Utility
 NetworkProcess
 Notes
 Notification Center
+nplastpass
 OBEXAgent
 ODSAgent
 Office365Service
 Open XML for Excel
 Orbolt URL Handler
+OSDUIHelper
 Pacifist
 ParentalControls
 Pass Viewer
@@ -338,8 +358,10 @@ SocialPushAgent
 Software Update
 Solver
 Sophos Anti-Virus
+Sophos Installer
 SophosAntiVirus
 SophosAutoUpdate
+SophosCleanD
 SophosScanD
 SophosSXLD
 SophosUIServer
@@ -353,7 +375,9 @@ Spotlight
 SpotlightNetHelper
 stackbuilder
 Stickies
+STMUIHelper
 Stocks
+Storage Management
 storeuid
 Summary Service
 Switch Control
@@ -374,15 +398,21 @@ TextMate
 ThermalTrap
 Ticket Viewer
 Time Machine
+TimeMachineEditor
 TrackpadIM
 Type4Camera
 Type5Camera
 Type8Camera
+UASharedPasteboardProgressUI
 Uninstall Product
 Uninstall Resolve
+Uninstall USB Driver
 Uninstall VMware Tools
+Uninstall WhiteBoard
+Uninstaller
 universalAccessAuthWarn
 UniversalAccessControl
+UniversalAccessHUD
 UnmountAssistantAgent
 UserNotificationCenter
 VersionChecker
@@ -395,11 +425,16 @@ Wacom Desktop Center
 Weather
 WebKitPluginHost
 WebProcess
+WhatIsMyMacAddress
 Wi-Fi
 Widget Simulator
+WiFiAgent
 Wireless Diagnostics
+Wireless Manage
 Wish
 Workgroup Manager
 X11
 Xcode
+Xcode Server Builder
 ZoomWindow
+{D7E3240C-5D8B-4DCE-A5BA-D020514C232F}
