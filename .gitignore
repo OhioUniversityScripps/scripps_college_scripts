@@ -32,3 +32,8 @@ CINEMA_4D.dmg.plist
 MouseLocator/MouseLocator.prefPane*
 
 com.fetchsoftworks.fetch/fetch_licenser.sh
+
+stereo_tool_and_bittersweet/**/*.aaxplugin
+stereo_tool_and_bittersweet/**/*.component
+stereo_tool_and_bittersweet/**/*.bundle
+stereo_tool_and_bittersweet/**/*.vst
