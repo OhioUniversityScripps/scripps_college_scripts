@@ -1,1 +1,0 @@
-This is my simple script for turning on Adobe's Flash Player auto updates.  This should be set as a post-install script for Adobe Flash Player 11.3 or higher.  There are limitations, i.e. it will overwrite the machines custom settings if it's an upgrade.  However, I'm not sure it's really an issue.

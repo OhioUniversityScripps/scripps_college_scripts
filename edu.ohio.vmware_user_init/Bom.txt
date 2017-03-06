@@ -1,7 +1,0 @@
-.	40755	0/0
-./Library	41775	0/80
-./Library/LaunchAgents	40755	0/0
-./Library/LaunchAgents/edu.ohio.vmware_user_init.plist	100644	0/0	424	3024437040
-./Library/Management	40755	0/0
-./Library/Management/vmware	40755	0/0
-./Library/Management/vmware/vmware_user_init.sh	100644	0/0	2061	3108413491
