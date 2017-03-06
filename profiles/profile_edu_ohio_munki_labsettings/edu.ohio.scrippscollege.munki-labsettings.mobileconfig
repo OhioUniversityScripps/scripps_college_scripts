@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>ManagedInstalls</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>AppleSoftwareUpdatesOnly</key>
+								<false/>
+								<key>BlockUpdateDays</key>
+								<string>0,1,2,3,4</string>
+								<key>BlockUpdateEndTime</key>
+								<string>18:00</string>
+								<key>BlockUpdateStartTime</key>
+								<string>8:00</string>
+								<key>DaysBetweenNotifications</key>
+								<string>1</string>
+								<key>FollowHTTPRedirects</key>
+								<string>https</string>
+								<key>InstallAppleSoftwareUpdates</key>
+								<true/>
+								<key>LogFile</key>
+								<string>/Library/Managed Installs/Logs/ManagedSoftwareUpdate.log</string>
+								<key>LogToSyslog</key>
+								<true/>
+								<key>LoggingLevel</key>
+								<integer>1</integer>
+								<key>ManagedInstallDir</key>
+								<string>/Library/Managed Installs</string>
+								<key>ManifestURL</key>
+								<string>https://munki.test.oit.ohio.edu</string>
+								<key>PackageVerificationMode</key>
+								<string>hash</string>
+								<key>ShowRemovalDetail</key>
+								<false/>
+								<key>SoftwareRepoURL</key>
+								<string>https://munki.test.oit.ohio.edu</string>
+								<key>SuppressAutoInstall</key>
+								<false/>
+								<key>SuppressStopButtonOnInstall</key>
+								<true/>
+								<key>SuppressUserNotification</key>
+								<true/>
+								<key>UnattendedAppleUpdates</key>
+								<false/>
+								<key>UseClientCertificate</key>
+								<false/>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>MCXToProfile.213aba02-7545-4366-b7b0-c2423afb1773.alacarte.customsettings.ad090a25-0d2a-49f1-8fd9-0e080cf890ca</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>ad090a25-0d2a-49f1-8fd9-0e080cf890ca</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Included custom settings:
+Munki settings for Lab Installations
+
+Git revision: a0e04c60fc</string>
+	<key>PayloadDisplayName</key>
+	<string>MCXToProfile: Munki ManagedInstalls Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>edu.ohio.scrippscollege.munki-labsettings</string>
+	<key>PayloadOrganization</key>
+	<string></string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>213aba02-7545-4366-b7b0-c2423afb1773</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
