@@ -462,23 +462,23 @@
 	</array>
 	<key>PayloadDescription</key>
 	<string>Included custom settings:
-com.apple.screensaver
+.GlobalPreferences
+com.apple.DiscRecording
+com.apple.finder
 com.apple.loginwindow
 com.apple.MCX
-.GlobalPreferences
-com.apple.systemuiserver
-com.apple.finder
-com.apple.DiscRecording
-com.apple.MCXBluetooth
-com.apple.systempreferences
 com.apple.MCXAirPort
+com.apple.MCXBluetooth
+com.apple.screensaver
+com.apple.systempreferences
+com.apple.systemuiserver
 </string>
 	<key>PayloadDisplayName</key>
-	<string>MCXToProfile: com.apple.screensaver</string>
+	<string>Scripps College Default Lab Settings (MCXToProfile)</string>
 	<key>PayloadIdentifier</key>
 	<string>edu.ohio.scripps.labdefault</string>
 	<key>PayloadOrganization</key>
-	<string>ScrippsCollegeOhioUniversity</string>
+	<string>Scripps College - Ohio University</string>
 	<key>PayloadRemovalDisallowed</key>
 	<true/>
 	<key>PayloadScope</key>

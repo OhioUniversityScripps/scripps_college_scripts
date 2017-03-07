@@ -72,16 +72,13 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Included custom settings:
-Munki settings for Lab Installations
-
-Git revision: a0e04c60fc</string>
+	<string>Munki settings for Lab Installations</string>
 	<key>PayloadDisplayName</key>
-	<string>MCXToProfile: Munki ManagedInstalls Settings</string>
+	<string>Managed Software Lab Settings (MCXToProfile)</string>
 	<key>PayloadIdentifier</key>
 	<string>edu.ohio.scrippscollege.munki-labsettings</string>
 	<key>PayloadOrganization</key>
-	<string></string>
+	<string>Scripps College - Ohio University</string>
 	<key>PayloadRemovalDisallowed</key>
 	<true/>
 	<key>PayloadScope</key>
