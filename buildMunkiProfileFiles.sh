@@ -20,6 +20,7 @@ PROFILE_FILENAME=`basename $PROFILE`
 PROFILE_INSTALL_LOC="/Library/Management/Profiles/"
 PROFILE_DMG="$PROFILE.dmg"
 PROFILE_DMG_PLIST="$PROFILE_DMG.plist"
+PREINSTALL_SCRIPT=preinstall_script.sh
 POSTINSTALL_SCRIPT=postinstall_script.sh
 PREUNINSTALL_SCRIPT=preuninstall_script.sh
 
@@ -30,8 +31,21 @@ dropdmg "$PROFILE"
 
 echo
 echo "Building POSTINSTALL_SCRIPT..."
+cat <<- EOF > $PREINSTALL_SCRIPT
+#!/bin/sh
+
+# Remove existing profile, if it's there
+if [ -f "/Library/Management/Profiles/$PROFILE_FILENAME" ]; then
+  /usr/bin/profiles -RF "/Library/Management/Profiles/$PROFILE_FILENAME"
+fi
+EOF
+
+echo
+echo "Building POSTINSTALL_SCRIPT..."
 cat <<- EOF > $POSTINSTALL_SCRIPT
 #!/bin/sh
+
+# Install the profile
 /usr/bin/profiles -IF /Library/Management/Profiles/$PROFILE_FILENAME
 EOF
 
@@ -39,6 +53,8 @@ echo
 echo "Building PREUNINSTALL_SCRIPT..."
 cat <<- EOF > $PREUNINSTALL_SCRIPT
 #!/bin/sh
+
+# Remove the Profile
 /usr/bin/profiles -RF /Library/Management/Profiles/$PROFILE_FILENAME
 EOF
 
@@ -48,6 +64,7 @@ rm -rf $PROFILE_DMG_PLIST
 makepkginfo --pkgvers $VERSION \
             -i $PROFILE_FILENAME \
             -d $PROFILE_INSTALL_LOC \
+            --preinstall_script=$PREINSTALL_SCRIPT \
             --postinstall_script=$POSTINSTALL_SCRIPT \
             --preuninstall_script=$PREUNINSTALL_SCRIPT \
             --RestartAction=RequireLogout \
@@ -57,6 +74,7 @@ makepkginfo --pkgvers $VERSION \
             $PROFILE_DMG > $PROFILE_DMG_PLIST
 
 # echo "Cleaning up after myself..."
+cat $PREINSTALL_SCRIPT; rm -rf $PREINSTALL_SCRIPT
 rm -rf $POSTINSTALL_SCRIPT
 rm -rf $PREUNINSTALL_SCRIPT
 

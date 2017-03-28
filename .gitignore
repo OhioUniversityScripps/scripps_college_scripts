@@ -6,6 +6,7 @@ tmp/**/*
 *.pkg
 *.mpkg
 *.dmg
+*.dmg.plist
 *.zip
 *.app
 data.csv
