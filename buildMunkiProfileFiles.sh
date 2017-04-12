@@ -74,7 +74,7 @@ makepkginfo --pkgvers $VERSION \
             $PROFILE_DMG > $PROFILE_DMG_PLIST
 
 # echo "Cleaning up after myself..."
-cat $PREINSTALL_SCRIPT; rm -rf $PREINSTALL_SCRIPT
+rm -rf $PREINSTALL_SCRIPT
 rm -rf $POSTINSTALL_SCRIPT
 rm -rf $PREUNINSTALL_SCRIPT
 
