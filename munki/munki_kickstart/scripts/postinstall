@@ -4,9 +4,12 @@ TARGET_PATH=$2
 MANAGED_INSTALL_DIR="$TARGET_PATH/Library/Managed Installs"
 MSU_PREFS="$TARGET_PATH/Library/Preferences/ManagedInstalls"
 
-# Disable munki's launchd task, enable ours
-/bin/launchctl unload -w /Library/LaunchDaemons/com.googlecode.munki.managedsoftwareupdate-check.plist
-/bin/launchctl load   -w /Library/LaunchDaemons/edu.ohio.munki.managedsoftwareupdate-check.plist
+# Load default munki LaunchDaemon, because we used to disable this one
+/bin/launchctl load -w /Library/LaunchDaemons/com.googlecode.munki.managedsoftwareupdate-check.plist
+
+# Unload and then remove our (now deprecated) LaunchDaemon
+/bin/launchctl unload -w /Library/LaunchDaemons/edu.ohio.munki.managedsoftwareupdate-check.plist
+/bin/rm /Library/LaunchDaemons/edu.ohio.munki.managedsoftwareupdate-check.plist
 
 #Make Munki directories more secure
 mkdir -p "$MANAGED_INSTALL_DIR"
@@ -28,8 +31,14 @@ mkdir -p "$MANAGED_INSTALL_DIR/manifests"
 mkdir -p "$MANAGED_INSTALL_DIR/certs"
 /bin/chmod 700 "$MANAGED_INSTALL_DIR/certs"
 
+mkdir -p "$MANAGED_INSTALL_DIR/client_resources"
+/bin/chmod 700 "$MANAGED_INSTALL_DIR/client_resources"
+
 mkdir -p "$MANAGED_INSTALL_DIR/Cache"
 /bin/chmod 700 "$MANAGED_INSTALL_DIR/Cache"
+
+mkdir -p "$MANAGED_INSTALL_DIR/swupd"
+/bin/chmod 700 "$MANAGED_INSTALL_DIR/swupd"
 
 #Set MunkiServer Locations
 /usr/bin/defaults write $MSU_PREFS SoftwareRepoURL 		"https://munki.test.oit.ohio.edu"
