@@ -1,3 +1,7 @@
 #!/bin/sh
 
-rm /Applications/Adobe\ After\ Effects\ CC\ 2017/Scripts/ScriptUI\ Panels/Dugr.jsx
+DUGR=/Applications/Adobe\ After\ Effects\ CC\ 2017/Scripts/ScriptUI\ Panels/Dugr.jsx
+
+if [ -f $DUGR ]; then
+  rm $DUGR
+fi

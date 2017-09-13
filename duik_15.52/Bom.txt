@@ -1,22 +1,14 @@
 .	40755	0/0
 ./Applications	40755	0/0
 ./Applications/Adobe After Effects CC 2017	40755	0/0
+./Applications/Adobe After Effects CC 2017/Adobe After Effects CC 2017.app	40755	0/0
+./Applications/Adobe After Effects CC 2017/Adobe After Effects CC 2017.app/Contents	40755	0/0
+./Applications/Adobe After Effects CC 2017/Adobe After Effects CC 2017.app/Contents/Resources	40755	0/0
+./Applications/Adobe After Effects CC 2017/Adobe After Effects CC 2017.app/Contents/Resources/presetEffects.xml	100644	0/0	94893	807296377
 ./Applications/Adobe After Effects CC 2017/Scripts	40755	0/0
 ./Applications/Adobe After Effects CC 2017/Scripts/ScriptUI Panels	40755	0/0
 ./Applications/Adobe After Effects CC 2017/Scripts/ScriptUI Panels/(ffmpeg)	40755	0/0
-./Applications/Adobe After Effects CC 2017/Scripts/ScriptUI Panels/(ffmpeg)/._ffmpeg	100755	0/0	0	0
 ./Applications/Adobe After Effects CC 2017/Scripts/ScriptUI Panels/(ffmpeg)/ffmpeg	100755	0/0	36406400	3852198760
-./Applications/Adobe After Effects CC 2017/Scripts/ScriptUI Panels/._(ffmpeg)	40755	0/0	0	0
-./Applications/Adobe After Effects CC 2017/Scripts/ScriptUI Panels/._Duik.jsx	100755	0/0	0	0
-./Applications/Adobe After Effects CC 2017/Scripts/ScriptUI Panels/._Duik_images.jsxinc	100755	0/0	0	0
-./Applications/Adobe After Effects CC 2017/Scripts/ScriptUI Panels/._Duik_presetEffects.xml	100755	0/0	0	0
-./Applications/Adobe After Effects CC 2017/Scripts/ScriptUI Panels/._Duik_translations.jsxinc	100755	0/0	0	0
-./Applications/Adobe After Effects CC 2017/Scripts/ScriptUI Panels/._Duik_translations_de.jsxinc	100755	0/0	0	0
-./Applications/Adobe After Effects CC 2017/Scripts/ScriptUI Panels/._Duik_translations_es.jsxinc	100755	0/0	0	0
-./Applications/Adobe After Effects CC 2017/Scripts/ScriptUI Panels/._Duik_translations_fr.jsxinc	100755	0/0	0	0
-./Applications/Adobe After Effects CC 2017/Scripts/ScriptUI Panels/._Duik_translations_pl.jsxinc	100755	0/0	0	0
-./Applications/Adobe After Effects CC 2017/Scripts/ScriptUI Panels/._Duik_translations_zh_HANS.jsxinc	100755	0/0	0	0
-./Applications/Adobe After Effects CC 2017/Scripts/ScriptUI Panels/._libduik.jsxinc	100755	0/0	0	0
 ./Applications/Adobe After Effects CC 2017/Scripts/ScriptUI Panels/About the ScriptUI Panels folder.txt	100644	0/0	580	3416842379
 ./Applications/Adobe After Effects CC 2017/Scripts/ScriptUI Panels/Duik.jsx	100755	0/0	269397	2980418152
 ./Applications/Adobe After Effects CC 2017/Scripts/ScriptUI Panels/Duik_images.jsxinc	100755	0/0	699347	2922196857
