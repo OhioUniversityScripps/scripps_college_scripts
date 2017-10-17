@@ -2,12 +2,12 @@
 #encoding=utf-8
 
 #######################################################################################################
-# This preflight script will do two things, 1) Set ClientIdentifer and 2) Block Updates, if applicable
+# This preflight script will do two things, 1) Set ClientIdentifier and 2) Block Updates, if applicable
 #
 # ClientIdenfier is set to mac_address_en0.plist, (eg. ab:ab:ab:ab:ab.plist)
 #
 # This preflight script will Block Updates during the specified time, as long it is in `auto` mode and
-# the current time is int the appropriate range.  Set the range, by setting the following keys in
+# the current time is in the appropriate range.  Set the range, by setting the following keys in
 # the /Library/Preferences/ManagedInstalls.plist file
 #
 #   BlockUpdateStartTime - set to the start time in military, (e.g. "08:00")
@@ -51,7 +51,7 @@ def current_day():
 
 def current_time():
     """Return the current time in military format"""
-    return 
+    return
 
 def should_block_updates():
     if (in_blocked_mode() and in_blocked_day() and in_blocked_time()):
@@ -79,7 +79,7 @@ def in_blocked_time():
 def in_blocked_day():
     blockedUpdateDays = munkicommon.pref('BlockUpdateDays')
     todayNum = time.strftime('%w')
-    
+
     if (blockedUpdateDays == None) or (blockedUpdateDays == 'All') or (blockedUpdateDays == ''):
         return True
     else:
@@ -88,7 +88,7 @@ def in_blocked_day():
 
 def run_mode():
     return sys.argv[1]
-    
+
 def network_on():
     try:
         base_url = munkicommon.pref('SoftwareRepoURL')
@@ -96,19 +96,19 @@ def network_on():
         return True
     except Exception as err: pass
     return False
-    
+
 def main():
     # Set Client Identifier
     mac_address = get_mac_address('en0')
     set_client_identifier(mac_address)
-    
+
     # support enterprise/802.1x user-context wifi auth.
     # don't bother to perform preflight and exit OK immediately since there's no
     # network connection.
     if (run_mode() == 'logoutinstall'):
         print 'Logout install, move along'
         sys.exit(0)
-    
+
     # Ping and check if munkiserver is up
     bootstrap_file = '/Users/Shared/.com.googlecode.munki.checkandinstallatstartup'
     serverUp = False
@@ -121,9 +121,9 @@ def main():
     if not serverUp:
         if os.path.exists(bootstrap_file):
             os.unlink(bootstrap_file)
-        print 'Munkiserver is not responding fast enough, try again later.'    
+        print 'Munkiserver is not responding fast enough, try again later.'
         sys.exit(1)
-      
+
     # Should we block updates or continue on?
     if should_block_updates():
         print 'Updates have been blocked at this time.'
@@ -131,6 +131,6 @@ def main():
     else:
         print 'Updates will continue at this time.'
         sys.exit(0)
-    
+
 if __name__ == '__main__':
   main()

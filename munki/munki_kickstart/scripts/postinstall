@@ -47,7 +47,7 @@ mkdir -p "$MANAGED_INSTALL_DIR/swupd"
 #Set Core Preferences, only include items which need to be modified from default
 /usr/bin/defaults write $MSU_PREFS SuppressStopButtonOnInstall -bool true
 /usr/bin/defaults write $MSU_PREFS InstallAppleSoftwareUpdates -bool true
-/usr/bin/defaults write $MSU_PREFS FollowHTTPRedirects         -string "HTTPS"
+/usr/bin/defaults write $MSU_PREFS FollowHTTPRedirects         -string "https"
 
 # Check for updates after restart
 mkdir -p $TARGET_PATH/Users/Shared
