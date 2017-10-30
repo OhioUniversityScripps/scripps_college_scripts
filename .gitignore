@@ -13,16 +13,7 @@ data.csv
 *favorites.plist
 ppd/
 printers.conf
-authorized_keys
-Maya_AdLM_2012_License/postflight
-edu.ohio.scripps.versions_lic/*.lic
-*.sig
-*.mdia.dsp_quattro_licenser/*/*.txt
-edu.ohio.scripps.transcriva_licenser/transcriva_licenser.sh
-edu.ohio.scripps.transcriva_licenser/com.bartastechnologies.transcriva2app.plist
-edu.ohio.scripps.coda_lic/coda_licenser.sh
-*.actual.json
-gridlab_backup.py
+
 
 OU Fonts/Galliard
 OU Fonts/Frutiger
@@ -32,9 +23,21 @@ CINEMA_4D.dmg.plist
 
 MouseLocator/MouseLocator.prefPane*
 
-com.fetchsoftworks.fetch/fetch_licenser.sh
-
 stereo_tool_and_bittersweet/**/*.aaxplugin
 stereo_tool_and_bittersweet/**/*.component
 stereo_tool_and_bittersweet/**/*.bundle
 stereo_tool_and_bittersweet/**/*.vst
+
+# Secret Files
+*.actual.json
+*.mdia.dsp_quattro_licenser/*/*.txt
+*.sig
+authorized_keys
+com.fetchsoftworks.fetch/fetch_licenser.sh
+edu.ohio.scripps.coda_lic/coda_licenser.sh
+edu.ohio.scripps.transcriva_licenser/com.bartastechnologies.transcriva2app.plist
+edu.ohio.scripps.transcriva_licenser/transcriva_licenser.sh
+edu.ohio.scripps.versions_lic/*.lic
+gridlab_backup.py
+Maya_AdLM_2012_License/postflight
+digisign_config.json
